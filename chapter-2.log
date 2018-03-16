@@ -1,19 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 MAR 2018 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  16 MAR 2018 12:04
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **chapter-2.tex
 (./chapter-2.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-./chapter-2.tex:1: Undefined control sequence.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+! Undefined control sequence.
 l.1 \chapter
             {Chapter Two}
-? s
-OK, entering \scrollmode...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./chapter-2.tex:1: LaTeX Error: Missing \begin{document}.
+
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -34,7 +37,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
-./chapter-2.tex:2: Undefined control sequence.
+! Undefined control sequence.
 l.2 \section
             {Methodology}
 The control sequence at the end of the top line
@@ -54,7 +57,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-2.tex:3: Undefined control sequence.
+! Undefined control sequence.
 l.3 \subsection
                {Comparison of Radar Systems}
 The control sequence at the end of the top line
@@ -358,7 +361,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no f in font nullfont!
-./chapter-2.tex:4: Undefined control sequence.
+! Undefined control sequence.
 l.4 ...nsitivity of the radar system itself \citep
                                                   {Rogers1989}. The area of ...
 The control sequence at the end of the top line
@@ -480,7 +483,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./chapter-2.tex:5: LaTeX Error: Environment figure undefined.
+! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -495,7 +498,7 @@ or  <return>  to continue without it.
 Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
-./chapter-2.tex:6: Undefined control sequence.
+! Undefined control sequence.
 l.6 \includegraphics
                     []{study_area}\centering
 The control sequence at the end of the top line
@@ -511,7 +514,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-2.tex:6: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.6 \includegraphics[]{study_
@@ -523,7 +526,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-./chapter-2.tex:6: Extra }, or forgotten $.
+! Extra }, or forgotten $.
 l.6 \includegraphics[]{study_area}
                                   \centering
 I've deleted a group-closing symbol because it seems to be
@@ -533,7 +536,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapter-2.tex:7: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -546,7 +549,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./chapter-2.tex:9: LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -558,7 +561,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:9: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.9 \end{figure}
@@ -569,7 +572,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter-2.tex:9: Missing } inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.9 \end{figure}
@@ -711,7 +714,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:10: Undefined control sequence.
+! Undefined control sequence.
 <write> ...ence `fig:study_area' on page \thepage 
                                                   \space undefined\on@line .
 l.10 ...ox depicted in Figure \ref{fig:study_area}
@@ -797,7 +800,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:11: Undefined control sequence.
+! Undefined control sequence.
 l.11 \subsubsection
                    {Comparing Radar Characteristics}
 The control sequence at the end of the top line
@@ -851,7 +854,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--12
  []
 
 
-./chapter-2.tex:15: LaTeX Error: Missing \begin{document}.
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -874,7 +877,7 @@ msy/m/n/10 j[][][]
  []
 
 
-./chapter-2.tex:19: LaTeX Error: Missing \begin{document}.
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -907,7 +910,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-./chapter-2.tex:19: Undefined control sequence.
+! Undefined control sequence.
 <write> ...rence `eq:weather_eq' on page \thepage 
                                                   \space undefined\on@line .
 l.19 As presented in Equation \ref{eq:weather_eq}
@@ -1484,7 +1487,7 @@ OML/cmm/m/it/10 r \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 dBZ[]
  []
 
 
-./chapter-2.tex:24: LaTeX Error: Missing \begin{document}.
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1504,7 +1507,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-./chapter-2.tex:24: Undefined control sequence.
+! Undefined control sequence.
 <write> ...Reference `eq:radpow' on page \thepage 
                                                   \space undefined\on@line .
 l.24 Equation \ref{eq:radpow}
@@ -1571,7 +1574,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:24: Undefined control sequence.
+! Undefined control sequence.
 <write> ...eference `radarspecs' on page \thepage 
                                                   \space undefined\on@line .
 l.24 ...calculation of $Z$. Table \ref{radarspecs}
@@ -1901,7 +1904,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:24: Undefined control sequence.
+! Undefined control sequence.
 l.24 ...er-sampled data windowing technique \citep
                                                   {Torres2007}. Therefore, t...
 The control sequence at the end of the top line
@@ -2154,6 +2157,63 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2256,7 +2316,7 @@ Overfull \hbox (20.14026pt too wide) in paragraph at lines 24--25
  []
 
 
-./chapter-2.tex:26: LaTeX Error: Environment table undefined.
+! LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2269,7 +2329,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-2.tex:26: LaTeX Error: Missing \begin{document}.
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2284,7 +2344,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-2.tex:27: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2351,7 +2411,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:27: Undefined control sequence.
+! Undefined control sequence.
 <write> ...Reference `eq:radpow' on page \thepage 
                                                   \space undefined\on@line .
 l.27 ...ith symbols as used in Eq. \ref{eq:radpow}
@@ -2624,7 +2684,7 @@ Overfull \hbox (16.21648pt too wide) in paragraph at lines 29--48
  []
 
 
-./chapter-2.tex:49: LaTeX Error: \begin{document} ended by \end{table}.
+! LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2636,7 +2696,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:52: Undefined control sequence.
+! Undefined control sequence.
 l.52 \subsection
                 {Distance-Weighting Scheme}
 The control sequence at the end of the top line
@@ -3117,7 +3177,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:53: Undefined control sequence.
+! Undefined control sequence.
 <write> ...ce `fig:compare_bins' on page \thepage 
                                                   \space undefined\on@line .
 l.53 ...rtained from Figure \ref{fig:compare_bins}
@@ -3134,23 +3194,23 @@ LaTeX Warning: Reference `fig:compare_bins' on page  undefined on input line 53
 
 Missing character: There is no . in font nullfont!
 
-./chapter-2.tex:54: LaTeX Error: Environment figure undefined.
+! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-2.tex:56: LaTeX Error: Environment subfigure undefined.
+! LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3165,7 +3225,7 @@ or  <return>  to continue without it.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
-./chapter-2.tex:56: Missing number, treated as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    }
 l.56    \begin{subfigure}{1.0\textwidth}
@@ -3174,7 +3234,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./chapter-2.tex:56: Illegal unit of measure (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.56    \begin{subfigure}{1.0\textwidth}
@@ -3186,7 +3246,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapter-2.tex:57: Undefined control sequence.
+! Undefined control sequence.
 l.57      \includegraphics
                           [width=1\linewidth]{compare_bins_ref}
 The control sequence at the end of the top line
@@ -3203,7 +3263,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-./chapter-2.tex:57: Missing number, treated as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    ]
 l.57      \includegraphics[width=1\linewidth]
@@ -3212,7 +3272,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./chapter-2.tex:57: Illegal unit of measure (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.57      \includegraphics[width=1\linewidth]
@@ -3232,7 +3292,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:57: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.57 ...ncludegraphics[width=1\linewidth]{compare_
@@ -3240,7 +3300,7 @@ l.57 ...ncludegraphics[width=1\linewidth]{compare_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-2.tex:57: Extra }, or forgotten $.
+! Extra }, or forgotten $.
 l.57 ...phics[width=1\linewidth]{compare_bins_ref}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -3250,7 +3310,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapter-2.tex:58: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3262,7 +3322,7 @@ l.58      \caption
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./chapter-2.tex:58: Missing } inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.58      \caption{$
@@ -3274,7 +3334,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no Z in font nullfont!
-./chapter-2.tex:58: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.58      \caption{$Z_
@@ -3369,7 +3429,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./chapter-2.tex:59: LaTeX Error: \begin{document} ended by \end{subfigure}.
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3382,7 +3442,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-2.tex:60: LaTeX Error: Environment subfigure undefined.
+! LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3397,7 +3457,7 @@ or  <return>  to continue without it.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
-./chapter-2.tex:60: Missing number, treated as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    }
 l.60    \begin{subfigure}{1.0\textwidth}
@@ -3406,7 +3466,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./chapter-2.tex:60: Illegal unit of measure (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.60    \begin{subfigure}{1.0\textwidth}
@@ -3418,7 +3478,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./chapter-2.tex:61: Undefined control sequence.
+! Undefined control sequence.
 l.61      \includegraphics
                           [width=1\linewidth]{compare_bins_zdr}
 The control sequence at the end of the top line
@@ -3435,7 +3495,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-./chapter-2.tex:61: Missing number, treated as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    ]
 l.61      \includegraphics[width=1\linewidth]
@@ -3444,7 +3504,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./chapter-2.tex:61: Illegal unit of measure (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.61      \includegraphics[width=1\linewidth]
@@ -3464,7 +3524,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:61: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.61 ...ncludegraphics[width=1\linewidth]{compare_
@@ -3472,7 +3532,7 @@ l.61 ...ncludegraphics[width=1\linewidth]{compare_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-2.tex:61: Extra }, or forgotten $.
+! Extra }, or forgotten $.
 l.61 ...phics[width=1\linewidth]{compare_bins_zdr}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -3482,7 +3542,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapter-2.tex:62: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3494,7 +3554,7 @@ l.62      \caption
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./chapter-2.tex:62: Missing } inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.62      \caption{$
@@ -3506,7 +3566,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no Z in font nullfont!
-./chapter-2.tex:62: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.62      \caption{$Z_
@@ -3637,7 +3697,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./chapter-2.tex:63: LaTeX Error: \begin{document} ended by \end{subfigure}.
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3650,7 +3710,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-2.tex:64: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3880,7 +3940,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./chapter-2.tex:65: LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -4190,7 +4250,7 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no ) in font nullfont!
-./chapter-2.tex:66: Undefined control sequence.
+! Undefined control sequence.
 l.66 ...e Python ARM Radar Toolkit (Py-ART) \citep
                                                   {Py-ART}, which is used he...
 The control sequence at the end of the top line
@@ -4260,7 +4320,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{Pauly1990}
-./chapter-2.tex:66: Undefined control sequence.
+! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.66 ...th the recommendations of \cite{Pauly1990}
@@ -4469,7 +4529,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-./chapter-2.tex:70: Undefined control sequence.
+! Undefined control sequence.
 <write> ...erence `eq:barnesdws' on page \thepage 
                                                   \space undefined\on@line .
 l.70 ...me is given in Equation \ref{eq:barnesdws}
@@ -4878,7 +4938,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-./chapter-2.tex:74: Undefined control sequence.
+! Undefined control sequence.
 <write> ...g: Reference `eq:roi' on page \thepage 
                                                   \space undefined\on@line .
 l.74 ...n of ROI is found in Equation \ref{eq:roi}
@@ -5037,7 +5097,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:75: Undefined control sequence.
+! Undefined control sequence.
 l.75 \section
              {Selection of Cases}
 The control sequence at the end of the top line
@@ -5063,7 +5123,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-./chapter-2.tex:76: LaTeX Error: Environment table undefined.
+! LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5079,7 +5139,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-2.tex:77: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5413,7 +5473,7 @@ Overfull \hbox (24.91945pt too wide) in paragraph at lines 79--94
  []
 
 
-./chapter-2.tex:95: LaTeX Error: \begin{document} ended by \end{table}.
+! LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5426,7 +5486,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chapter-2.tex:96: LaTeX Error: Environment table undefined.
+! LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5442,7 +5502,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./chapter-2.tex:97: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5762,7 +5822,7 @@ Overfull \hbox (24.91945pt too wide) in paragraph at lines 99--114
  []
 
 
-./chapter-2.tex:115: LaTeX Error: \begin{document} ended by \end{table}.
+! LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -6235,7 +6295,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:116: Undefined control sequence.
+! Undefined control sequence.
 <write> ...eference `eventslake' on page \thepage 
                                                   \space undefined\on@line .
 l.116 ...lected is shown in Table \ref{eventslake}
@@ -6287,7 +6347,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:116: Undefined control sequence.
+! Undefined control sequence.
 <write> ...ence `synopticevents' on page \thepage 
                                                   \space undefined\on@line .
 l.116 ...s are shown in Table \ref{synopticevents}
@@ -6405,7 +6465,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:117: Undefined control sequence.
+! Undefined control sequence.
 l.117 \section
               {Filtering Conditions}
 The control sequence at the end of the top line
@@ -6567,7 +6627,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:119: Undefined control sequence.
+! Undefined control sequence.
 l.119 \subsection
                  {Time Filter}
 The control sequence at the end of the top line
@@ -6954,7 +7014,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:121: Undefined control sequence.
+! Undefined control sequence.
 l.121 \subsection
                  {Gate Filters}
 The control sequence at the end of the top line
@@ -6985,7 +7045,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 116--122
 []
  []
 
-./chapter-2.tex:123: Undefined control sequence.
+! Undefined control sequence.
 l.123 \section
               {Advanced Statistical Techniques}
 The control sequence at the end of the top line
@@ -7223,7 +7283,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
-./chapter-2.tex:125: Undefined control sequence.
+! Undefined control sequence.
 l.125 \subsection
                  {Kernel Density Estimation}
 The control sequence at the end of the top line
@@ -7597,7 +7657,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-./chapter-2.tex:127: Undefined control sequence.
+! Undefined control sequence.
 l.127 ...y function of two random variables \citep
                                                   {Silverman1986}. Figure \r...
 The control sequence at the end of the top line
@@ -7626,7 +7686,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:127: Undefined control sequence.
+! Undefined control sequence.
 <write> ...e `fig:synthetic_KDE' on page \thepage 
                                                   \space undefined\on@line .
 l.127 ...rman1986}. Figure \ref{fig:synthetic_KDE}
@@ -7845,7 +7905,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-./chapter-2.tex:127: Undefined control sequence.
+! Undefined control sequence.
 <write> ...ference `eq:norm_kde' on page \thepage 
                                                   \space undefined\on@line .
 l.127 ... the matrix in Equation \ref{eq:norm_kde}
@@ -8041,7 +8101,7 @@ C \OML/cmm/m/it/10 R[] \OMS/cmsy/m/n/10 ^^C []
  []
 
 
-./chapter-2.tex:131: LaTeX Error: Environment figure undefined.
+! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8053,7 +8113,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:132: Undefined control sequence.
+! Undefined control sequence.
 l.132 \includegraphics
                       [scale=0.1]{Synthetic_data_2D_KDE}\centering
 The control sequence at the end of the top line
@@ -8082,7 +8142,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
-./chapter-2.tex:132: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.132 \includegraphics[scale=0.1]{Synthetic_
@@ -8090,7 +8150,7 @@ l.132 \includegraphics[scale=0.1]{Synthetic_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-2.tex:132: Extra }, or forgotten $.
+! Extra }, or forgotten $.
 l.132 ...raphics[scale=0.1]{Synthetic_data_2D_KDE}
                                                   \centering
 I've deleted a group-closing symbol because it seems to be
@@ -8100,7 +8160,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapter-2.tex:133: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8113,7 +8173,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./chapter-2.tex:135: LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8125,7 +8185,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:135: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.135 \end{figure}
@@ -8136,7 +8196,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter-2.tex:135: Missing } inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.135 \end{figure}
@@ -8152,7 +8212,7 @@ Overfull \hbox (803.80759pt too wide) in paragraph at lines 130--136
  $[]\OML/cmm/m/it/10 ata[]D[]DE[][]$ 
  []
 
-./chapter-2.tex:137: Undefined control sequence.
+! Undefined control sequence.
 l.137 \subsection
                  {Orthonormal Linear Regression}
 The control sequence at the end of the top line
@@ -8189,7 +8249,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-./chapter-2.tex:138: LaTeX Error: Environment figure undefined.
+! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8201,7 +8261,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:139: Undefined control sequence.
+! Undefined control sequence.
 l.139 \includegraphics
                       [scale=0.4]{total_least_square}\centering
 The control sequence at the end of the top line
@@ -8226,7 +8286,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-./chapter-2.tex:139: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.139 \includegraphics[scale=0.4]{total_
@@ -8234,7 +8294,7 @@ l.139 \includegraphics[scale=0.4]{total_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapter-2.tex:139: Extra }, or forgotten $.
+! Extra }, or forgotten $.
 l.139 ...degraphics[scale=0.4]{total_least_square}
                                                   \centering
 I've deleted a group-closing symbol because it seems to be
@@ -8244,7 +8304,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./chapter-2.tex:140: LaTeX Error: \caption outside float.
+! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8256,7 +8316,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./chapter-2.tex:142: LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -8268,7 +8328,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chapter-2.tex:142: Missing $ inserted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.142 \end{figure}
@@ -8279,7 +8339,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapter-2.tex:142: Missing } inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.142 \end{figure}
@@ -8704,7 +8764,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-2.tex:143: Undefined control sequence.
+! Undefined control sequence.
 l.143 ... initial fit instead of vertically \citep
                                                   {Markovsky2007}. Figure \r...
 The control sequence at the end of the top line
@@ -8733,7 +8793,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./chapter-2.tex:143: Undefined control sequence.
+! Undefined control sequence.
 <write> ...:total_least_squares' on page \thepage 
                                                   \space undefined\on@line .
 l.143 ...07}. Figure \ref{fig:total_least_squares}
@@ -8797,7 +8857,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 137--144
 []
  []
 
-./chapter-2.tex:145: Undefined control sequence.
+! Undefined control sequence.
 l.145 \section
               {$Z_{DR}$ Bias Estimation}
 The control sequence at the end of the top line
@@ -8955,7 +9015,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
-./chapter-2.tex:146: Undefined control sequence.
+! Undefined control sequence.
 l.146 ...to relative nature of the quantity \citep
                                                   {Zrnic2006}.
 The control sequence at the end of the top line
@@ -9228,7 +9288,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-./chapter-2.tex:147: Undefined control sequence.
+! Undefined control sequence.
 l.147 ...h'' scans during light rain events \citep
                                                   {Hubbert2006}. The $Z_{DR}...
 The control sequence at the end of the top line
@@ -9582,7 +9642,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{Zittel2015}
-./chapter-2.tex:147: Undefined control sequence.
+! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.147 ... properties of dry snow \cite{Zittel2015}
@@ -9726,19 +9786,18 @@ Overfull \hbox (20.14026pt too wide) in paragraph at lines 145--148
  []
 
 )
-*
 ! Emergency stop.
 <*> chapter-2.tex
                  
-End of file on the terminal!
+*** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 34 strings out of 492995
- 477 string characters out of 6132704
- 66074 words of memory out of 5000000
- 3684 multiletter control sequences out of 15000+600000
+ 34 strings out of 492982
+ 477 string characters out of 6130652
+ 66251 words of memory out of 5000000
+ 3697 multiletter control sequences out of 15000+600000
  4567 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,8n,21p,940b,147s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,8n,21p,1001b,147s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
