@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {3.1.9}10 February 2016 - Lake-Effect}{36}{subsection.3.1.9}
 \contentsline {subsection}{\numberline {3.1.10}15 December 2016 - Synoptic}{39}{subsection.3.1.10}
 \contentsline {section}{\numberline {3.2}$Z_{eH}$ Subset Comparisons}{42}{section.3.2}
-\contentsline {chapter}{\numberline {A}Appendix A}{44}{appendix.A}
-\contentsline {section}{\numberline {A.1}Upper-Air Charts}{44}{section.A.1}
-\contentsline {section}{\numberline {A.2}Skew-T Charts}{44}{section.A.2}
-\contentsline {section}{\numberline {A.3}Sounding Climatology}{44}{section.A.3}
-\contentsline {chapter}{Bibliography}{66}{figure.caption.73}
+\contentsline {chapter}{\numberline {A}Appendix A}{43}{appendix.A}
+\contentsline {section}{\numberline {A.1}Upper-Air Charts}{43}{section.A.1}
+\contentsline {section}{\numberline {A.2}Skew-T Charts}{43}{section.A.2}
+\contentsline {section}{\numberline {A.3}Sounding Climatology}{43}{section.A.3}
+\contentsline {chapter}{Bibliography}{65}{figure.caption.73}

@@ -10,13 +10,11 @@ Comparing two radar datasets is fraught with challenges; solutions to meet this 
 Lake Ontario happens to be the perfect area to bound between the radars, therefore only data from areas over water inside the bounding box depicted in Figure \ref{fig:study_area} are used. This also ensures that no ground clutter is incorporated into the analyses.
 \subsubsection{Comparing Radar Characteristics}
 
-
-
+As presented in Equation \ref{eq:weather_eq}, the weather radar equation is defined by constant parameters dependent on the radar system characteristics, and varying properties related to the target. 
 \begin{equation}\label{eq:weather_eq}
 \bar{P_r} = \frac{\pi^3c}{1024 \ln(2)} \Bigg[\frac{P_t \tau G^2 \theta^2}{\lambda^2}\Bigg]_{dBZ_0} \Bigg[|K^2|\frac{Z_{eH}}{r^2}\Bigg]_{TARGET}
 \end{equation}
-
-As presented in Equation \ref{eq:weather_eq}, the weather radar equation is defined by constant parameters dependent on the radar system characteristics, and varying properties related to the target. The target properties are dielectric constant (K), range (r) and equivalent reflectivity factor $Z_{eH}$. Conversely, the radar parameters ideally remain unchanged from their values upon installation of the radar system. These parameters form the radar constant, symbolically expressed as $dBZ_0$. The parameters that define this constant include the power transmitted ($P_t$), the pulse length ($\tau$), the antenna gain (G), the angular beamwidth ($\theta$), and the wavelength ($\lambda$).
+The target properties are dielectric constant (K), range (r) and equivalent reflectivity factor $Z_{eH}$. Conversely, the radar parameters ideally remain unchanged from their values upon installation of the radar system. These parameters form the radar constant, symbolically expressed as $dBZ_0$. The parameters that define this constant include the power transmitted ($P_t$), the pulse length ($\tau$), the antenna gain (G), the angular beamwidth ($\theta$), and the wavelength ($\lambda$).
 \begin{equation}\label{eq:radpow}
 10 \log Z = 10 \log{\bar{P_r}} + 20 \log r - dBZ_0
 \end{equation}
@@ -63,15 +61,15 @@ The biggest challenge when comparing radar resolution volumes measured by radars
    \end{subfigure}
 \caption{Base moment comparisons between radars over Lake Ontario, with dimensions of 20x12.5 km. Left panels are in native radars coordinates, with gates outlined in black. Right panels are transformed to a common Cartesian grid, with grid cells outlined in black.} \label{fig:compare_bins}
 \end{figure}
-These differences require the radar data to be objectively analyzed onto a common coordinate system, which can be achieved through a distance-weighting scheme.  , which essentially convolves radar data with a distance-weighted function. This method was adopted in a more recent open source software module called the Python ARM Radar Toolkit (Py-ART) \citep{Py-ART}, which is used here. In accordance with the recommendations of \cite{Pauly1990}, a grid resolution ($\Delta x$, $\Delta y$) of 500 meters is chosen. A Barnes distance-weighting scheme is used for this analysis. 
+These differences require the radar data to be objectively analyzed onto a common coordinate system, which can be achieved through a distance-weighting scheme. This method was adopted in the open source software module called the Python ARM Radar Toolkit (Py-ART) \citep{Py-ART}, which is used here. In accordance with the recommendations of \cite{Pauly1990}, a grid resolution ($\Delta x$, $\Delta y$) of 500 meters is chosen. A Barnes distance-weighting scheme is used for this analysis. 
 \begin{equation}\label{eq:barnesdws}
-F_{i,j} = \sum_0^n F(b) * e^{-(d/ROI)^{2}}
+f^{'}_{p} = \sum_{b=1}^n  e^{-(d_b/\kappa)^{2}} f_q  \bigg/ \sum_{b=1}^n e^{-(d_b/\kappa)^{2}}
 \end{equation}
-The Gaussian weighting function used in said scheme is given in Equation \ref{eq:barnesdws}. It shows that for some field F, the value of F in the Cartesian grid is determined by performing a summation over $n$ number of bins $b$ that are within the radius of influence (ROI) of the center point of the grid cell, and d is is the horizontal distance from the native bin to the center point of the cell. Vertical distance is neglected, as only the lowest elevation angle from the radars are included for comparison.
+The Gaussian weighting function used in said scheme is given in Equation \ref{eq:barnesdws}. It shows that the value of the analysis at some point $p$ is equal to sum of weights convolved with the actual values at bin $b$ in radar space, divided by the sum of the weights. The summation is performed over $n$ number of bins that are within the radius of influence ($\kappa$) of the center point of the grid cell, and d is is the horizontal distance from the native bin to the center point of the cell. Vertical distance is neglected, as only the lowest elevation angle from the radars are included for comparison.
 \begin{equation}\label{eq:roi}
-ROI = D * \tan{\theta}
+\kappa = D * \tan{\theta}
 \end{equation}
-The definition of ROI is found in Equation \ref{eq:roi}, where D is the horizontal distance from the grid cell to the radar and $\theta$ is the angular beamwidth. This completes the framework for comparing the radar datasets in this study.
+The definition of $\kappa$ is found in Equation \ref{eq:roi}, where D is the horizontal distance from the grid cell to the radar and $\theta$ is the angular beamwidth. This completes the framework for comparing the radar datasets in this study.
 \section{Selection of Cases}
 \begin{table}[h]
     \caption{Critical level temperatures from radiosonde launched closest in time to the selected lake-effect snow events.}\label{eventslake}

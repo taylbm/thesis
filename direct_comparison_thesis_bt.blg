@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: york-thesis-Template.aux
+The top-level auxiliary file: direct_comparison_thesis_bt.aux
 A level-1 auxiliary file: chapter-1.aux
 A level-1 auxiliary file: chapter-2.aux
 A level-1 auxiliary file: chapter-3.aux
@@ -8,47 +8,48 @@ A level-1 auxiliary file: appendix-a.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty booktitle in Abon2014
 Warning--empty booktitle in Torres2007
 Warning--empty booktitle in Zittel2015
-You've used 11 entries,
+You've used 14 entries,
             3486 wiz_defined-function locations,
-            941 strings with 8976 characters,
-and the built_in function-call counts, 8965 in all, are:
-= -- 915
-> -- 307
+            965 strings with 10204 characters,
+and the built_in function-call counts, 12687 in all, are:
+= -- 1303
+> -- 513
 < -- 10
-+ -- 162
-- -- 75
-* -- 542
-:= -- 1029
-add.period$ -- 22
-call.type$ -- 11
-change.case$ -- 77
-chr.to.int$ -- 11
-cite$ -- 13
-duplicate$ -- 872
-empty$ -- 592
-format.name$ -- 116
-if$ -- 1842
++ -- 274
+- -- 126
+* -- 770
+:= -- 1427
+add.period$ -- 27
+call.type$ -- 14
+change.case$ -- 108
+chr.to.int$ -- 14
+cite$ -- 17
+duplicate$ -- 1210
+empty$ -- 778
+format.name$ -- 176
+if$ -- 2607
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 114
-newline$ -- 43
-num.names$ -- 44
-pop$ -- 401
+missing$ -- 154
+newline$ -- 52
+num.names$ -- 56
+pop$ -- 585
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 97
 quote$ -- 0
-skip$ -- 474
+skip$ -- 673
 stack$ -- 0
-substring$ -- 339
-swap$ -- 601
+substring$ -- 473
+swap$ -- 864
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
-warning$ -- 2
-while$ -- 45
+type$ -- 117
+warning$ -- 3
+while$ -- 57
 width$ -- 0
-write$ -- 142
-(There were 2 warnings)
+write$ -- 177
+(There were 3 warnings)

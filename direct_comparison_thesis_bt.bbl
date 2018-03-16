@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -8,14 +8,23 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem[{Abon et~al.(2014)Abon, Crisologo, Kneis, Bronstert, and
+  Heistermann}]{Abon2014}
+Abon, C., I.~Crisologo, D.~Kneis, A.~Bronstert, and M.~Heistermann, 2014:
+  Comparison between c-band and s-band radar rainfall for hydrological
+  simulations in marikina river basin, philippines.
+
+\bibitem[{Boodoo et~al.(2015)Boodoo, Hudak, Ryzhkov, Zhang, Donaldson, Sills,
+  and Reid}]{Boodoo2015}
+Boodoo, S., D.~Hudak, A.~Ryzhkov, P.~Zhang, N.~Donaldson, D.~Sills, and
+  J.~Reid, 2015: {Q}uantitative {P}recipitation {E}stimation from a {C}-{B}and
+  {D}ual-{P}olarized {R}adar for the 8 {J}uly 2013 {F}lood in {T}oronto,
+  {C}anada. \textit{Journal of Hydrometeorology}, \textbf{16~(5)}, 2027--2044,
+  \urlprefix\url{https://doi.org/10.1175/JHM-D-15-0003.1}.
+
 \bibitem[{Fabry(2015)}]{Fabry2015}
 Fabry, F., 2015: \textit{Radar Meteorology: Principles and Practice}. Cambridge
   University Press, 256 pp.
-
-\bibitem[{Hassan et~al.(2017)Hassan, Taylor, and Isaac}]{Hassan2017}
-Hassan, D., P.~A. Taylor, and G.~A. Isaac, 2017: Snowfall {R}ate {E}stimation
-  using {C}-{B}and {P}olarimetric {R}adars. \textit{Meteor.\ Appl.},
-  \textbf{24~(1)}, 142--156, \urlprefix\url{http://doi.org/10.1002/met.1613}.
 
 \bibitem[{Helmus and Collis(2016)}]{Py-ART}
 Helmus, J.~J. and S.~M. Collis, 2016: The {P}ython {ARM} {R}adar {T}oolkit
@@ -33,6 +42,15 @@ Hubbert, J. and F.~Pratte, 2006: {D}ifferential {R}eflectivity {C}alibration
 Markovsky, I. and S.~V. Huffel, 2007: Overview of total least-squares methods.
   \textit{Elsevier BV},
   \urlprefix\url{http://doi.org/10.1016/j.sigpro.2007.04.004}.
+
+\bibitem[{Mulholland et~al.(2017)Mulholland, Frame, Nesbitt, Steiger, Kosiba,
+  and Wurman}]{Mulholland2017}
+Mulholland, J.~P., J.~Frame, S.~W. Nesbitt, S.~M. Steiger, K.~A. Kosiba, and
+  J.~Wurman, 2017: Observations of misovortices within a
+  long-lake-axis-parallel lake-effect snowband during the owles project.
+  \textit{Monthly Weather Review}, \textbf{145~(8)}, 3265--3291,
+  \doi{10.1175/MWR-D-16-0430.1},
+  \urlprefix\url{https://doi.org/10.1175/MWR-D-16-0430.1}.
 
 \bibitem[{Pauley and Wu(1990)}]{Pauly1990}
 Pauley, P.~M. and X.~Wu, 1990: The theoretical, discrete, and actual response
@@ -53,6 +71,13 @@ Torres, S. and C.~Curtis, 2007: Initial {I}mplementation of
   {S}uper-{R}esolution {D}ata on the {NEXRAD} {N}etwork. \textit{23rd Conf. on
   IIPS}, San Antonio, TX, Amer. Meteor. Soc., 5B.10,
   \urlprefix\url{https://ams.confex.com/ams/87ANNUAL/techprogram/paper_116240.htm}.
+
+\bibitem[{Zhang et~al.(2016)}]{Zhang2016}
+Zhang, J., et~al., 2016: Multi-radar multi-sensor (mrms) quantitative
+  precipitation estimation: Initial operating capabilities. \textit{Bulletin of
+  the American Meteorological Society}, \textbf{97~(4)}, 621--638,
+  \doi{10.1175/BAMS-D-14-00174.1},
+  \urlprefix\url{https://doi.org/10.1175/BAMS-D-14-00174.1}.
 
 \bibitem[{Zittel et~al.(2015)Zittel, Lee, Cunningham, Schultz, and
   Ice}]{Zittel2015}
