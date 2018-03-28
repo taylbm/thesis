@@ -4,6 +4,7 @@ The top-level auxiliary file: direct_comparison_thesis_bt.aux
 A level-1 auxiliary file: chapter-1.aux
 A level-1 auxiliary file: chapter-2.aux
 A level-1 auxiliary file: chapter-3.aux
+A level-1 auxiliary file: chapter-4.aux
 A level-1 auxiliary file: appendix-a.aux
 The style file: ametsoc.bst
 Database file #1: references.bib
@@ -13,7 +14,7 @@ Warning--empty booktitle in Torres2007
 Warning--empty booktitle in Zittel2015
 You've used 14 entries,
             3486 wiz_defined-function locations,
-            965 strings with 10204 characters,
+            966 strings with 10217 characters,
 and the built_in function-call counts, 12687 in all, are:
 = -- 1303
 > -- 513
