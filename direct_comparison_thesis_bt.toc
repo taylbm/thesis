@@ -1,6 +1,6 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.1}
 \contentsline {chapter}{Table of Contents}{v}{chapter*.2}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Chapter One}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Background}{2}{section.1.2}
@@ -32,11 +32,16 @@
 \contentsline {subsection}{\numberline {3.1.9}10 February 2016 - Lake-Effect}{36}{subsection.3.1.9}
 \contentsline {subsection}{\numberline {3.1.10}15 December 2016 - Synoptic}{39}{subsection.3.1.10}
 \contentsline {section}{\numberline {3.2}$Z_{eH}$ Subset Comparisons}{42}{section.3.2}
-\contentsline {chapter}{\numberline {4}Chapter Four}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discussion}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Diagnosing $Z_{DR}$ Bias}{43}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Biased Cases}{44}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {A}Appendix A}{46}{appendix.A}
-\contentsline {section}{\numberline {A.1}Upper-Air Charts}{46}{section.A.1}
-\contentsline {section}{\numberline {A.2}Skew-T Charts}{46}{section.A.2}
-\contentsline {section}{\numberline {A.3}Sounding Climatology}{46}{section.A.3}
+\contentsline {section}{\numberline {3.3}KDE Constrained $Z_{DR}$}{43}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Unbiased $Z_{DR}$ Cases}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Biased $Z_{DR}$ Cases}{48}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Chapter Four}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discussion}{53}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Diagnosing $Z_{DR}$ Bias}{53}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}$Z_{DR}$ Statistics}{53}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Beam Volume Differences}{55}{subsubsection.4.1.1.2}
+\contentsline {chapter}{\numberline {A}Appendix A}{57}{appendix.A}
+\contentsline {section}{\numberline {A.1}Upper-Air Charts}{57}{section.A.1}
+\contentsline {section}{\numberline {A.2}Skew-T Charts}{57}{section.A.2}
+\contentsline {section}{\numberline {A.3}Sounding Climatology}{57}{section.A.3}
+\contentsline {chapter}{Bibliography}{79}{figure.caption.87}

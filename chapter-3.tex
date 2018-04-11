@@ -459,6 +459,85 @@ comparable performance between radars is achieved in lake-effect events.
      \includegraphics[scale=0.45]{ref_scatter_lake_effect}
      \caption{subset of lake-effect snow events}\label{fig:ref_lake_effect}
    \end{subfigure}
-\caption{Scatter-plots of CWKR versus KBUF grid analyzed reflectivity, with Kernel Density Estimation shading. The red line is an Orthonormal Linear Regression, with a black identity line.} \label{fig:ref_scatter}
+\caption{Scatter-plots of CWKR versus KBUF grid analyzed reflectivity, with Kernel Density Estimation shading. The red line is an Orthonormal Linear
+Regression, with a black identity line.} \label{fig:ref_scatter}
 \end{figure}
 
+\section{KDE Constrained $Z_{DR}$}
+The next step is to demonstrate the usefulness of constraining the datasets with a KDE threshold. The constrained $Z_{DR}$ datasets represent the areas where
+both radars likely indicate a true representation of the hydrometeor shapes throughout any given volume.
+\subsection{Unbiased $Z_{DR}$ Cases}
+Unbiased cases are presented first, without any bias adjustment made at CWKR. The first case in Figure \ref{fig:grid_zdr_kde_20140118} highlights the cells
+that passed through the eastern side of the domain. Higher $Z_{eH}$ areas are shown to be correlated with the constrained $Z_{DR}$ areas. $Z_{DR}$ values
+closer to 0.50 dB in this case indicate that less aggregation in this case.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20140118}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$.}
+\label{fig:grid_zdr_kde_20140118}
+\end{figure}
+The next case in Figure \ref{fig:grid_zdr_kde_20140123} shows how well this method delineates the banding structure. Both radars indicate that this intense snow
+squall is generating dry aggregated snow, with $Z_{DR}$ values near the characteristic 0.2 dB.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20140123}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by excluding points with a
+$KDE < 2$.} 
+\label{fig:grid_zdr_kde_20140123}
+\end{figure}
+The 6 January 2015 case shown in Figure \ref{fig:grid_zdr_kde_20150106} contains more speckling than other cases, with points excluded even in the high $Z_{eH}$ areas. Especially of note in the lack of points inside the 20 dBZ contour. Looking back at Figure \ref{fig:scatter_ref_20150106}, it appears that not enough values near 0 dB were observed to reach the density threshold. This is one of the downsides of this method; longer duration events lead to higher quality density estimates.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20150106}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 January 2014. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$.} 
+\label{fig:grid_zdr_kde_20150106}
+\end{figure}
+Once again, as shown in Figure \ref{fig:grid_zdr_kde_20150107}, excellent delineation of precipitating structures is achieved through this method. No obvious pattern emerges within the higher $Z_{DR}$, with values varying tightly around 0.2 dB.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20150107}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 7 January 2014. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$.} 
+\label{fig:grid_zdr_kde_20150107}
+\end{figure}
+A much more subtle gradient rom speckled to filled points is present in Figure \ref{fig:grid_zdr_kde_20150107}. $Z_{DR}$ values are right around 0 dB for this case, which indicates spherical aggregates are dominating. This event has the warmest surface temperature, with the 12Z sounding reporting $-2.7^{\circ}$ C. Warmer temperatures closer to $0^{\circ}$ C are conducive for this type of aggregation process \citep{Hosler}. 
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20160210}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 10 February 2016. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$.} 
+\label{fig:grid_zdr_kde_20160210}
+\end{figure}
+
+\subsection{Biased $Z_{DR}$ Cases}
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20140201}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 1 February 2014. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
+\label{fig:grid_zdr_kde_20140201}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20150206}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 February 2015. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
+\label{fig:grid_zdr_kde_20150206}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20150214}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
+\label{fig:grid_zdr_kde_20150214}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20150218}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 February 2015. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
+\label{fig:grid_zdr_kde_20150218}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/zdr_kde/20161215}
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 15 December 2016. $Z_{DR}$ is constrained by excluding points with a
+KDE $< 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
+\label{fig:grid_zdr_kde_20161215}
+\end{figure}
