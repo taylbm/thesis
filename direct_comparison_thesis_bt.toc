@@ -1,6 +1,6 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.1}
 \contentsline {chapter}{Table of Contents}{v}{chapter*.2}
-\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Chapter One}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Background}{2}{section.1.2}
@@ -34,10 +34,9 @@
 \contentsline {section}{\numberline {3.2}$Z_{eH}$ Subset Comparisons}{42}{section.3.2}
 \contentsline {chapter}{\numberline {4}Chapter Four}{43}{chapter.4}
 \contentsline {section}{\numberline {4.1}Discussion}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Unbiased Cases}{43}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Diagnosing $Z_{DR}$ Bias}{43}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Biased Cases}{44}{subsection.4.1.2}
 \contentsline {chapter}{\numberline {A}Appendix A}{46}{appendix.A}
 \contentsline {section}{\numberline {A.1}Upper-Air Charts}{46}{section.A.1}
 \contentsline {section}{\numberline {A.2}Skew-T Charts}{46}{section.A.2}
 \contentsline {section}{\numberline {A.3}Sounding Climatology}{46}{section.A.3}
-\contentsline {chapter}{Bibliography}{68}{figure.caption.76}

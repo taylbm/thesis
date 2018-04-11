@@ -1,51 +1,64 @@
 \chapter{Chapter Four}
 \section{Discussion}
 The number of cases with biased versus unbiased $Z_{DR}$ at CWKR was evenly split, with five each.
-\subsection{Unbiased Cases}
-The unbiased cases are given in Table \ref{unbiasedcases}
+\subsection{Diagnosing $Z_{DR}$ Bias}
+The unbiased cases are given in Table \ref{unbiased}.
 \begin{table}[h]
-    \caption{Unbiased Cases}\label{unbiasedcases}
+    \caption{Statistics of cases with unbiased $Z_{DR}$, using the KDE > 2 constrained $Z_{DR}$ dataset.}\label{unbiased}
     \begin{center}
-    \begin{tabular}{|l|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|c|c|}
     \hline
-     Event & CWKR Median $Z_{DR}$ Bias & KBUF L3 $Z_{DR}$ Bias & Number of Matched Points\\
+     &
+    \multicolumn{4}{|c|}{CWKR $Z_{DR}$ (dB)} &
+    \multicolumn{3}{|c|}{KBUF $Z_{DR}$ (dB)} \\
+    \hline
+     Event & Bias & Min & Max & Range & Min & Max & Range\\
     \hline\hline
-    2014-01-18 & -0.095 dB & -0.40 dB & 94,136 \\
+    2014-01-18 & -0.10 & 0.19 & 0.5 & 0.31 & 0.21 & 0.65 & 0.44 \\
     \hline
-    2014-01-23 & -0.055 dB & -0.40 dB & 482,183 \\
+    2014-01-23 & -0.06 & 0.00 & 0.19 & 0.19 & -0.04 & 0.34 & 0.38\\
     \hline
-    2015-01-06 &  0.003 dB & -0.10 dB & 248,775 \\
+    2015-01-06 &  0.00  & 0.44  & 0.62  & 0.18 & 0.41 & 0.66 & 0.25 \\
     \hline
-    2015-01-07 & -0.040 dB & -0.30 dB & 87,723 \\ 
+    2015-01-07 & -0.04  & 0.13  & 0.44  & 0.32 & -0.01 & 0.61 & 0.62 \\ 
     \hline
-    2016-02-10 & -0.055 dB & 0.40 dB & 886,869 \\ 
+    2016-02-10 & -0.06  & -0.06  & 0.06  & 0.12 &-0.02 & 0.10 & 0.12  \\ 
+    \hline\hline
+    Mean & -0.05 & 0.14 & 0.36 & 0.22 & 0.11 & 0.47 & 0.362 \\
+    \hline
+    \end{tabular}
+    \end{center}
+\end{table}
+\subsection{Biased Cases}
+The biased cases are given in Table \ref{biased}.
+\begin{table}[h]
+    \caption{Statistics of cases with biased $Z_{DR}$, using the KDE > 2 constrained $Z_{DR}$ dataset.}\label{biased}
+    \begin{center}
+    \begin{tabular}{|l|c|c|c|c|c|c|c|}
+    \hline
+     &
+    \multicolumn{4}{|c|}{CWKR $Z_{DR}$ (dB)} &
+    \multicolumn{3}{|c|}{KBUF $Z_{DR}$ (dB)} \\
+    \hline
+     Event & Bias & Min & Max & Range & Min & Max & Range\\
+    \hline\hline
+    2014-02-01 & 0.22 & 0.25 & 0.69 & 0.44 & -0.05 & 0.51 & 0.56 \\
+    \hline
+    2015-02-06 & 0.28 & 0.25 & 0.56 & 0.31 & -0.12 & 0.37 & 0.49\\
+    \hline
+    2015-02-14 & 0.38 & 0.31  & 0.75  & 0.44 & -0.09 & 0.41 & 0.50 \\
+    \hline
+    2015-02-18 & 0.30 & 0.44  & 0.81  & 0.37 & -0.09 & 0.66 & 0.75 \\ 
+    \hline
+    2016-12-15 & -0.47 & -0.25  & 0.12  & 0.37 & -0.25 & 0.45 & 0.70  \\ 
+    \hline\hline
+    Mean & 0.14 & 0.20 & 0.59 & 0.39 & -0.12 & 0.48 & 0.60 \\
     \hline
     \end{tabular}
     \end{center}
 \end{table}
 \begin{figure}[H]
-\includegraphics[width=\textwidth]{temp_egbert/Jan2014}
-\caption{Daily Temperature and Snowfall data from the Egbert, ON Centre for Atmospheric Research Experiments (CARE) site, approximately 40 km north of CWKR. Case dates are indicated with a black star.} 
-\label{fig:grid_ref_20140118}
+\includegraphics[width=\textwidth]{bias_range}
+\caption{Blah} 
+\label{fig:bias_compare}
 \end{figure}
-\subsection{Biased Cases}
-\begin{table}[h]
-    \caption{Biased Cases}\label{biasedcases}
-    \begin{center}
-    \begin{tabular}{|l|c|c|c|}
-    \hline
-     Event & CWKR Median $Z_{DR}$ Bias & KBUF L3 $Z_{DR}$ Bias & Number of Matched Points\\
-    \hline\hline
-    2014-02-01 & 0.217 dB & -0.20 dB & 310,631 \\
-    \hline
-    2015-02-06 & 0.283 dB & 0.00 dB & 143,563 \\
-    \hline
-    2015-02-14 & 0.377 dB & -0.10 dB & 331,154 \\
-    \hline
-    2015-02-18 & 0.296 dB & -0.10 dB & 177,124 \\
-    \hline
-    2016-12-15 & -0.465 dB & -0.28 dB & 53,383 \\
-    \hline
-    \end{tabular}
-    \end{center}
-\end{table}
