@@ -9,7 +9,7 @@ extricate lake influence from synoptically classified events, synoptic-scale asc
 characterizing factor. Descriptions of the synoptic pattern during each event are given without
 reference; For reference, see Appendix A for the 500mb Geopotential Heights, Skew-T charts, and
 Sounding Climatology utilized. These descriptions are ancillary to the study and are provided to
-demonstrate a variety of patterns are represented.
+demonstrate a variety of patterns are reresented.
 
 \subsection{18 January 2014 - Synoptic}
 In this event, a weak shortwave is approaching Southern Ontario as it rounds the base of a longwave
@@ -18,7 +18,7 @@ region of upper-level divergence, and a moist column present through 500mb,
 scattered snow showers form ahead of the shortwave. Figure \ref{fig:grid_ref_20140118} depicts
 similiar cellular patterns between radars in the time-averaged $Z_{eH}$ field. In contrast, the $Z_{DR}$
 comparison in Figure \ref{fig:grid_zdr_20140118}
-shows that although the fields are similiar in their anisotropy, the spatial matching between the two is
+shows that although the fields are similiar in their heterogenity, the spatial matching between the two is
 tenuous everywhere but in the heaviest showers.
 
 \begin{figure}[H]
@@ -86,14 +86,14 @@ CWKR. Both datasets include only matched points with KDE $\geq 2$. }
 
 \subsection{23 January 2014 - Lake-Effect}
 A positively tilted longwave trough dominates the eastern third of Canada during this event, with NW
-winds at 850mb and SW winds at the surface. This light yet convergent flow yields the single, heavy
+winds at 850mb and SW winds at the surface. This light flow pattern yields the single, heavy
 band depicted in Figure \ref{fig:grid_ref_20140123}, colloquially referred to as ``tea-kettle'' lake-effect
 snow. There is also a background stream of very light lake-effect snow impinging from Lake Erie.
 Spatial banding patterns of the lake-effect snow in the time-averaged $Z_{eH}$ fields as compared 
 between the radars are remarkably similar. The difference between the grid mean values are within only
 0.13 dBZ. In contrast, the $Z_{DR}$ comparison indicates that
-although the fields are similiar in their anisotropy, the spatial matching between the two is tenuous
-everywhere but in the heaviest showers. An anistropic pattern is also imparted on the $Z_{DR}$ fields
+although the fields are similiar in their heterogeniety, the spatial matching between the two is tenuous
+everywhere but in the heaviest showers. An speckled pattern is also imparted on the $Z_{DR}$ fields
 by the light snow from Lake Erie, evident in Figure \ref{fig:grid_zdr_20140123}. The scatter-plot in Figure \ref{fig:scatter_ref_20140123} shows an analysis
 free of artifacts, and good agreement on average between radars. Although the agreement in $Z_{eH}$ between radars as
 indicated by the orthonormal regression is acceptable, the chi-square
@@ -217,7 +217,7 @@ Less than 24 hours after the previous event, the zonal flow has buckled and a st
 frontally forced band of snow showers. Figure \ref{fig:grid_ref_20150107} shows the solid band of snow progressed from mid-lake southward, with similiar
 depictions of $Z_{eH}$ between radars. Inspection of the scatter-plot in Figure \ref{fig:scatter_ref_20150107} indicates good agreement with reasonable error
 variance, while Figure \ref{fig:scatter_zdr_20150107} shows a uni-modal distribution of $Z_{DR}$ with a relatively dense kernel.
-Meanwhile, Figure \ref{fig:grid_zdr_20150107} shows two anisotropic fields, especially noisy in areas of light returns. 
+Meanwhile, Figure \ref{fig:grid_zdr_20150107} shows two heterogenous fields, especially noisy in areas of light returns. 
 Estimating the bias at CWKR, the histogram in Figure \ref{fig:hist_20150107} gives a median value of -0.040 dB. This indicates that no discernible bias
 exists outside of the error threshold of $\pm$0.1 dB for this event.
 
@@ -447,7 +447,7 @@ Now that all the cases have been presented individually, two subsets are created
 subset of interest, as compared with the five synoptic events, which act as a control subset.
 A comparison of these subset is shown in Figure \ref{fig:ref_scatter}, with a scatter-plot of KBUF $Z_{eH}$ data versus CWKR on the common grid. Figure
 \ref{fig:ref_synoptic} is the subset of synoptic events while Figure \ref{fig:ref_lake_effect} is the subset of lake-effect events. These results show that
-comparable performance between radars is achieved in lake-effect events. 
+comparable performance between radars is achieved in lake-effect events. An interesting result is the clustering of points for the range $0 < Z_{eH} < 10$ dBZ in lake-effect events. This is in contrast with the higher clustering of points in synoptic events, from $10 < Z_{eH} < 25$. This could indicate that KBUF is underestimating $Z_{eH}$ in shallow lake-effect events, at the slope of regression is 0.94, as compared with 1.01 for synoptic events.
 
 \begin{figure}[H]
 \centering
@@ -473,16 +473,16 @@ cases are presented in chronological order.
 Cases where the calculated $Z_{DR}$ bias at CWKR did not exceed the error threshold of $\pm$ 0.1 dB are presented first, without any bias adjustment made.
 \subsubsection{18 January 2014}
 The first unbiased case in Figure \ref{fig:grid_zdr_kde_20140118} shows how the constrainment highlights the cells that passed through the eastern side of the domain. Areas of higher $Z_{eH}$  are correlated with the constrained $Z_{DR}$ areas, indicating that dataset is distilled down to include only returns with higher signal-to-noise-ratio (SNR) values. $Z_{DR}$ values closer to 0.50 dB in this case indicate that less aggregation is occurring and more pristine crystals are present.
-\begin{figure}[p]
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20140118}
 \caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$.}
 \label{fig:grid_zdr_kde_20140118}
 \end{figure}
 \subsubsection{23 January 2014}
-The next case in Figure \ref{fig:grid_zdr_kde_20140123} also shows the advantage of the constrainment, in that it delineates the banding pattern present in this case. Both radars agree that this intense snow
+The next case in Figure \ref{fig:grid_zdr_kde_20140123} also shows the advantage of the constrainment, in that it delineates the banding pattern present in this case. Furthermore, the partial beam blockages present in the unconstrained dataset are removed. Both radars agree that this intense snow
 squall is generating dry aggregated snow, with $Z_{DR}$ values in the characteristic range of 0-0.2 dB.
-\begin{figure}[p]
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20140123}
 \caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by only including points with a
 $KDE \geq 2$.} 

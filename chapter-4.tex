@@ -1,17 +1,17 @@
 \chapter{Chapter Four}
 \section{Discussion}
-It has been shown that the constrained $Z_{DR}$ datasets allow biases to be calculated, then allowing hydrometeor type to be inferred. Now, statistics can be compiled, and the probable source of the bias addressed.
+It has been shown that the constrained $Z_{DR}$ datasets allow biases to be calculated, then allowing hydrometeor type to be inferred. Now, statistics can be compiled, and the probable source of the bias addressed. The relative merit of the radars in observing lake-effect snow will also be discussed.
 \subsection{Diagnosing $Z_{DR}$ Bias}
-The source of the bias could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Figure \ref{fig:ideal_beam} shows the drastic differences in beam volume, especially closer to CWKR. As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater than unbiased cases. 
+The source of the bias could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007a}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Figure \ref{fig:ideal_beam} shows the drastic differences in beam volume, especially closer to CWKR. As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater than unbiased cases. 
 Another result that supports this is found by comparing the range of $Z_{DR}$ values present in each case. As shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger range of values than unbiased. 
 \begin{table}[H]
-    \caption{Comparing depth and intensity of unbiased and biased cases}\label{diagnosebias}
+    \caption{Comparing depth and intensity of unbiased and biased cases, where the overbar indicate global means.}\label{diagnosebias}
     \begin{center}
     \begin{tabular}{|l|c|c|c|}
     \hline
-    \multicolumn{4}{|c|}{Unbiased Events} \\
+    \multicolumn{4}{|c|}{Unbiased Cases} \\
     \hline
-     Event & Echo Top (km) & CWKR Mean $Z_{eH}$ (dBZ) & KBUF Mean $Z_{eH}$ (dBZ)\\
+     Event & Echo Top (km) & CWKR $\overline{Z_{eH}}$ (dBZ) & KBUF $\overline{Z_{eH}}$ (dBZ)\\
     \hline\hline
     2014-01-18 & 2.4 & 10 & 11 \\
     \hline
@@ -25,7 +25,7 @@ Another result that supports this is found by comparing the range of $Z_{DR}$ va
     \hline\hline
     Mean & 2.0 & 13 & 13\\
     \hline
-    \multicolumn{4}{|c|}{Biased Events} \\
+    \multicolumn{4}{|c|}{Biased Cases} \\
     \hline\hline
     2014-02-01 & 4.3 & 17 & 18\\
     \hline
@@ -43,18 +43,20 @@ Another result that supports this is found by comparing the range of $Z_{DR}$ va
     \end{center}
 \end{table}
 \begin{figure}[H]
-\includegraphics[width=\textwidth]{ideal_beam}
+\centering
+\includegraphics[width=0.6\textwidth]{ideal_beam}
 \caption{Gate-by-gate idealized beam volume comparison between radars, assuming a Gaussian beam function for both.} 
 \label{fig:ideal_beam}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth]{bias_range}
+\centering
+\includegraphics[width=0.6\textwidth]{bias_range}
 \caption{Comparison of the range of $Z_{DR}$ (max-min) values observed for each case, with biased cases depicted with yellow trianges and unbiased as green dots.} 
 \label{fig:bias_range}
 \end{figure}
 \subsection{$Z_{DR}$ Statistics}
-The unbiased cases are given in Table \ref{eventcompare}.
+A statistical comparison of synoptic and lake-effect cases is made in Table \ref{eventcompare}. Both types of events show very similiar mean values, with both radars indicating 0.2 dB for lake-effect and 0.3 dB for synoptic. This suggests that synoptic events tend more towards pristine snow crystals, while lake-effect events contain more aggregated snow. While the mean values match between radars, it is shown that KBUF yields a larger range of $Z_{DR}$. A wider beamwidth could aid in the detection a wider range of hydrometeor types.
 \begin{table}[h]
     \caption{$Z_{DR}$ Statistics, comparing synoptic and lake-effect events}\label{eventcompare}
     \begin{center}
@@ -97,3 +99,10 @@ The unbiased cases are given in Table \ref{eventcompare}.
     \end{tabular}
     \end{center}
 \end{table}
+
+\subsection{Relative Merits of C-Band vs. S-Band in Snow}
+The results have shown that the wider beamwidth of S-Band may contribute to the detection of a higher diversity of hydrometeors per sampling volume. This
+becomes more important for mixed phases of precipitation, but for pure snow is not as relevant. For quantitative precipitation purposes this becomes more
+important, as the shape of the snow crystals can give insights into their density, providing a better estimate of snow-to-liquid ratios. Furthermore,
+comparing values of $Z_{eH}$ in lake-effect snow events versus synoptic events has shown that C-Band radar has a non-neglible advantage in detecting shallow snow-squalls.
+

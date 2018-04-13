@@ -29,6 +29,7 @@
 \usepackage{subcaption}
 \usepackage{float}
 \graphicspath{{figures/}}
+
 %\usepackage[letterpaper, portrait, lmargin=1.5in, rmargin=1in, tmargin=1in, bmargin=1in]{geometry}
 
 %========== header/footer set-up  =================
@@ -44,6 +45,8 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\headheight{24pt}
 \renewcommand{\baselinestretch}{1.5}
+\renewcommand{\bibname}{References}
+
 
 %========== citation setup  =================
 \usepackage{natbib} % I use natbib, but you can use
@@ -89,12 +92,10 @@
 %
 \committeememberslist{
   \begin{enumerate}
-    \item George Isaac
     \item Dave Sills
-    \item Peter Taylor
-    \item Fourth Examiner
-    \item Fifth Examiner
-    \item Sixth Examiner
+    \item Don Hastie
+    \item George Isaac
+    \item Mark Gordon
   \end{enumerate}}
 
 %============ document begins ==================
@@ -108,10 +109,11 @@
 %
 
 \include{chapter-1}
+
 \include{chapter-2}
 \include{chapter-3}
 \include{chapter-4}
-%\include{chapter-5}
+\include{chapter-5}
 
 \appendix
 \include{appendix-a}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -12,7 +12,8 @@
   Heistermann}]{Abon2014}
 Abon, C., I.~Crisologo, D.~Kneis, A.~Bronstert, and M.~Heistermann, 2014:
   \textit{Comparison between C-band and S-band radar rainfall for hydrological
-  simulations in Marikina River Basin, Philippines}.
+  simulations in Marikina River Basin, Philippines},
+  \urlprefix\url{https://www.researchgate.net/publication/268147287_Comparison_between_C-band_and_S-band_radar_rainfall_for_hydrological_simulations_in_Marikina_River_Basin_Philippines}.
 
 \bibitem[{Boodoo et~al.(2015)Boodoo, Hudak, Ryzhkov, Zhang, Donaldson, Sills,
   and Reid}]{Boodoo2015}
@@ -40,7 +41,7 @@ Helmus, J.~J. and S.~M. Collis, 2016: The {P}ython {ARM} {R}adar {T}oolkit
 \bibitem[{Hosler et~al.(1957)Hosler, Jensen, and Goldshlak}]{Hosler1957}
 Hosler, C.~L., D.~C. Jensen, and L.~Goldshlak, 1957: On the aggregation of ice
   crystals to form snow. \textit{Journal of Meteorology}, \textbf{14~(5)},
-  415--420, \doi{10.1175/1520-0469(1957)014<0415:OTAOIC>2.0.CO;2},
+  415--420,
   \urlprefix\url{https://doi.org/10.1175/1520-0469(1957)014<0415:OTAOIC>2.0.CO;2}.
 
 \bibitem[{Hubbert and Pratte(2006)}]{Hubbert2006}
@@ -60,7 +61,6 @@ Mulholland, J.~P., J.~Frame, S.~W. Nesbitt, S.~M. Steiger, K.~A. Kosiba, and
   J.~Wurman, 2017: Observations of misovortices within a
   long-lake-axis-parallel lake-effect snowband during the owles project.
   \textit{Monthly Weather Review}, \textbf{145~(8)}, 3265--3291,
-  \doi{10.1175/MWR-D-16-0430.1},
   \urlprefix\url{https://doi.org/10.1175/MWR-D-16-0430.1}.
 
 \bibitem[{Pauley and Wu(1990)}]{Pauly1990}
@@ -73,15 +73,28 @@ Pauley, P.~M. and X.~Wu, 1990: The theoretical, discrete, and actual response
 Rogers, R. and M.~Yau, 1989: \textit{A Short Course in Cloud Physics}, Vol.
   113. Elsevier, 290 pp.
 
-\bibitem[{Ryzhkov(2007)}]{Ryzhkov2007}
+\bibitem[{Ryzhkov(2007)}]{Ryzhkov2007a}
 Ryzhkov, A.~V., 2007: The impact of beam broadening on the quality of radar
   polarimetric data. \textit{Journal of Atmospheric and Oceanic Technology},
-  \textbf{24~(5)}, 729--744, \doi{10.1175/JTECH2003.1},
+  \textbf{24~(5)}, 729--744,
   \urlprefix\url{https://doi.org/10.1175/JTECH2003.1}.
+
+\bibitem[{Ryzhkov and Zrni{\'{c}}(2007)}]{Ryzhkov2007b}
+Ryzhkov, A.~V. and D.~S. Zrni{\'{c}}, 2007: Depolarization in ice crystals and
+  its effect on radar polarimetric measurements. \textit{Journal of Atmospheric
+  and Oceanic Technology}, \textbf{24~(7)}, 1256--1267,
+  \urlprefix\url{https://doi.org/10.1175/JTECH2034.1}.
 
 \bibitem[{Silverman(1986)}]{Silverman1986}
 Silverman, B.~W., 1986: \textit{Density {E}stimation for {S}tatistics and
   {D}ata {A}nalysis}, Vol.~26. Chapman and Hall, 176 pp.
+
+\bibitem[{Straka et~al.(2000)Straka, Zrni{\'{c}}, and Ryzhkov}]{Straka2000}
+Straka, J.~M., D.~S. Zrni{\'{c}}, and A.~V. Ryzhkov, 2000: Bulk hydrometeor
+  classification and quantification using polarimetric radar data: Synthesis of
+  relations. \textit{Journal of Applied Meteorology}, \textbf{39~(8)},
+  1341--1372,
+  \urlprefix\url{https://doi.org/10.1175/1520-0450(2000)039<1341:BHCAQU>2.0.CO;2}.
 
 \bibitem[{Torres and Curtis(2007)}]{Torres2007}
 Torres, S. and C.~Curtis, 2007: \textit{Initial {I}mplementation of
@@ -93,7 +106,6 @@ Torres, S. and C.~Curtis, 2007: \textit{Initial {I}mplementation of
 Zhang, J., et~al., 2016: Multi-radar multi-sensor (mrms) quantitative
   precipitation estimation: Initial operating capabilities. \textit{Bulletin of
   the American Meteorological Society}, \textbf{97~(4)}, 621--638,
-  \doi{10.1175/BAMS-D-14-00174.1},
   \urlprefix\url{https://doi.org/10.1175/BAMS-D-14-00174.1}.
 
 \bibitem[{Zittel et~al.(2015)Zittel, Lee, Cunningham, Schultz, and
@@ -104,10 +116,12 @@ Zittel, W.~D., R.~R. Lee, L.~M. R. J.~G. Cunningham, J.~Schultz, and R.~L. Ice,
   {B}ias}, \textit{31st Conf. on EIPT}, Phoenix, AZ, Amer. Meteor. Soc., 11.2,
   \urlprefix\url{https://ams.confex.com/ams/95Annual/webprogram/Paper265374.html}.
 
-\bibitem[{Zrnic et~al.(2006)Zrnic, Melnikov, and Carter}]{Zrnic2006}
-Zrnic, D., V.~M. Melnikov, and J.~K. Carter, 2006: {C}alibrating {D}ifferential
-  {R}eflectivity on the {WSR-88D}. \textit{Journal of Atmospheric and Oceanic
-  Technology}, \textbf{23~(7)}, 944--951, \doi{10.1175/JTECH1893.1},
+\bibitem[{Zrni{\'{c}} et~al.(2006)Zrni{\'{c}}, Melnikov, and
+  Carter}]{Zrnic2006}
+Zrni{\'{c}}, D., V.~M. Melnikov, and J.~K. Carter, 2006: {C}alibrating
+  {D}ifferential {R}eflectivity on the {WSR-88D}. \textit{Journal of
+  Atmospheric and Oceanic Technology}, \textbf{23~(7)}, 944--951,
+  \doi{10.1175/JTECH1893.1},
   \urlprefix\url{https://doi.org/10.1175/JTECH1893.1}.
 
 \end{thebibliography}
