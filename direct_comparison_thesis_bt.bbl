@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -11,8 +11,8 @@
 \bibitem[{Abon et~al.(2014)Abon, Crisologo, Kneis, Bronstert, and
   Heistermann}]{Abon2014}
 Abon, C., I.~Crisologo, D.~Kneis, A.~Bronstert, and M.~Heistermann, 2014:
-  Comparison between c-band and s-band radar rainfall for hydrological
-  simulations in marikina river basin, philippines.
+  \textit{Comparison between C-band and S-band radar rainfall for hydrological
+  simulations in Marikina River Basin, Philippines}.
 
 \bibitem[{Boodoo et~al.(2015)Boodoo, Hudak, Ryzhkov, Zhang, Donaldson, Sills,
   and Reid}]{Boodoo2015}
@@ -26,11 +26,22 @@ Boodoo, S., D.~Hudak, A.~Ryzhkov, P.~Zhang, N.~Donaldson, D.~Sills, and
 Fabry, F., 2015: \textit{Radar Meteorology: Principles and Practice}. Cambridge
   University Press, 256 pp.
 
+\bibitem[{Hassan et~al.(2017)Hassan, Taylor, and Isaac}]{Hassan2017}
+Hassan, D., P.~A. Taylor, and G.~A. Isaac, 2017: Snowfall {R}ate {E}stimation
+  using {C}-{B}and {P}olarimetric {R}adars. \textit{Meteor.\ Appl.},
+  \textbf{24~(1)}, 142--156, \urlprefix\url{http://doi.org/10.1002/met.1613}.
+
 \bibitem[{Helmus and Collis(2016)}]{Py-ART}
 Helmus, J.~J. and S.~M. Collis, 2016: The {P}ython {ARM} {R}adar {T}oolkit
   ({P}y-{ART}), a {L}ibrary for {W}orking with {W}eather {R}adar {D}ata in the
   {P}ython {P}rogramming {L}anguage. \textit{JORS}, \textbf{4~(1)}, e25,
   \urlprefix\url{http://doi.org/10.5334/jors.119}.
+
+\bibitem[{Hosler et~al.(1957)Hosler, Jensen, and Goldshlak}]{Hosler1957}
+Hosler, C.~L., D.~C. Jensen, and L.~Goldshlak, 1957: On the aggregation of ice
+  crystals to form snow. \textit{Journal of Meteorology}, \textbf{14~(5)},
+  415--420, \doi{10.1175/1520-0469(1957)014<0415:OTAOIC>2.0.CO;2},
+  \urlprefix\url{https://doi.org/10.1175/1520-0469(1957)014<0415:OTAOIC>2.0.CO;2}.
 
 \bibitem[{Hubbert and Pratte(2006)}]{Hubbert2006}
 Hubbert, J. and F.~Pratte, 2006: {D}ifferential {R}eflectivity {C}alibration
@@ -73,8 +84,8 @@ Silverman, B.~W., 1986: \textit{Density {E}stimation for {S}tatistics and
   {D}ata {A}nalysis}, Vol.~26. Chapman and Hall, 176 pp.
 
 \bibitem[{Torres and Curtis(2007)}]{Torres2007}
-Torres, S. and C.~Curtis, 2007: Initial {I}mplementation of
-  {S}uper-{R}esolution {D}ata on the {NEXRAD} {N}etwork. \textit{23rd Conf. on
+Torres, S. and C.~Curtis, 2007: \textit{Initial {I}mplementation of
+  {S}uper-{R}esolution {D}ata on the {NEXRAD} {N}etwork}, \textit{23rd Conf. on
   IIPS}, San Antonio, TX, Amer. Meteor. Soc., 5B.10,
   \urlprefix\url{https://ams.confex.com/ams/87ANNUAL/techprogram/paper_116240.htm}.
 
@@ -88,9 +99,9 @@ Zhang, J., et~al., 2016: Multi-radar multi-sensor (mrms) quantitative
 \bibitem[{Zittel et~al.(2015)Zittel, Lee, Cunningham, Schultz, and
   Ice}]{Zittel2015}
 Zittel, W.~D., R.~R. Lee, L.~M. R. J.~G. Cunningham, J.~Schultz, and R.~L. Ice,
-  2015: {G}eographical and {S}easonal {A}vailability of {L}ight {R}ain, {D}ry
-  {S}now, and {B}ragg {S}catter to {E}stimate {WSR-88D} $z_{DR}$ {S}ystem
-  {B}ias. \textit{31st Conf. on EIPT}, Phoenix, AZ, Amer. Meteor. Soc., 11.2,
+  2015: \textit{{G}eographical and {S}easonal {A}vailability of {L}ight {R}ain,
+  {D}ry {S}now, and {B}ragg {S}catter to {E}stimate {WSR-88D} $Z_{DR}$ {S}ystem
+  {B}ias}, \textit{31st Conf. on EIPT}, Phoenix, AZ, Amer. Meteor. Soc., 11.2,
   \urlprefix\url{https://ams.confex.com/ams/95Annual/webprogram/Paper265374.html}.
 
 \bibitem[{Zrnic et~al.(2006)Zrnic, Melnikov, and Carter}]{Zrnic2006}

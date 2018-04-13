@@ -1,71 +1,99 @@
 \chapter{Chapter Four}
 \section{Discussion}
-The number of cases with biased versus unbiased $Z_{DR}$ at CWKR was evenly split, with five each.
+It has been shown that the constrained $Z_{DR}$ datasets allow biases to be calculated, then allowing hydrometeor type to be inferred. Now, statistics can be compiled, and the probable source of the bias addressed.
 \subsection{Diagnosing $Z_{DR}$ Bias}
-\subsubsection{$Z_{DR}$ Statistics}
-The unbiased cases are given in Table \ref{unbiased}.
-\begin{table}[h]
-    \caption{Statistics of cases with unbiased $Z_{DR}$, using the KDE > 2 constrained $Z_{DR}$ dataset.}\label{unbiased}
+The source of the bias could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Figure \ref{fig:ideal_beam} shows the drastic differences in beam volume, especially closer to CWKR. As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater than unbiased cases. 
+Another result that supports this is found by comparing the range of $Z_{DR}$ values present in each case. As shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger range of values than unbiased. 
+\begin{table}[H]
+    \caption{Comparing depth and intensity of unbiased and biased cases}\label{diagnosebias}
     \begin{center}
-    \begin{tabular}{|l|c|c|c|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|}
     \hline
-     &
-    \multicolumn{4}{|c|}{CWKR $Z_{DR}$ (dB)} &
-    \multicolumn{3}{|c|}{KBUF $Z_{DR}$ (dB)} \\
+    \multicolumn{4}{|c|}{Unbiased Events} \\
     \hline
-     Event & Bias & Min & Max & Range & Bias & Min & Max & Range\\
+     Event & Echo Top (km) & CWKR Mean $Z_{eH}$ (dBZ) & KBUF Mean $Z_{eH}$ (dBZ)\\
     \hline\hline
-    2014-01-18 & -0.10 & 0.19 & 0.5 & 0.31 & -0.40 & 0.21 & 0.65 & 0.44 \\
+    2014-01-18 & 2.4 & 10 & 11 \\
     \hline
-    2014-01-23 & -0.06 & 0.00 & 0.19 & 0.19 & -0.40 & -0.04 & 0.34 & 0.38\\
+    2014-01-23 & 1.9 & 14 & 14 \\
     \hline
-    2015-01-06 &  0.00  & 0.44  & 0.62  & 0.18 & 0.41 & 0.66 & 0.25 \\
+    2015-01-06 & 0.5 & 11 & 8 \\
     \hline
-    2015-01-07 & -0.04  & 0.13  & 0.44  & 0.32 & -0.01 & 0.61 & 0.62 \\ 
+    2015-01-07 & 3.2 & 18 & 17 \\ 
     \hline
-    2016-02-10 & -0.06  & -0.06  & 0.06  & 0.12 &-0.02 & 0.10 & 0.12  \\ 
+    2016-02-10 & 1.9 & 12 & 15 \\ 
     \hline\hline
-    Mean & -- & 0.14 & 0.36 & 0.22 & 0.11 & 0.47 & 0.362 \\
+    Mean & 2.0 & 13 & 13\\
+    \hline
+    \multicolumn{4}{|c|}{Biased Events} \\
+    \hline\hline
+    2014-02-01 & 4.3 & 17 & 18\\
+    \hline
+    2015-02-06 & 3.9 & 19 & 16\\
+    \hline
+    2015-02-14 & 2.1 & 14 & 11\\
+    \hline
+    2015-02-18 & 1.9 & 17 & 16\\ 
+    \hline
+    2016-12-15 & 3.5 & 13 & 14  \\ 
+    \hline\hline
+    Mean & 3.1 & 16 & 15 \\
     \hline
     \end{tabular}
     \end{center}
 \end{table}
-The biased cases are given in Table \ref{biased}.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{ideal_beam}
+\caption{Gate-by-gate idealized beam volume comparison between radars, assuming a Gaussian beam function for both.} 
+\label{fig:ideal_beam}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{bias_range}
+\caption{Comparison of the range of $Z_{DR}$ (max-min) values observed for each case, with biased cases depicted with yellow trianges and unbiased as green dots.} 
+\label{fig:bias_range}
+\end{figure}
+\subsection{$Z_{DR}$ Statistics}
+The unbiased cases are given in Table \ref{eventcompare}.
 \begin{table}[h]
-    \caption{Statistics of cases with biased $Z_{DR}$, using the KDE $ \geq 2$ constrained $Z_{DR}$ dataset.}\label{biased}
+    \caption{$Z_{DR}$ Statistics, comparing synoptic and lake-effect events}\label{eventcompare}
     \begin{center}
-    \begin{tabular}{|l|c|c|c|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+    \hline 
+    \multicolumn{9}{|c|}{Synoptic Events} \\
     \hline
      &
     \multicolumn{4}{|c|}{CWKR $Z_{DR}$ (dB)} &
     \multicolumn{4}{|c|}{KBUF $Z_{DR}$ (dB)} \\
     \hline
-     Event & Bias & Min & Max & Range & Bias & Min & Max & Range\\
+     Event & Min & Mean & Max & Range & Min & Mean & Max & Range\\
     \hline\hline
-    2014-02-01 & 0.22 & 0.25 & 0.69 & 0.44 & -0.20 &-0.05 & 0.51 & 0.56 \\
+    2014-01-18 & 0.2 & 0.3 & 0.5 & 0.3 & 0.2 & 0.4 & 0.7 & 0.5 \\
     \hline
-    2015-02-06 & 0.28 & 0.25 & 0.56 & 0.31 & -0.10 & -0.12 & 0.37 & 0.49\\
+    2014-02-01 & 0.0 & 0.2 & 0.5 & 0.5  & 0.0 & 0.5 & 0.5 & 0.5 \\    
     \hline
-    2015-02-14 & 0.38 & 0.31  & 0.75  & 0.44 & -0.10 & -0.09 & 0.41 & 0.50 \\
+    2015-01-07 & 0.1 & 0.3 & 0.4 & 0.3 & 0.0 & 0.3 & 0.6 & 0.6 \\ 
     \hline
-    2015-02-18 & 0.30 & 0.44  & 0.81  & 0.37 & -0.10 & -0.09 & 0.66 & 0.75 \\ 
+    2015-02-06 & 0.0 & 0.1 & 0.3 & 0.3 & -0.1 & 0.1 & 0.4 & 0.5\\
     \hline
-    2016-12-15 & -0.47 & -0.25  & 0.12  & 0.37 & -0.40 & -0.25 & 0.45 & 0.70  \\ 
+    2016-12-15 & 0.2 & 0.3 & 0.6 & 0.4 & -0.3 & 0.4 & 0.5 & 0.8  \\ 
+    \hline 
+    Mean  & 0.1 & 0.3 & 0.5 & 0.4 & 0.0 & 0.3 & 0.5 & 0.5 \\
+    \hline
+    \multicolumn{9}{|c|}{Lake-Effect Events} \\
     \hline\hline
-    Mean & -- & 0.20 & 0.59 & 0.39 & -- & -0.12 & 0.48 & 0.60 \\
+    2014-01-23 & 0.0 & 0.1 & 0.2 & 0.2 & 0.0 & 0.2 &0.3 & 0.3\\
+    \hline
+    2015-01-06  & 0.4 & 0.5 & 0.6  & 0.2 & 0.4 & 0.5 & 0.7 & 0.3 \\
+    \hline
+    2015-02-14 & -0.1 & 0.2 & 0.4  & 0.5 & -0.1 & 0.1 & 0.4 & 0.5 \\
+    \hline
+    2015-02-18 & 0.1  & 0.3 & 0.5 & 0.4  & -0.1 & 0.3 & 0.7 & 0.8 \\ 
+    \hline
+    2016-02-10  & -0.1 & 0.0 & 0.1 & 0.2 &  0.0 & 0.0 & 0.1 & 0.1  \\ 
+    \hline\hline
+    Mean & 0.1 & 0.2 & 0.4 & 0.3 & 0.0 & 0.2 & 0.4 & 0.4  \\
     \hline
     \end{tabular}
     \end{center}
 \end{table}
-\begin{figure}[H]
-\includegraphics[width=\textwidth]{bias_range}
-\caption{Blah} 
-\label{fig:bias_compare}
-\end{figure}
-\subsubsection{Beam Volume Differences}
-The source of the bias could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. \citep{Ryzhkov2007} found a similiar result to this, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. 
-\begin{figure}[H]
-\includegraphics[width=\textwidth]{ideal_beam}
-\caption{Blah} 
-\label{fig:bias_compare}
-\end{figure}

@@ -23,25 +23,34 @@
 \contentsline {section}{\numberline {3.1}Event Comparisons}{15}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}18 January 2014 - Synoptic}{15}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}23 January 2014 - Lake-Effect}{18}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}1 February 2014 - Synoptic}{21}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}1 February 2014 - Synoptic}{22}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}6 January 2015 - Lake-Effect}{24}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}7 January 2015 - Synoptic}{26}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}6 February 2015 - Synoptic}{29}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}14 February 2015 - Lake-Effect}{31}{subsection.3.1.7}
-\contentsline {subsection}{\numberline {3.1.8}18 February 2015 - Lake-Effect}{34}{subsection.3.1.8}
-\contentsline {subsection}{\numberline {3.1.9}10 February 2016 - Lake-Effect}{36}{subsection.3.1.9}
-\contentsline {subsection}{\numberline {3.1.10}15 December 2016 - Synoptic}{39}{subsection.3.1.10}
-\contentsline {section}{\numberline {3.2}$Z_{eH}$ Subset Comparisons}{42}{section.3.2}
-\contentsline {section}{\numberline {3.3}KDE Constrained $Z_{DR}$}{43}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Unbiased $Z_{DR}$ Cases}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.1.5}7 January 2015 - Synoptic}{27}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}6 February 2015 - Synoptic}{30}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}14 February 2015 - Lake-Effect}{32}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}18 February 2015 - Lake-Effect}{35}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}10 February 2016 - Lake-Effect}{37}{subsection.3.1.9}
+\contentsline {subsection}{\numberline {3.1.10}15 December 2016 - Synoptic}{40}{subsection.3.1.10}
+\contentsline {section}{\numberline {3.2}$Z_{eH}$ Subset Comparisons}{43}{section.3.2}
+\contentsline {section}{\numberline {3.3}KDE Constrained $Z_{DR}$}{44}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Unbiased $Z_{DR}$ Cases}{44}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}18 January 2014}{44}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}23 January 2014}{44}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}6 January 2015}{46}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}7 January 2015}{47}{subsubsection.3.3.1.4}
+\contentsline {subsubsection}{\numberline {3.3.1.5}10 February 2016}{47}{subsubsection.3.3.1.5}
 \contentsline {subsection}{\numberline {3.3.2}Biased $Z_{DR}$ Cases}{48}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Chapter Four}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discussion}{53}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Diagnosing $Z_{DR}$ Bias}{53}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}$Z_{DR}$ Statistics}{53}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Beam Volume Differences}{55}{subsubsection.4.1.1.2}
-\contentsline {chapter}{\numberline {A}Appendix A}{57}{appendix.A}
-\contentsline {section}{\numberline {A.1}Upper-Air Charts}{57}{section.A.1}
-\contentsline {section}{\numberline {A.2}Skew-T Charts}{57}{section.A.2}
-\contentsline {section}{\numberline {A.3}Sounding Climatology}{57}{section.A.3}
-\contentsline {chapter}{Bibliography}{79}{figure.caption.87}
+\contentsline {subsubsection}{\numberline {3.3.2.1}1 February 2014}{48}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}6 February 2015}{49}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}14 February 2015}{50}{subsubsection.3.3.2.3}
+\contentsline {subsubsection}{\numberline {3.3.2.4}18 February 2015}{51}{subsubsection.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.2.5}15 December 2016}{52}{subsubsection.3.3.2.5}
+\contentsline {chapter}{\numberline {4}Chapter Four}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discussion}{54}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Diagnosing $Z_{DR}$ Bias}{54}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}$Z_{DR}$ Statistics}{57}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {A}Appendix A}{59}{appendix.A}
+\contentsline {section}{\numberline {A.1}Upper-Air Charts}{59}{section.A.1}
+\contentsline {section}{\numberline {A.2}Skew-T Charts}{59}{section.A.2}
+\contentsline {section}{\numberline {A.3}Sounding Climatology}{59}{section.A.3}
+\contentsline {chapter}{Bibliography}{81}{figure.caption.87}

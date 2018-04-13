@@ -1,4 +1,4 @@
-%%
+\%%
 %% This is file `ametsoc_V2.bst',
 %% generated with the docstrip utility.
 %%
