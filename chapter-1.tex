@@ -15,7 +15,7 @@ First, it is important to provide some background on the weather radar moments t
 The convention for representing these moments symbolically hereafter is lower-case subscript for linear units and upper-case subscript for logarithmic units,
 i.e. $Z_{DR}$ is logarithmic while $Z_{dr}$ is linear.
 \subsection{Radar Locations}
-In Canada, there is one active C-band weather radar with dual-pol capabilities. It is located north of Toronto, in King City, with rest of the network is
+In Canada, there is one active C-band weather radar with dual-pol capabilities. It is located north of Toronto, in King City, while the rest of the network is
 currently undergoing an upgrade to polarimetric S-Band. Its neighbor to the south, KBUF, was upgraded to dual-pol in 2012 as part of a network wide upgrade. 
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{map}
@@ -69,8 +69,8 @@ $\rho_{hv}$ in Equation \ref{eq:rhohv}, as defined by \citet{Ryzhkov2007b}.
 \rho_{hv} = \frac{\langle{S_{vv}{S_{hh}}^{*}\rangle}}{\sqrt{\langle{{S_{hh}}^{2}\rangle}\langle{{S_{vv}}^{2}\rangle}}}
 \end{equation}
 \subsubsection{Interpretations of $\rho_{hv}$ in Snow}
-Contamination from clutter and other non-meteorological targets can be achieved by using a $\rho_{hv}$ threshold of 0.95, as suggested by \citet{Straka2000}.
-Using this threshold can also be used to avoid non-Rayleigh scatters, which becomes a bigger problem at C-Band wavelengths \citet{Fabry2015}.
+Contamination from clutter and other non-meteorological targets can be filtered by using a $\rho_{hv}$ threshold of 0.95, as suggested by \citet{Straka2000}.
+Using this threshold can also be used to avoid Mie scatters, which becomes a bigger problem at C-Band wavelengths \citet{Fabry2015}.
  
 
 
