@@ -123,15 +123,15 @@ Several gate filters were use to ensure the highest data quality possible. Gates
 \section{Advanced Statistical Techniques}
 Scatter plots directly comparing grid cells produced by the distance-weighting scheme are used in this study. This section discusses how advanced statistical
 techniques were leveraged to derive the most information from these plots, and also reduce the error intrinsic to the variables for quantitative analysis.
-\subsection{Kernel Density Estimation}
-Both radar datasets contain a similiar in magnitude, yet unquantifiable amount of and measurement and analysis error. Furthermore, scatter-plots containing on the order of $10^5$ points become overwhelming to visually analyze. To solve this problem, a Kernel Density Estimation (KDE) technique is used. A 2-D KDE is essentially a way to estimate the joint probability density function of two random variables \citep{Silverman1986}. Figure \ref{fig:synthetic_KDE} demonstrates how this is achieved graphically, by first assigning each individual data point a Gaussian kernel, then performing a summation over all points. The units of the KDE can be thought of as a likelihood ratio. Furthermore, the units are normalized by the matrix in Equation \ref{eq:norm_kde}, where \textbf{X} represents a 2-D histogram of the matched cells, $n$ is the number of matched cells, and $R$ is the histogram bin resolution, which matches the native data resolution.
+\subsection{Bi-Variate Kernel Density Estimation}
+Both radar datasets contain a similiar amount of measurement and analysis error. Furthermore, scatter-plots containing on the order of $10^5$ points become overwhelming to visually analyze. To solve this problem, a bi-variate Kernel Density Estimation (KDE) technique is used. A 2-D KDE is a way to estimate the joint probability density function of two random variables \citep{Silverman1986}. Figure \ref{fig:synthetic_KDE} demonstrates the motivation and first step in this process, by first creating a 2-D histogram of the data. Each data point is then assigned a Gaussian kernel, and then these individuals kernels are summed. The sum of the kernels is then convolved with the histogram, and normalized according to Equation \ref{norm_kde}. In this equation, \textbf{K} and \textbf{C} are vectors representing the observations made at KBUF and CWKR, respectively. Furthermore, $n$ is the number of matched points, and $R$ is the histogram bin resolution, which matches the native data resolution. The units of the KDE can be thought of as a likelihood ratio.
 \begin{equation}\label{eq:norm_kde}
-\mathbf{N}_{i,j} = n * R^{2} * \sqrt{\mathrm{Det} \vert 2\pi * \mathrm{Cov}(\mathbf{X_{i}},\mathbf{X_{j}}) * n^{-1/6} \vert}
+\mathbf{N} = n * R^{2} * \sqrt{\mathrm{Det} \vert 2\pi * \mathrm{Cov}(\mathbf{K}},\mathbf{C}}) * n^{-1/6} \vert}
 \end{equation}
 \begin{figure}
-\includegraphics[scale=0.1]{Synthetic_data_2D_KDE}\centering
-\caption{Illustration of the construction of 2D kernel density estimates. (Left) data points with individual kernels as grey dashed lines, (right) summed kernels = kernel density estimate.} 
-\label{fig:synthetic_KDE}
+\includegraphics[width=\textwidth]{KDE_example}\centering
+\caption{First step in constructing a bi-variate kernel density estimate. Scatter-plot of matched points illustrating the high density of the points (left). The total of points in this figure are 147,457. 2-D histogram of the same matched points, binned to native data resolution (right).} 
+\label{fig:KDE_example}
 \end{figure}
 
 \subsection{Orthonormal Linear Regression}
