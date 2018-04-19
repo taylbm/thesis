@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -50,6 +50,12 @@ Hubbert, J. and F.~Pratte, 2006: {D}ifferential {R}eflectivity {C}alibration
   Remote Sensing}, 519--522,
   \urlprefix\url{https://doi.org/10.1109/IGARSS.2006.138}.
 
+\bibitem[{Keränen et~al.(2008)Keränen, Ylläsjärvi, Jr., and Selzler}]{WMO2008}
+Keränen, R., J.~Ylläsjärvi, R.~P. Jr., and J.~Selzler, 2008: \textit{Comparison
+  of polarimetric C band Doppler radar observations with reflectivity fields
+  obtained at S band; a case study of water induced attenuation},
+  \urlprefix\url{https://www.wmo.int/pages/prog/www/IMOP/publications/IOM-96_TECO-2008/1(12)_Keranen_Finland.pdf}.
+
 \bibitem[{Markovsky and Huffel(2007)}]{Markovsky2007}
 Markovsky, I. and S.~V. Huffel, 2007: Overview of total least-squares methods.
   \textit{Elsevier BV},
@@ -63,11 +69,31 @@ Mulholland, J.~P., J.~Frame, S.~W. Nesbitt, S.~M. Steiger, K.~A. Kosiba, and
   \textit{Monthly Weather Review}, \textbf{145~(8)}, 3265--3291,
   \urlprefix\url{https://doi.org/10.1175/MWR-D-16-0430.1}.
 
+\bibitem[{Orlanski(1975)}]{Orlanski1975}
+Orlanski, I., 1975: A rational subdivision of scales for atmospheric processes.
+  \textit{Bulletin of the American Meteorological Society}, \textbf{56~(5)},
+  527--530, \urlprefix\url{http://www.jstor.org/stable/26216020}.
+
 \bibitem[{Pauley and Wu(1990)}]{Pauly1990}
 Pauley, P.~M. and X.~Wu, 1990: The theoretical, discrete, and actual response
   of the barnes objective analysis scheme for one- and two-dimensional fields.
   \textit{Mon.\ Wea.\ Rev.}, \textbf{118~(5)}, 1145--1164,
   \urlprefix\url{http://doi.org/10.1175/1520-0493(1990)118<1145:TTDAAR>2.0.CO;2}.
+
+\bibitem[{Petersen et~al.(2007)Petersen, Knupp, Cecil, and
+  Mecikalski}]{Petersen2007}
+Petersen, W.~A., K.~R. Knupp, D.~J. Cecil, and J.~R. Mecikalski, 2007:
+  \textit{{T}he {U}niversity of {A}labama {H}untsville {THOR} {C}enter
+  {I}nstrumentation: {R}esearch and {O}perational {C}ollaboration},
+  \textit{33rd Intl. Conf. on Radar Met.}, Cairns, Australia, Amer. Meteor.
+  Soc., 5.1,
+  \urlprefix\url{https://ams.confex.com/ams/33Radar/techprogram/paper_123410.htm}.
+
+\bibitem[{Probert{-}Jones(1962)}]{Probert1962}
+Probert{-}Jones, J.~R., 1962: The radar equation in meteorology.
+  \textit{Quarterly Journal of the Royal Meteorological Society},
+  \textbf{88~(378)}, 485--495,
+  \urlprefix\url{https://doi.org/10.1002/qj.49708837810}.
 
 \bibitem[{Rogers and Yau(1989)}]{Rogers1989}
 Rogers, R. and M.~Yau, 1989: \textit{A Short Course in Cloud Physics}, Vol.

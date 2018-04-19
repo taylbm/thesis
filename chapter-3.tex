@@ -33,12 +33,11 @@ tenuous everywhere but in the heaviest showers.
 To investigate further, we examine a scatter-plot directly comparing matched values between radars.
 Artifacts are present in both moments in Figure
 \ref{fig:scatter_20140118}, indicated by evenly spaced vertical lines; these indicate an anomaly
-originating from the axis of which they are normal to. For
+originating from the axis the lines are normal to. These anomalies are likely related to the transmit and receive errors KBUF reported throughout the month of January 2014, i.e. calibration issues. For
 $Z_{eH}$, Figure \ref{fig:scatter_ref_20140118} shows that artifacts are no longer present for values
 greater than 15 dBZ, which indicates that a
 stronger weather signal leads to better matching. On the contrary, Figure \ref{fig:scatter_zdr_20140118}
-shows that for $Z_{DR}$, artifacts are present throughout. Also, the distribution of $Z_{DR}$ is unimodal. 
-
+shows that for $Z_{DR}$, artifacts are present throughout. Also, the distribution of $Z_{DR}$ is unimodal, which indicates one predominant hydrometeor type. 
 \begin{figure}[H]
 \centering
    \begin{subfigure}[t]{0.48\linewidth}
@@ -52,17 +51,15 @@ shows that for $Z_{DR}$, artifacts are present throughout. Also, the distributio
 \caption{Direct comparisons for 18 January 2014. Dataset includes all admitted grid cells.} \label{fig:scatter_20140118}
 \end{figure}
 
-It is still possible to extract a signal from the noise though, by only including data points with a
-normalized kernel density estimate greater than or equal to two. These points are used to resolve the bias present in
+It is still possible to extract a signal from the noise and calibration issues, by subjectively selecting a KDE threshold of 2. Points with KDE $< 2$ are discarded, then the constrained set is used to resolve the bias present in
 $Z_{DR}$, as suggested by the comparisons. Figure \ref{fig:hist_20140118} gives an estimate of the
-bias at CWKR by using this method and the known bias at KBUF as provided by the NEXRAD
-External Target Bias Estimation technique. This method yields a median of -0.095 dB for the bias at CWKR, which when
-considered with the error threshold of $\pm$0.1 dB, indicates no discernible bias.
+bias at CWKR by using the known bias at KBUF as provided by the NEXRAD
+External Target Bias Estimation technique. This method yields a median of -0.095 dB for the bias at CWKR, which is within the error threshold of $\pm$0.1 dB, indicating no discernible bias.
 
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140118}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. } 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20140118}
 \end{figure}
 
@@ -82,24 +79,13 @@ $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. }
 
 \subsection{23 January 2014 - Lake-Effect}
 A positively tilted longwave trough dominates the eastern third of Canada during this event, with NW
-winds at 850mb and SW winds at the surface. This light flow pattern yields the single, heavy
+winds at 850mb and SW winds at the surface. This light flow pattern yields a single, heavy
 band depicted in Figure \ref{fig:grid_ref_20140123}, colloquially referred to as ``tea-kettle'' lake-effect
 snow. There is also a background stream of very light lake-effect snow impinging from Lake Erie.
 Spatial banding patterns of the lake-effect snow in the time-averaged $Z_{eH}$ fields as compared 
-between the radars are remarkably similar. The difference between the grid mean values are within only
-0.13 dBZ. In contrast, the $Z_{DR}$ comparison indicates that
-although the fields are similiar in their heterogeniety, the spatial matching between the two is tenuous
-everywhere but in the heaviest showers. An speckled pattern is also imparted on the $Z_{DR}$ fields
-by the light snow from Lake Erie, evident in Figure \ref{fig:grid_zdr_20140123}. The scatter-plot in Figure \ref{fig:scatter_ref_20140123} shows an analysis
-free of artifacts, and good agreement on average between radars. Although the agreement in $Z_{eH}$ between radars as
-indicated by the orthonormal regression is acceptable, the chi-square
-statistic indicates a high error variance. A slightly bi-modal distribution of $Z_{DR}$ is shown in 
-Figure \ref{fig:scatter_ref_20140123}, with the main peak near 0 dB and a secondary peak near 0.5 dB, with artifacts much more prevalent near the secondary
-peak. Both analysis methods have indicated a bias in $Z_{DR}$, so the
-kernel density method for estimating bias is used. Figure \ref{fig:hist_20140123} shows an estimate of
-the bias at CWKR, with a median value of -0.055 dB. Once again, no discernible bias exists outside of the error
-threshold of $\pm$0.1 dB for this event.
-
+between the radars are remarkably similar. The difference between the grid mean values is only
+0.13 dBZ. Comparing $Z_{DR}$ fields in Figure \ref{fig:grid_zdr_20140123}, the spatial matching is good, but a clear bias exists. Also, a speckled pattern is imparted on the $Z_{DR}$ fields
+by the light snow from Lake Erie. 
 \begin{figure}[H]
 \centering
    \begin{subfigure}[t]{0.48\linewidth} \centering
@@ -113,11 +99,20 @@ threshold of $\pm$0.1 dB for this event.
 \caption{Direct comparisons for 23 January 2014. Dataset includes all admitted grid cells.}
 \label{fig:scatter_20140123}
 \end{figure}
-
+The scatter-plot in Figure \ref{fig:scatter_ref_20140123} shows an analysis
+free of artifacts, and good agreement on average between radars. Although the agreement in $Z_{eH}$ between
+radars as indicated by the orthonormal regression is acceptable, the $\chi_\nu^{2}$
+statistic indicates a high error variance. A slightly bi-modal distribution of $Z_{DR}$ is shown in 
+Figure \ref{fig:scatter_ref_20140123}, with the main peak near 0 dB and a secondary peak near 0.5 dB, with
+artifacts much more prevalent near the secondary
+peak. Both analysis methods have indicated a bias in $Z_{DR}$, so the
+KDE constrainment method is used to estimate. Figure \ref{fig:hist_20140123} gives an estimate of
+the bias at CWKR, with a median value of -0.055 dB. Once again, no discernible bias exists outside of the error
+threshold of $\pm$0.1 dB for this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140123}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. } 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red. } 
 \label{fig:hist_20140123}
 \end{figure}
 
@@ -126,22 +121,21 @@ This event is characterized by strong SW flow aloft, with above average moisture
 widespread stratiform snow, with an eventual transition to rain outside of the time interval selected.
 A large swath of steady snow is depicted by the time-averaged $Z_{eH}$ in Figure \ref{fig:grid_ref_20140201}. 
 Furthermore, Figure \ref{fig:grid_zdr_20140201} shows smoother $Z_{DR}$
-fields as compared with other events, which confirms the stratiform nature of the precipitation. Next, Figure \ref{fig:scatter_ref_20140201} indicates very
-good agreement in $Z_{eH}$ with low error variance, while Figure \ref{fig:scatter_zdr_20140201} shows a very dense uni-modal, biased kernel for $Z_{DR}$. The
-histogram in Figure \ref{fig:hist_20140201} reveals that the anomalous bias between the radars is indicative of a $Z_{DR}$ bias at CWKR, with a value of
-0.217 dB. The source of this bias will be discussed in the next chapter.
-
-\begin{figure}[H]
+fields as compared with other events, which confirms the stratiform nature of the precipitation. 
+\begin{figure}[p]
 \includegraphics[width=\textwidth]{grid/ref/20140201}
 \caption{Gridded $Z_{eH}$ comparison for 1 February 2014. Time-average of all admitted scans.} 
 \label{fig:grid_ref_20140201}
 \end{figure}
-
-\begin{figure}[H]
+\begin{figure}[p]
 \includegraphics[width=\textwidth]{grid/zdr/20140201}
 \caption{Gridded $Z_{DR}$ comparison for 1 February 2014. Time-average of all admitted scans.} 
 \label{fig:grid_zdr_20140201}
 \end{figure}
+Next, Figure \ref{fig:scatter_ref_20140201} indicates very
+good agreement in $Z_{eH}$ with low error variance, while Figure \ref{fig:scatter_zdr_20140201} shows a very dense uni-modal kernel for $Z_{DR}$. The
+histogram in Figure \ref{fig:hist_20140201} reveals that the anomalous bias between the radars is indicative of a $Z_{DR}$ bias at CWKR, with a value of
+0.217 dB. The source of this bias will be discussed in the next chapter.
 
 \begin{figure}[H]
 \centering
@@ -159,27 +153,26 @@ histogram in Figure \ref{fig:hist_20140201} reveals that the anomalous bias betw
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140201}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20140201}
 \end{figure}
 
 \subsection{6 January 2015 - Lake-Effect}
-A highly zonal, NW flow aloft is present in this case, a typical pattern for lake-effect snow across the Great Lakes region. Anemic in radar appearance, a
+A highly zonal, NW flow aloft is present in this case, a typical pattern for lake-effect snow across the Great Lakes region. Narrow in radar appearance, a
 lake-effect band develops in the light winds near the surface; this case could be characterized as a weak ``tea-kettle'' event. Figure
 \ref{fig:grid_ref_20150106} depicts stationary banding in the time-averaged $Z_{eH}$. Of note is that CWKR observes more of the finer scale features as
 compared with KBUF, also evidenced by the +2.9 dBZ difference in $Z_{eH}$ mean. 
-\begin{figure}[H]
-\includegraphics[width=\textwidth]{grid/ref/20150106}
-\caption{Gridded $Z_{eH}$ comparison for 6 January 2015. Time-average of all admitted scans.} 
-\label{fig:grid_ref_20150106}
-\end{figure}
 This case stands out from the rest in terms of $Z_{DR}$, as the fields are
 very similiar and unbiased as shown in Figure \ref{fig:grid_zdr_20150106}. The scatter-plot in Figure
 \ref{fig:scatter_ref_20150106} confirms what is shown in the gridded $Z_{eH}$, with values skewed higher for CWKR. Figure \ref{fig:scatter_zdr_20150106}
 shows a bi-modal distribution for $Z_{DR}$, with the
 main peak around 0.5 dB and a secondary peak near 0 dB. The histogram in Figure
-\ref{fig:hist_20150106} confirms the observed unbiased $Z_{DR}$, with a near zero median value of 0.003 dB.
-
+\ref{fig:hist_20150106} confirms the observed unbiased $Z_{DR}$, with a nearly zero median value of 0.003 dB.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{grid/ref/20150106}
+\caption{Gridded $Z_{eH}$ comparison for 6 January 2015. Time-average of all admitted scans.} 
+\label{fig:grid_ref_20150106}
+\end{figure}
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr/20150106}
@@ -203,16 +196,16 @@ main peak around 0.5 dB and a secondary peak near 0 dB. The histogram in Figure
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150106}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20150106}
 \end{figure}
 
 \subsection{7 January 2015 - Synoptic}
 Less than 24 hours after the previous event, the zonal flow has buckled and a strong shortwave is overhead Southern Ontario. Radar animations indicate a
-frontally forced band of snow showers. Figure \ref{fig:grid_ref_20150107} shows the solid band of snow progressed from mid-lake southward, with similiar
+frontally forced band of snow showers. Figure \ref{fig:grid_ref_20150107} shows the solid band of snow extended from mid-lake southward, with similiar
 depictions of $Z_{eH}$ between radars. Inspection of the scatter-plot in Figure \ref{fig:scatter_ref_20150107} indicates good agreement with reasonable error
 variance, while Figure \ref{fig:scatter_zdr_20150107} shows a uni-modal distribution of $Z_{DR}$ with a relatively dense kernel.
-Meanwhile, Figure \ref{fig:grid_zdr_20150107} shows two heterogenous fields, especially noisy in areas of light returns. 
+Meanwhile, Figure \ref{fig:grid_zdr_20150107} shows two non-linear fields, especially noisy in areas of light returns. 
 Estimating the bias at CWKR, the histogram in Figure \ref{fig:hist_20150107} gives a median value of -0.040 dB. This indicates that no discernible bias
 exists outside of the error threshold of $\pm$0.1 dB for this event.
 
@@ -243,31 +236,29 @@ exists outside of the error threshold of $\pm$0.1 dB for this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150107}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20150107}
 \end{figure}
 
 \subsection{6 February 2015 - Synoptic}
-With a strong ridge centered over the SW US, Southern Ontario is on the backside of a progressive shortwave, with a frontal passage occuring once again. A
+With a strong ridge centered over the SW US, Southern Ontario is on the backside of a progressive shortwave, with a radar animations indicating the passage of a front once again. A
 broad swath of snow is depicted by the time-averaged $Z_{eH}$ fields in Figure \ref{fig:grid_ref_20150206}, with the CWKR mean value 2 dBZ higher than KBUF.
+Comparing $Z_{DR}$ as shown in Figure \ref{fig:grid_zdr_20150206}, the fields are similiar but slightly biased. Partial beam blockages are noted at CWKR as indicated
+by the stripes in the NE section of grid. Next to the scatter-plots, with Figure \ref{fig:scatter_20150206} indicating a high frequency of points between 15-25 dBZ, a preferred range for comparing $Z_{DR}$ values. Also of note is the high error variance of 9.773 .
+Figure \ref{fig:scatter_zdr_20150206} shows a dense, symmetric kernel with an ill-fitted regression. Proceeding on to the histograms in Figure
+\ref{fig:hist_20150206}, a median bias of 0.283 dB at CWKR is estimated. The source of the bias will be discussed in the next chapter. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/ref/20150206}
 \caption{Gridded $Z_{eH}$ comparison for 6 February 2015. Time-average of all admitted scans.} 
 \label{fig:grid_ref_20150206}
 \end{figure}
-Comparing $Z_{DR}$ as shown in Figure \ref{fig:grid_zdr_20150206}, the fields are similiar but slightly biased. Beam blockages are noted at CWKR as indicated
-by the stripes in the NE section of grid. Next to the scatter-plots, with Figure \ref{fig:scatter_20150206} indicating a high
-frequency of points between 15-25 dBZ, a preferred range for comparing $Z_{DR}$ values. Also of note is the high error variance of 9.773 .
-Figure \ref{fig:scatter_zdr_20150206} shows a dense, symmetric kernel with an ill-fitted regression. Proceeding on to the histograms in Figure
-\ref{fig:hist_20150206}, a median bias of 0.283 dB at CWKR is estimated. The source of the bias will be discussed in the next chapter. 
-
-\begin{figure}[p]
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr/20150206}
 \caption{Gridded $Z_{DR}$ comparison for 6 February 2015. Time-average of all admitted scans.} 
 \label{fig:grid_zdr_20150206}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[H]
 \centering
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/ref/20150206}
@@ -283,12 +274,12 @@ Figure \ref{fig:scatter_zdr_20150206} shows a dense, symmetric kernel with an il
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150206}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20150206}
 \end{figure}
 
 \subsection{14 February 2015 - Lake-Effect}
-While Southern Ontario is bracing for the impact of a bowling-ball like lobe of the polar vortex, strong W to SW flow from the surface to 850mb allows for a prolonged period of lake-effect snow over the lake. From Figure \ref{fig:grid_ref_20150214}, we see again that CWKR resolves the convective scale features of the snow squalls better than KBUF. Horizontal convective rolls are clearly depicted by CWKR, whereas they become muddled by KBUF. Figure \ref{fig:grid_zdr_20150214} shows similiar patterns of $Z_{DR}$, but a large bias exists. The $Z_{eH}$ scatter-plot in Figure \ref{fig:scatter_20150214} shows a dense clustering of points for low values, becoming increasingly skewed towards CWKR as they increase. For $Z_{DR}$, the variance-weighted regression achieves a near perfect reduced chi statistic ($\chi^2_\nu$) of 0.968. The histogram in Figure \ref{fig:hist_20150214} indicates a anomalous bias for this event, with a median value of 0.377 dB.
+As a strong lobe of the polar vortex approaches Southern Ontario, strong W to SW flow from the surface to 850mb allows for a prolonged period of lake-effect snow over the lake. From Figure \ref{fig:grid_ref_20150214}, we see again that CWKR resolves the convective scale features of the snow squalls better than KBUF. Horizontal convective rolls are clearly depicted by CWKR, whereas they become muddled by KBUF. Figure \ref{fig:grid_zdr_20150214} shows similiar patterns of $Z_{DR}$, but a large bias exists. The $Z_{eH}$ scatter-plot in Figure \ref{fig:scatter_20150214} shows a dense clustering of points for low values, becoming increasingly skewed towards CWKR as they increase. For $Z_{DR}$, the variance-weighted regression achieves a near perfect reduced chi-squared statistic ($\chi^2_\nu$) of 0.968. The histogram in Figure \ref{fig:hist_20150214} indicates a anomalous bias for this event, with a median value of 0.377 dB.
 
 \begin{figure}[p]
 \includegraphics[width=\textwidth]{grid/ref/20150214}
@@ -318,7 +309,7 @@ While Southern Ontario is bracing for the impact of a bowling-ball like lobe of 
 \begin{figure}[p]
 \includegraphics[width=0.75\textwidth]{hist/20150214}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20150214}
 \end{figure}
 
@@ -352,7 +343,7 @@ Four days later, The polar vortex has arrived in earnest for this event, with th
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150218}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20150218}
 \end{figure}
 
@@ -399,7 +390,7 @@ this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20160210}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.} 
+$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
 \label{fig:hist_20160210}
 \end{figure}
 
@@ -431,22 +422,18 @@ post-frontal trough manages to squeeze out some passing snow-showers. As indicat
 \caption{Direct comparisons for 15 December 2016. Dataset includes all admitted grid cells.} \label{fig:scatter_20161215}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20161215}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR, determined by subtracting the gridded, bias adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at
-CWKR. Both datasets include only matched points with KDE $\geq 2$. } 
+CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red. } 
 \label{fig:hist_20161215}
 \end{figure}
 
 \section{$Z_{eH}$ Subset Comparisons}
 Now that all the cases have been presented individually, two subsets are created for comparison. The first consists of the five lake-effect events, the
 subset of interest, as compared with the five synoptic events, which act as a control subset.
-A comparison of these subset is shown in Figure \ref{fig:ref_scatter}, with a scatter-plot of KBUF $Z_{eH}$ data versus CWKR on the common grid. Figure
-\ref{fig:ref_synoptic} is the subset of synoptic events while Figure \ref{fig:ref_lake_effect} is the subset of lake-effect events. These results show that
-comparable performance between radars is achieved in lake-effect events. An interesting result is the clustering of points for the range $0 < Z_{eH} < 10$
-dBZ in lake-effect events. This is in contrast with the higher clustering of points in synoptic events, from $10 < Z_{eH} < 25$. This could indicate that
-KBUF is underestimating $Z_{eH}$ in shallow lake-effect events, at the slope of regression is 0.94, as compared with 1.01 for synoptic events.
-
+A comparison of these subsets is shown in Figure \ref{fig:ref_scatter}, with a scatter-plot of KBUF $Z_{eH}$ data versus CWKR on the common grid. Figure
+\ref{fig:ref_synoptic} is the subset of synoptic events while Figure \ref{fig:ref_lake_effect} is the subset of lake-effect events. 
 \begin{figure}[H]
 \centering
    \begin{subfigure}{0.49\linewidth} \centering
@@ -460,12 +447,15 @@ KBUF is underestimating $Z_{eH}$ in shallow lake-effect events, at the slope of 
 \caption{Scatter-plots of CWKR versus KBUF grid analyzed reflectivity, with Kernel Density Estimation shading. The red line is an Orthonormal Linear
 Regression, with a black identity line.} \label{fig:ref_scatter}
 \end{figure}
+These results show that
+comparable performance between radars is achieved in lake-effect events. An interesting result is the clustering of points for the range $0 < Z_{eH} < 10$
+dBZ in lake-effect events. This is in contrast with the higher clustering of points in synoptic events, from $10 < Z_{eH} < 25$. This could indicate that KBUF is underestimating $Z_{eH}$ in shallow lake-effect events, as the slope of regression is 0.94, compared to 1.01 for synoptic events.
 
 \section{KDE Constrained $Z_{DR}$}
-The next step is to demonstrate the usefulness of constraining the datasets with a KDE threshold. Points with KDE $< 2$ are discarded; this level is chosen
+The next step is to demonstrate the utility of constraining the datasets with a KDE threshold. Points with KDE $< 2$ are discarded; this level is chosen
 through subjective analysis of the scatterplots in the previous section. These constrained $Z_{DR}$ datasets represent samples where both radars indicate a
 high likelihood of representing the true bulk hydrometeor type present in any given volume, essentially creating an even playing field between events. An
-inference of the predominant hydrometeor in any given event can then be drawn, based on the range of values found in the constrained set. All cases are
+inference on the predominant hydrometeor in any given event can then be drawn, based on the range of values found in the constrained set. All cases are
 presented in chronological order.
 \subsection{Unbiased $Z_{DR}$ Cases}
 Cases where the calculated $Z_{DR}$ bias at CWKR did not exceed the error threshold of $\pm$ 0.1 dB are presented first, without any bias adjustment made.
@@ -476,7 +466,7 @@ with higher signal-to-noise-ratio (SNR) values. $Z_{DR}$ values closer to 0.50 d
 crystals are present.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20140118}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by only including points
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by only including points
 with a KDE $\geq 2$.}
 \label{fig:grid_zdr_kde_20140118}
 \end{figure}
@@ -485,7 +475,7 @@ The next case in Figure \ref{fig:grid_zdr_kde_20140123} also shows the advantage
 squall is generating dry aggregated snow, with $Z_{DR}$ values in the characteristic range of 0-0.2 dB.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20140123}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by only including points with a
 $KDE \geq 2$.} 
 \label{fig:grid_zdr_kde_20140123}
 \end{figure}
@@ -493,7 +483,7 @@ $KDE \geq 2$.}
 The 6 January 2015 case shown in Figure \ref{fig:grid_zdr_kde_20150106} shows remarkably similiar fields for both variables. This is likely due to the extremely shallow nature of the snow-squall, with a mean max echo top of 0.46 km. Another feature shown is the high amount of points excluded in high $Z_{eH}$ areas,  i.e. inside the 20 dBZ contour. Looking back at Figure \ref{fig:grid_zdr_20150106}, even with very similiar mean values of $Z_{DR}$, CWKR reports much higher values in this area. It is likely that large, spherical aggregates were occurring inside this 20 dBZ contour. As these large particles approach the C-Band wavelength of 5 cm, they could be inducing resonance effects; this type of resonance effect has been observed by \citet{Hassan2017}.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150106}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 January 2014. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 6 January 2014. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$.} 
 \label{fig:grid_zdr_kde_20150106}
 \end{figure}
@@ -501,7 +491,7 @@ KDE $\geq 2$.}
 Once again, as shown in Figure \ref{fig:grid_zdr_kde_20150107}, excellent delineation of precipitating structures is achieved through this method. No obvious pattern emerges within the higher $Z_{DR}$, with values varying tightly around 0.2 dB. Of note are the higher $Z_{DR}$ values on the edge of the heavier precipitation shield as reported by KBUF, with CWKR not reporting these higher values. This could be due to unequal beam broadening between radars.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150107}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 7 January 2014. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 7 January 2014. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$.} 
 \label{fig:grid_zdr_kde_20150107}
 \end{figure}
@@ -510,7 +500,7 @@ KDE $\geq 2$.}
 A much more subtle gradient from filtered to admitted points is present in Figure \ref{fig:grid_zdr_kde_20160210}. $Z_{DR}$ values are right around 0 dB for this case, which indicates spherical aggregates are dominating. This event has the warmest surface temperature, with the 12Z Buffalo sounding reporting $-2.7^{\circ}$ C. Warmer temperatures closer to $0^{\circ}$ C are conducive for this type of aggregation process \citep{Hosler1957}. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20160210}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 10 February 2016. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 10 February 2016. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$.} 
 \label{fig:grid_zdr_kde_20160210}
 \end{figure}
@@ -521,7 +511,7 @@ Cases where the calculated $Z_{DR}$ bias at CWKR exceeded the error threshold of
 The first biased case shown in Figure \ref{fig:grid_zdr_kde_20140201} indicates a bias even after adjustment. This means that the sampling volume differences are large enough to create an uncorrectable bias. Large vertical gradients of hydrometeor shape could explain why this occurred in this case and not others, which is supported by this case having the highest mean max top of 4.3 km. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20140201}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 1 February 2014. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 1 February 2014. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
 \label{fig:grid_zdr_kde_20140201}
 \end{figure}
@@ -530,7 +520,7 @@ KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first sect
 In the next case in Figure \ref{fig:grid_zdr_kde_20150206}, the mean $Z_{DR}$ values are nearly the same, but the patterns of $Z_{eH}$ and $Z_{DR}$ are different and uncorrelated. These differences once again appear to be due to the differences in beam sampling of the deeper clouds present, with a mean max top of 3.9 km. This is also supported by the presence of higher reflectivities near the northern shores of Lake Ontario, as compared with KBUF. In this area the beam height at CWKR is much lower than KBUF.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150206}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 February 2015. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 6 February 2015. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
 \label{fig:grid_zdr_kde_20150206}
 \end{figure}
@@ -539,7 +529,7 @@ KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first sect
 With similiar mean values and patterns of $Z_{DR}$ as shown in Figure \ref{fig:grid_zdr_kde_20150214}, the bias was sucessfully removed in this case. Once again, the differences lie in the reflectivity fields. Looking back at Figure \ref{fig:grid_ref_20150214}, it is seen that CWKR samples a shallow lake-effect band which KBUF overshoots. In terms of predominant hydrometeor type, slightly oblate, dry aggregated snow dominates, with values closer to 0.2 dB than 0 dB. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150214}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
 \label{fig:grid_zdr_kde_20150214}
 \end{figure}
@@ -548,16 +538,16 @@ KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first sect
 In this case, the mean values of $Z_{DR}$ are exactly the same, but the range of values at CWKR are much smaller than KBUF. The root cause of the bias likely comes down to differences in beam volume, with KBUF sampling a larger variation of hydrometeors in its larger volume, while CWKR cuts through the core. In contrast with other biased cases, the $Z_{eH}$ fields are correlated with the $Z_{DR}$ fields in this case. The higher $Z_{DR}$ values present in this case (0.3-0.5 dB) would suggest a mix of pristine crystals with aggregates, with more aggregates present in the main band. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150218}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 February 2015. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 18 February 2015. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
 \label{fig:grid_zdr_kde_20150218}
 \end{figure}
 
 \subsubsection{15 December 2016}
-Finally, the last biased case is presented in Figure \ref{fig:grid_zdr_kde_20161215}. This case has all the makings of an unbiased case, with matching $Z_{eH}$ and $Z_{DR}$ fields. The one difference lies in the main 15 dBZ band, where KBUF includes a 20 dBZ contour, while CWKR does not. This can once again be chalked up to large vertical gradients of hydrometeors, with mean max tops extending up to 3.5 km in this case. Mean $Z_{DR}$ values around 0.4 dB are suggestive of mainly pristine crystals, with aggregation occurring in pockets of heavier cells. This case has a precipitable water value of 1.9 mm, the lowest of all the cases, which reinforces this result.
+Finally, the last biased case is presented in Figure \ref{fig:grid_zdr_kde_20161215}. This case has all the makings of an unbiased case, with matching $Z_{eH}$ and $Z_{DR}$ fields. The main difference lies in the main 15 dBZ band, where KBUF includes a 20 dBZ contour, while CWKR does not. This can once again be explained by large vertical gradients of hydrometeors, with mean max tops extending up to 3.5 km in this case. Mean $Z_{DR}$ values around 0.4 dB are suggestive of mainly pristine crystals, with aggregation occurring in pockets of heavier cells. This case has a precipitable water value of 1.9 mm, the lowest of all the cases, which reinforces this result.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20161215}
-\caption{Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 15 December 2016. $Z_{DR}$ is constrained by only including points with a
+\caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 15 December 2016. $Z_{DR}$ is constrained by only including points with a
 KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.} 
 \label{fig:grid_zdr_kde_20161215}
 \end{figure}

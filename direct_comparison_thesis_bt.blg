@@ -11,47 +11,49 @@ The style file: ametsoc.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty title in Abon2014
+Warning--empty title in WMO2008
+Warning--empty title in Petersen2007
 Warning--empty title in Torres2007
 Warning--empty title in Zittel2015
-You've used 20 entries,
+You've used 24 entries,
             3486 wiz_defined-function locations,
-            1009 strings with 11533 characters,
-and the built_in function-call counts, 18897 in all, are:
-= -- 2041
-> -- 671
-< -- 13
-+ -- 376
-- -- 165
-* -- 1106
-:= -- 2038
-add.period$ -- 37
-call.type$ -- 20
-change.case$ -- 147
-chr.to.int$ -- 20
-cite$ -- 23
-duplicate$ -- 1876
-empty$ -- 1136
-format.name$ -- 231
-if$ -- 3869
+            1043 strings with 12563 characters,
+and the built_in function-call counts, 22352 in all, are:
+= -- 2398
+> -- 791
+< -- 15
++ -- 444
+- -- 195
+* -- 1311
+:= -- 2422
+add.period$ -- 43
+call.type$ -- 24
+change.case$ -- 175
+chr.to.int$ -- 24
+cite$ -- 29
+duplicate$ -- 2221
+empty$ -- 1361
+format.name$ -- 269
+if$ -- 4572
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 214
-newline$ -- 70
-num.names$ -- 80
-pop$ -- 855
+missing$ -- 256
+newline$ -- 82
+num.names$ -- 96
+pop$ -- 1030
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 160
 quote$ -- 0
-skip$ -- 1072
+skip$ -- 1247
 stack$ -- 0
-substring$ -- 782
-swap$ -- 1414
+substring$ -- 921
+swap$ -- 1657
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 168
-warning$ -- 3
-while$ -- 86
+type$ -- 204
+warning$ -- 5
+while$ -- 103
 width$ -- 0
-write$ -- 245
-(There were 3 warnings)
+write$ -- 292
+(There were 5 warnings)
