@@ -13,45 +13,45 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty title in Abon2014
 Warning--empty title in Torres2007
 Warning--empty title in Zittel2015
-You've used 19 entries,
+You've used 20 entries,
             3486 wiz_defined-function locations,
-            1004 strings with 11426 characters,
-and the built_in function-call counts, 18487 in all, are:
-= -- 2012
-> -- 660
-< -- 12
-+ -- 372
-- -- 162
-* -- 1088
-:= -- 1972
-add.period$ -- 35
-call.type$ -- 19
-change.case$ -- 142
-chr.to.int$ -- 19
-cite$ -- 22
-duplicate$ -- 1839
-empty$ -- 1094
-format.name$ -- 227
-if$ -- 3784
+            1009 strings with 11533 characters,
+and the built_in function-call counts, 18897 in all, are:
+= -- 2041
+> -- 671
+< -- 13
++ -- 376
+- -- 165
+* -- 1106
+:= -- 2038
+add.period$ -- 37
+call.type$ -- 20
+change.case$ -- 147
+chr.to.int$ -- 20
+cite$ -- 23
+duplicate$ -- 1876
+empty$ -- 1136
+format.name$ -- 231
+if$ -- 3869
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 206
-newline$ -- 67
-num.names$ -- 76
-pop$ -- 833
+missing$ -- 214
+newline$ -- 70
+num.names$ -- 80
+pop$ -- 855
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 134
 quote$ -- 0
-skip$ -- 1053
+skip$ -- 1072
 stack$ -- 0
-substring$ -- 771
-swap$ -- 1404
+substring$ -- 782
+swap$ -- 1414
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 168
 warning$ -- 3
-while$ -- 83
+while$ -- 86
 width$ -- 0
-write$ -- 236
+write$ -- 245
 (There were 3 warnings)

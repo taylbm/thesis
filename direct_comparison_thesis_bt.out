@@ -1,50 +1,51 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{Table of Contents}{}% 2
-\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Chapter One}{}% 4
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Background}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Radar Locations}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Reflectivity Factor \(Zh\)}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.3}{Differential Reflectivity \(Zdr\)}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.4}{Co-polar Cross-Correlation Coefficient \(hv\)}{section.1.2}% 10
-\BOOKMARK [0][-]{chapter.2}{Chapter Two}{}% 11
-\BOOKMARK [1][-]{section.2.1}{Methodology}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.1.1}{Comparison of Radar Systems}{section.2.1}% 13
-\BOOKMARK [2][-]{subsection.2.1.2}{Distance-Weighting Scheme}{section.2.1}% 14
-\BOOKMARK [1][-]{section.2.2}{Selection of Cases}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Filtering Conditions}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.3.1}{Time Filter}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.2}{Gate Filters}{section.2.3}% 18
-\BOOKMARK [1][-]{section.2.4}{Advanced Statistical Techniques}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.4.1}{Bi-Variate Kernel Density Estimation}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.2}{Orthonormal Linear Regression}{section.2.4}% 21
-\BOOKMARK [1][-]{section.2.5}{ZDR Bias Estimation}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Chapter Three}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Event Comparisons}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{18 January 2014 - Synoptic}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{23 January 2014 - Lake-Effect}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{1 February 2014 - Synoptic}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{6 January 2015 - Lake-Effect}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.5}{7 January 2015 - Synoptic}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.1.6}{6 February 2015 - Synoptic}{section.3.1}% 30
-\BOOKMARK [2][-]{subsection.3.1.7}{14 February 2015 - Lake-Effect}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.1.8}{18 February 2015 - Lake-Effect}{section.3.1}% 32
-\BOOKMARK [2][-]{subsection.3.1.9}{10 February 2016 - Lake-Effect}{section.3.1}% 33
-\BOOKMARK [2][-]{subsection.3.1.10}{15 December 2016 - Synoptic}{section.3.1}% 34
-\BOOKMARK [1][-]{section.3.2}{ZeH Subset Comparisons}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.3}{KDE Constrained ZDR}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.1}{Unbiased ZDR Cases}{section.3.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.2}{Biased ZDR Cases}{section.3.3}% 38
-\BOOKMARK [0][-]{chapter.4}{Chapter Four}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Discussion}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{Diagnosing ZDR Bias}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{ZDR Statistics}{section.4.1}% 42
-\BOOKMARK [2][-]{subsection.4.1.3}{Relative Merits of C-Band vs. S-Band in Snow}{section.4.1}% 43
-\BOOKMARK [0][-]{chapter.5}{Chapter Five}{}% 44
-\BOOKMARK [1][-]{section.5.1}{Conclusions}{chapter.5}% 45
-\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 46
-\BOOKMARK [1][-]{section.A.1}{Upper-Air Charts}{appendix.A}% 47
-\BOOKMARK [1][-]{section.A.2}{Skew-T Charts}{appendix.A}% 48
-\BOOKMARK [1][-]{section.A.3}{Sounding Climatology}{appendix.A}% 49
-\BOOKMARK [0][-]{figure.caption.88}{Bibliography}{}% 50
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Table of Contents}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Chapter One}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Background}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{Radar Locations}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{Reflectivity Factor \(Zh\)}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.3}{Differential Reflectivity \(Zdr\)}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.4}{Co-polar Cross-Correlation Coefficient \(hv\)}{section.1.2}% 11
+\BOOKMARK [0][-]{chapter.2}{Chapter Two}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Methodology}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{Comparison of Radar Systems}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{Distance-Weighting Scheme}{section.2.1}% 15
+\BOOKMARK [1][-]{section.2.2}{Selection of Cases}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Filtering Conditions}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Time Filter}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Gate Filters}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Advanced Statistical Techniques}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{Bi-Variate Kernel Density Estimation}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{Orthonormal Linear Regression}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{ZDR Bias Estimation}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Chapter Three}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Event Comparisons}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.1.1}{18 January 2014 - Synoptic}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.2}{23 January 2014 - Lake-Effect}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.3}{1 February 2014 - Synoptic}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.4}{6 January 2015 - Lake-Effect}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.5}{7 January 2015 - Synoptic}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.6}{6 February 2015 - Synoptic}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.7}{14 February 2015 - Lake-Effect}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.8}{18 February 2015 - Lake-Effect}{section.3.1}% 33
+\BOOKMARK [2][-]{subsection.3.1.9}{10 February 2016 - Lake-Effect}{section.3.1}% 34
+\BOOKMARK [2][-]{subsection.3.1.10}{15 December 2016 - Synoptic}{section.3.1}% 35
+\BOOKMARK [1][-]{section.3.2}{ZeH Subset Comparisons}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.3}{KDE Constrained ZDR}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.1}{Unbiased ZDR Cases}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.2}{Biased ZDR Cases}{section.3.3}% 39
+\BOOKMARK [0][-]{chapter.4}{Chapter Four}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Discussion}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.1.1}{Diagnosing ZDR Bias}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.2}{ZDR Statistics}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.3}{Relative Merits of C-Band vs. S-Band in Snow}{section.4.1}% 44
+\BOOKMARK [0][-]{chapter.5}{Chapter Five}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Conclusions}{chapter.5}% 46
+\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 47
+\BOOKMARK [1][-]{section.A.1}{Upper-Air Charts}{appendix.A}% 48
+\BOOKMARK [1][-]{section.A.2}{Skew-T Charts}{appendix.A}% 49
+\BOOKMARK [1][-]{section.A.3}{Sounding Climatology}{appendix.A}% 50
+\BOOKMARK [0][-]{figure.caption.89}{Bibliography}{}% 51

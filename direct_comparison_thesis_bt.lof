@@ -1,86 +1,86 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The location of the NWS Buffalo Radar (KBUF) and King City Radar (CWKR) are shown as red dots, with a 100 km range ring around each. The distance between the two, drawn as a blue line, is 131.5 km.\relax }}{3}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Chart of expected ranges of $Z_{DR}$ for a variety of targets. Taken from \citet {Fabry2015}.\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The location of the NWS Buffalo Radar (KBUF) and King City Radar (CWKR) are shown as red dots, with a 100 km range ring around each. The distance between the two, drawn as a blue line, is 131.5 km.\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Chart of expected ranges of $Z_{DR}$ for a variety of targets. Taken from \citet {Fabry2015}.\relax }}{5}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Bounding box of the study area, denoted by the green shading.\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Base moment comparisons between radars over Lake Ontario, with dimensions of 20x12.5 km. Left panels are in native radars coordinates, with gates outlined in black. Right panels are transformed to a common Cartesian grid, with grid cells outlined in black.\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces First step in constructing a bi-variate kernel density estimate. Scatter-plot of matched points illustrating the high density of the points (left). The total of points in this figure are 147,457. 2-D histogram of the same matched points, binned to native data resolution (right).\relax }}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Demonstration of an Orthonormal Linear Regression\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Bounding box of the study area, denoted by the green shading.\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Base moment comparisons between radars over Lake Ontario, with dimensions of 20x12.5 km. Left panels are in native radars coordinates, with gates outlined in black. Right panels are transformed to a common Cartesian grid, with grid cells outlined in black.\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Scatter-plot of matched points illustrating the high density of the points (left). The total of points in this figure are 147,457. 2-D histogram of the same matched points, binned to native data resolution (right).\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Demonstration of an Orthonormal Linear Regression\relax }}{16}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Gridded $Z_{eH}$ comparison for 18 January 2014. Time-average of all admitted scans.\relax }}{19}{figure.caption.13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Gridded $Z_{DR}$ comparison for 18 January 2014. Time-average of all admitted scans.\relax }}{19}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Direct comparisons for 18 January 2014. Dataset includes all admitted grid cells.\relax }}{20}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{21}{figure.caption.16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gridded $Z_{eH}$ comparison for 23 January 2014. Time-average of all admitted scans.\relax }}{22}{figure.caption.17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Gridded $Z_{DR}$ comparison for 23 January 2014. Time-average of all admitted scans.\relax }}{22}{figure.caption.18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Direct comparisons for 23 January 2014. Dataset includes all admitted grid cells.\relax }}{23}{figure.caption.19}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{24}{figure.caption.20}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Gridded $Z_{eH}$ comparison for 1 February 2014. Time-average of all admitted scans.\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Gridded $Z_{DR}$ comparison for 1 February 2014. Time-average of all admitted scans.\relax }}{25}{figure.caption.22}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Direct comparisons for 1 February 2014. Dataset includes all admitted grid cells.\relax }}{26}{figure.caption.23}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{26}{figure.caption.24}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Gridded $Z_{eH}$ comparison for 6 January 2015. Time-average of all admitted scans.\relax }}{27}{figure.caption.25}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Gridded $Z_{DR}$ comparison for 6 January 2015. Time-average of all admitted scans.\relax }}{28}{figure.caption.26}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Direct comparisons for 6 January 2015. Dataset includes all admitted grid cells.\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{29}{figure.caption.28}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Gridded $Z_{eH}$ comparison for 7 January 2015. Time-average of all admitted scans.\relax }}{30}{figure.caption.29}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Gridded $Z_{DR}$ comparison for 7 January 2015. Time-average of all admitted scans.\relax }}{30}{figure.caption.30}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Direct comparisons for 7 January 2015. Dataset includes all admitted grid cells.\relax }}{31}{figure.caption.31}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{31}{figure.caption.32}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Gridded $Z_{eH}$ comparison for 6 February 2015. Time-average of all admitted scans.\relax }}{32}{figure.caption.33}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Gridded $Z_{DR}$ comparison for 6 February 2015. Time-average of all admitted scans.\relax }}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Direct comparisons for 6 February 2015. Dataset includes all admitted grid cells.\relax }}{33}{figure.caption.35}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{34}{figure.caption.36}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Gridded $Z_{eH}$ comparison for 14 February 2015. Time-average of all admitted scans.\relax }}{35}{figure.caption.37}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Gridded $Z_{DR}$ comparison for 14 February 2015. Time-average of all admitted scans.\relax }}{35}{figure.caption.38}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Direct comparisons for 14 February 2015. Dataset includes all admitted grid cells.\relax }}{36}{figure.caption.39}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{36}{figure.caption.40}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Gridded $Z_{eH}$ comparison for 18 February 2015. Time-average of all admitted scans.\relax }}{37}{figure.caption.41}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Gridded $Z_{DR}$ comparison for 18 February 2015. Time-average of all admitted scans.\relax }}{38}{figure.caption.42}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Direct comparisons for 18 February 2015. Dataset includes all admitted grid cells.\relax }}{38}{figure.caption.43}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{39}{figure.caption.44}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Gridded $Z_{eH}$ comparison for 10 February 2016. Time-average of all admitted scans.\relax }}{40}{figure.caption.45}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Gridded $Z_{DR}$ comparison for 10 February 2016. Time-average of all admitted scans.\relax }}{40}{figure.caption.46}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Direct comparisons for 10 February 2016. Dataset includes all admitted grid cells.\relax }}{41}{figure.caption.47}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{42}{figure.caption.48}
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Gridded $Z_{eH}$ comparison for 15 December 2016. Time-average of all admitted scans.\relax }}{43}{figure.caption.49}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Gridded $Z_{DR}$ comparison for 15 December 2016. Time-average of all admitted scans.\relax }}{43}{figure.caption.50}
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Direct comparisons for 15 December 2016. Dataset includes all admitted grid cells.\relax }}{44}{figure.caption.51}
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR, determined by subtracting the gridded, bias adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{44}{figure.caption.52}
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Scatter-plots of CWKR versus KBUF grid analyzed reflectivity, with Kernel Density Estimation shading. The red line is an Orthonormal Linear Regression, with a black identity line.\relax }}{46}{figure.caption.53}
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{47}{figure.caption.54}
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by only including points with a $KDE \geq 2$.\relax }}{48}{figure.caption.55}
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{49}{figure.caption.56}
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 7 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{50}{figure.caption.57}
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 10 February 2016. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{51}{figure.caption.58}
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 1 February 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{52}{figure.caption.59}
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{53}{figure.caption.60}
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{54}{figure.caption.61}
-\contentsline {figure}{\numberline {3.50}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{55}{figure.caption.62}
-\contentsline {figure}{\numberline {3.51}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 15 December 2016. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{56}{figure.caption.63}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Gridded $Z_{eH}$ comparison for 18 January 2014. Time-average of all admitted scans.\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Gridded $Z_{DR}$ comparison for 18 January 2014. Time-average of all admitted scans.\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Direct comparisons for 18 January 2014. Dataset includes all admitted grid cells.\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gridded $Z_{eH}$ comparison for 23 January 2014. Time-average of all admitted scans.\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gridded $Z_{DR}$ comparison for 23 January 2014. Time-average of all admitted scans.\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Direct comparisons for 23 January 2014. Dataset includes all admitted grid cells.\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Gridded $Z_{eH}$ comparison for 1 February 2014. Time-average of all admitted scans.\relax }}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Gridded $Z_{DR}$ comparison for 1 February 2014. Time-average of all admitted scans.\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Direct comparisons for 1 February 2014. Dataset includes all admitted grid cells.\relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{28}{figure.caption.25}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Gridded $Z_{eH}$ comparison for 6 January 2015. Time-average of all admitted scans.\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Gridded $Z_{DR}$ comparison for 6 January 2015. Time-average of all admitted scans.\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Direct comparisons for 6 January 2015. Dataset includes all admitted grid cells.\relax }}{31}{figure.caption.28}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{32}{figure.caption.29}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Gridded $Z_{eH}$ comparison for 7 January 2015. Time-average of all admitted scans.\relax }}{33}{figure.caption.30}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Gridded $Z_{DR}$ comparison for 7 January 2015. Time-average of all admitted scans.\relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Direct comparisons for 7 January 2015. Dataset includes all admitted grid cells.\relax }}{34}{figure.caption.32}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{35}{figure.caption.33}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Gridded $Z_{eH}$ comparison for 6 February 2015. Time-average of all admitted scans.\relax }}{36}{figure.caption.34}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Gridded $Z_{eH}$ comparison for 18 February 2015. Time-average of all admitted scans.\relax }}{38}{figure.caption.42}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{39}{figure.caption.45}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Gridded $Z_{eH}$ comparison for 10 February 2016. Time-average of all admitted scans.\relax }}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Gridded $Z_{DR}$ comparison for 10 February 2016. Time-average of all admitted scans.\relax }}{40}{figure.caption.47}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Direct comparisons for 10 February 2016. Dataset includes all admitted grid cells.\relax }}{41}{figure.caption.48}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{42}{figure.caption.49}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Scatter-plots of CWKR versus KBUF grid analyzed reflectivity, with Kernel Density Estimation shading. The red line is an Orthonormal Linear Regression, with a black identity line.\relax }}{44}{figure.caption.54}
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{45}{figure.caption.55}
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 23 January 2014. $Z_{DR}$ is constrained by only including points with a $KDE \geq 2$.\relax }}{46}{figure.caption.56}
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{47}{figure.caption.57}
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 7 January 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{48}{figure.caption.58}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 10 February 2016. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$.\relax }}{49}{figure.caption.59}
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 1 February 2014. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{50}{figure.caption.60}
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 6 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{51}{figure.caption.61}
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{52}{figure.caption.62}
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 18 February 2015. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{53}{figure.caption.63}
+\contentsline {figure}{\numberline {3.51}{\ignorespaces Comparison of gridded $Z_{DR}$ with Gaussian smoothed contours of $Z_{eH}$ for 15 December 2016. $Z_{DR}$ is constrained by only including points with a KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first section of Chapter 3.\relax }}{54}{figure.caption.64}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Gridded $Z_{DR}$ comparison for 6 February 2015. Time-average of all admitted scans.\relax }}{55}{figure.caption.35}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Direct comparisons for 6 February 2015. Dataset includes all admitted grid cells.\relax }}{56}{figure.caption.36}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Gridded $Z_{eH}$ comparison for 14 February 2015. Time-average of all admitted scans.\relax }}{57}{figure.caption.38}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Gridded $Z_{DR}$ comparison for 14 February 2015. Time-average of all admitted scans.\relax }}{57}{figure.caption.39}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Direct comparisons for 14 February 2015. Dataset includes all admitted grid cells.\relax }}{58}{figure.caption.40}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$.\relax }}{59}{figure.caption.41}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Gridded $Z_{DR}$ comparison for 18 February 2015. Time-average of all admitted scans.\relax }}{59}{figure.caption.43}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Direct comparisons for 18 February 2015. Dataset includes all admitted grid cells.\relax }}{60}{figure.caption.44}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Gridded $Z_{eH}$ comparison for 15 December 2016. Time-average of all admitted scans.\relax }}{61}{figure.caption.50}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Gridded $Z_{DR}$ comparison for 15 December 2016. Time-average of all admitted scans.\relax }}{61}{figure.caption.51}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Direct comparisons for 15 December 2016. Dataset includes all admitted grid cells.\relax }}{62}{figure.caption.52}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR, determined by subtracting the gridded, bias adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at CWKR. Both datasets include only matched points with KDE $\geq 2$. \relax }}{63}{figure.caption.53}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gate-by-gate idealized beam volume comparison between radars, assuming a Gaussian beam function for both.\relax }}{59}{figure.caption.65}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of the range of $Z_{DR}$ (max-min) values observed for each case, with biased cases depicted with yellow trianges and unbiased as green dots.\relax }}{59}{figure.caption.66}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gate-by-gate idealized beam volume comparison between radars, assuming a Gaussian beam function for both.\relax }}{66}{figure.caption.66}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of the range of $Z_{DR}$ (max-min) values observed for each case, with biased cases depicted with yellow trianges and unbiased as green dots.\relax }}{66}{figure.caption.67}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces 500mb Geopotential Height at 06Z 18 January 2014.\relax }}{64}{figure.caption.68}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces 500mb Geopotential Height at 06Z 23 January 2014\relax }}{65}{figure.caption.69}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces 500mb Geopotential Height at 18Z 1 February 2014.\relax }}{66}{figure.caption.70}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces 500mb Geopotential Height at 15Z 6 January 2015.\relax }}{67}{figure.caption.71}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces 500mb Geopotential Height at 09Z 7 January 2015.\relax }}{68}{figure.caption.72}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces 500mb Geopotential Height at 09Z 6 February 2015.\relax }}{69}{figure.caption.73}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces 500mb Geopotential Height at 12Z 14 February 2015.\relax }}{70}{figure.caption.74}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces 500mb Geopotential Height at 21Z 18 February 2015.\relax }}{71}{figure.caption.75}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces 500mb Geopotential Height at 18Z 10 February 2016.\relax }}{72}{figure.caption.76}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces 500mb Geopotential Height at 09Z 15 December 2016.\relax }}{73}{figure.caption.77}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 18 January 2014\relax }}{74}{figure.caption.78}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 23 January 2014\relax }}{75}{figure.caption.79}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 1 February 2014\relax }}{76}{figure.caption.80}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 6 January 2015\relax }}{77}{figure.caption.81}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 7 January 2015\relax }}{78}{figure.caption.82}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 6 February 2015\relax }}{79}{figure.caption.83}
-\contentsline {figure}{\numberline {A.17}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 14 February 2015\relax }}{80}{figure.caption.84}
-\contentsline {figure}{\numberline {A.18}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 18 February 2015\relax }}{81}{figure.caption.85}
-\contentsline {figure}{\numberline {A.19}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 10 February 2016\relax }}{82}{figure.caption.86}
-\contentsline {figure}{\numberline {A.20}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 15 December 2016\relax }}{83}{figure.caption.87}
-\contentsline {figure}{\numberline {A.21}{\ignorespaces Sounding Precipitable Water Climatology for BUF\relax }}{84}{figure.caption.88}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 500mb Geopotential Height at 06Z 18 January 2014.\relax }}{71}{figure.caption.69}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 500mb Geopotential Height at 06Z 23 January 2014\relax }}{72}{figure.caption.70}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 500mb Geopotential Height at 18Z 1 February 2014.\relax }}{73}{figure.caption.71}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 500mb Geopotential Height at 15Z 6 January 2015.\relax }}{74}{figure.caption.72}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces 500mb Geopotential Height at 09Z 7 January 2015.\relax }}{75}{figure.caption.73}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces 500mb Geopotential Height at 09Z 6 February 2015.\relax }}{76}{figure.caption.74}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces 500mb Geopotential Height at 12Z 14 February 2015.\relax }}{77}{figure.caption.75}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces 500mb Geopotential Height at 21Z 18 February 2015.\relax }}{78}{figure.caption.76}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces 500mb Geopotential Height at 18Z 10 February 2016.\relax }}{79}{figure.caption.77}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces 500mb Geopotential Height at 09Z 15 December 2016.\relax }}{80}{figure.caption.78}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 18 January 2014\relax }}{81}{figure.caption.79}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 23 January 2014\relax }}{82}{figure.caption.80}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 1 February 2014\relax }}{83}{figure.caption.81}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 6 January 2015\relax }}{84}{figure.caption.82}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 7 January 2015\relax }}{85}{figure.caption.83}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 6 February 2015\relax }}{86}{figure.caption.84}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 14 February 2015\relax }}{87}{figure.caption.85}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 00Z 18 February 2015\relax }}{88}{figure.caption.86}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 10 February 2016\relax }}{89}{figure.caption.87}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces SkewT/Log-P Chart from the BUF Radiosonde launched at 12Z 15 December 2016\relax }}{90}{figure.caption.88}
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Sounding Precipitable Water Climatology for BUF\relax }}{91}{figure.caption.89}
