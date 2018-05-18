@@ -16,14 +16,14 @@ Lake Ontario happens to be the perfect area to bound between the radars, therefo
 As presented in Equation \ref{eq:weather_eq}, the weather radar equation is defined by constant parameters dependent on the radar system characteristics, and
 varying properties related to the target. This equations determines the theoretical mean power ($\bar{P_r}$) that should be returned to the radar receiver.
 \begin{equation}\label{eq:weather_eq}
-\bar{P_r} = \frac{\pi^3c}{1024 \ln(2)} \Bigg[\frac{P_t \tau G^2 \theta^2}{\lambda^2}\Bigg]_{dBZ_0} \Bigg[|K_{w}^2|\frac{Z_{eh}}{r^2}\Bigg]_{TARGET}
+\bar{P_r} = \frac{\pi^3c}{1024 \ln(2)} \Bigg[\frac{P_t \tau G^2 \theta^2}{\lambda^2}\Bigg]_{dBZ_0} \Bigg[\mathcolorbox{yellow} {||K_{w}||^{2}}\frac{Z_{eh}}{r^2}\Bigg]_{TARGET}
 \end{equation}
 The target properties are dielectric constant (K), range (r) and equivalent reflectivity factor $Z_{eH}$. Conversely, the radar parameters ideally remain
 unchanged from their values upon installation of the radar system. These parameters form the radar constant, symbolically expressed as $dBZ_0$. The
 parameters that define this constant include the power transmitted ($P_t$), the pulse length ($\tau$), the antenna gain (G), the angular beamwidth
 ($\theta$), and the wavelength ($\lambda$).
 \begin{equation}\label{eq:radpow}
-10 \log Z_{H} = 10 \log{\bar{P_r}} + 20 \log r - dBZ_0
+\mathcolorbox{yellow}{Z_{eH}} = 10 \log{\bar{P_r}} + 20 \log r - dBZ_0
 \end{equation}
 Equation \ref{eq:radpow} shows how $dBZ_0$ is subtracted out from the full calculation of $Z$. This means that values from two different systems are comparable, as the contributions to the returned power intrinsic to the radar are negated. Next, Table \ref{radarspecs} compares parameters for both
 radar systems. The biggest difference between the two is the wavelength, with CWKR operating in the C frequency band and KBUF operating in the S frequency
@@ -37,23 +37,23 @@ data resolution of 0.5 dBZ.  For $Z_{DR}$, an interval of -7.94 dB to +7.94 dB y
 \begin{table}[h]
     \caption{Specifications of each radars system, with symbols as used in Eq. \ref{eq:radpow}. Pulse Length is specified as short pulse/long pulse}\label{radarspecs}
     \begin{center}
-    \begin{tabular}{|l|c|c|}
+    \begin{tabular}{|l|c|c|c|}
     \hline
-     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) \\
+     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) & New CWRN \\
     \hline\hline
-    Wavelength [$\lambda$](cm) & 5 (C-Band) & 10 (S-Band) \\
+    Wavelength [$\lambda$](cm) & 5.6  & 10.7 & 10.6\\
     \hline
-    Beamwidth [$\theta$] ($^\circ$)  & 0.62  & 0.92 \\
+    Beamwidth [$\theta$] ($^\circ$)  & 0.62  & 0.92 & 0.88 \\
     \hline
-     Antenna Gain [G] (dB) & 45.5 & 49.2 \\
+     Antenna Gain [G] (dB) & 45.5 & 49.2 & 45.8\\
     \hline
-     Transmitter Peak Power (kW) & 250 & 1000 \\
+     Peak Power (kW) & 250 & 1000 & 1000 \\
     \hline
-     Pulse Length [$\tau$] ($\mu s$) &  0.8/2.0 & 1.5/4.5 \\
+     Pulse Length [$\tau$] ($\mu s$) &  0.8/2.0 & 1.5/4.5 & 0.4/4.5 \\
     \hline
-     Matched Elevation Angle ($^\circ$) & 0.2 & 0.5 \\
+     Lowest Elevation Angle ($^\circ$) & 0.2 & 0.5 & 0.4 \\
     \hline
-     Range Resolution [$r$] (m)& 125 & 250 \\
+     Range Resolution [$r$] (m)& 125 & 250 & 500 \\
     \hline
     \end{tabular}
     \end{center}
