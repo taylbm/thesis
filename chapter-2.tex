@@ -73,12 +73,12 @@ f^{'}_{p} = \sum_{b=1}^n  e^{-(d_b/\kappa)^{2}} f_q  \bigg/ \sum_{b=1}^n e^{-(d_
 \end{equation}
 The Gaussian weighting function used in said scheme is given in Equation \ref{eq:barnesdws}. It shows that the value of the analysis at some point $p$ is
 equal to sum of weights convolved with the actual values at bin $b$ in radar space, divided by the sum of the weights. The summation is performed over $n$
-number of bins that are within the radius of influence ($\kappa$) of the center point of the grid cell, and d is is the horizontal distance from the native
+number of bins that are within the radius of influence ($\kappa$) of the center point of the grid cell, and $d_{b}$ is is the horizontal distance from the native
 bin to the center point of the cell. Vertical distance is neglected, as only the lowest elevation angle from the radars are included for comparison.
 \begin{equation}\label{eq:roi}
-\kappa = D * \tan{\theta}
+\kappa = d_{0} * \tan{\theta}
 \end{equation}
-The definition of $\kappa$ is found in Equation \ref{eq:roi}, where D is the horizontal distance from the grid cell to the radar and $\theta$ is the angular\
+The definition of $\kappa$ is found in Equation \ref{eq:roi}, where $d_{0}$ is the horizontal distance from the grid cell to the radar and $\theta$ is the angular\
 beamwidth. This completes the framework for comparing the radar datasets in this study.
 \begin{figure}[t!]
 \centering
@@ -156,7 +156,7 @@ Scan start times are compared between the radars, and if they are within four mi
 volume update frequency of ten minutes, while KBUF is variable based on the Volume Coverage Pattern (VCP) selected by the operator. The update frequency
 could be as short as every two minutes if the operator has activated Supplemental Adapative Intra-Volume Low-Level Scans (SAILS) mode.
 \subsection{Gate Filters}
-Several gate filters were use to ensure the highest data quality possible. Gates with $\rho_{v} < 0.95$ were excluded to filter for dry snow and crystals
+Several gate filters were use to ensure the highest data quality possible. Gates with \hl{$\rho_{hv}} < 0.95$ were excluded to filter for dry snow and crystals
 only. A manual inspection of all cases was made, and the range of $Z_{DR}$ in all cases lay within $-0.5 < Z_{DR} < 1.5$ dB. Therefore, $Z_{DR}$ values
 outside this range were filtered to avoid contamination from beam blockages, etc. Finally, gates over land were filtered, to avoid ground clutter
 contamination.

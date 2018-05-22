@@ -15,20 +15,19 @@ Huntsville, where a research C-Band radar is several kilometer away from a WSR-8
 \citep{Petersen2007}. With Lake Ontario in between CWKR and KBUF, this creates the opportunity to analyze a vast amount of incident sample volumes from lake
 effect snow events. The one downfall is the addition of uncertainty stemming from differing elevation angles and beamwidths of the radars. In order to
 accurately compare the two
-radars, the data is objectively analyzed. Radar data objective analysis is most prominently used to create
-mosaics of multiple radars for projects such as the National Severe Storm Laboratory's Multi-Radar Multi
+radars, the data are objectively analyzed. Radar data objective analysis is most prominently used to
+create mosaics of multiple radars for projects such as the National Severe Storm Laboratory's Multi-Radar Multi
 Sensor in the U.S. \citep{Zhang2016}. It is also used extensively for research purposes, including studying
 snow squalls \citep{Mulholland2017}. \hl{The goal of this study is to investigate the differences in quality of radar observations between a C-Band and S
 Band radar, for the purposes of
-nowcasting lake-effect snow}. Another goal is to directly compare polarimetric moments,
+nowcasting lake-effect snow}. Another goal is to directly compare polarimetric variables,
 which has not been done in this manner before, and
 identify any biases. It is important to remove biases as no amount of spatial or temporal smoothing will
 remove them. With bias-adjusted values from two independent sources, a high-confidence conclusion can
-be made on the types of hydrometeors present in the common sampling volumes. Although polarimetric
-(dual-pol) radar has matured within the research community, operational deployment has been a much
+be made on the types of hydrometeors present in the common sampling volumes. Although polarimetric radar has matured within the research community, operational deployment has been a much
 slower process. Many studies have been undertaken in regards to quantitative precipitation estimation
-using dual-pol variables for rainfall, but studies involving snow have been much more limited. Findings here
-should increase confidence in comparing dual-polarimetric at two different wavelengths, and demonstrate
+using polarimetric variables for rainfall, but studies involving snow have been much more limited. Findings here
+should increase confidence in comparing polarimetric at two different wavelengths, and demonstrate
 the information rich nature of these variables. 
 \section{Background}
 First, it is important to provide some background on the weather radar moments that are presented in this study, from both single and dual polarized signals.
@@ -53,7 +52,7 @@ measures the number density $N(D)$ of hydrometeors of diameter $D$ per unit volu
 presented in Equation \ref{eq:ref_factor}. Due to uncertainties about what type of
 target is actually doing the scattering, it is typically represented as the equivalent
 reflectivity factor $Z_{eh}$, where $Z_{h}$ = $Z_{eh}$ if the targets are made of liquid 
-water and are comparatively small to the wavelength \citep{Fabry2015}. The two names are 
+water and are comparatively small to the wavelength \citep{Fabry2015}. The two variables are 
 essentially interchangeable, but the nomenclature \textit{equivalent} reflectivity factor will be used in this
 study to acknowledge the presence of non-ideal targets, e.g. ice crystals/snow.
 \begin{equation}\label{eq:ref_factor}
@@ -70,7 +69,7 @@ quotient rule, since they are represented in logarithmic units. Equation \ref{eq
 \mathcolorbox{yellow}{Z_{dr} = 10 * \log_{10}(\frac{Z_h}{Z_v}) = Z_H - Z_V}
 \end{equation}
 \subsubsection{Interpretations of $Z_{DR}$ in Snow}
-In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures range from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
+In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{zdr_chart}
 \caption{Chart of expected ranges of $Z_{DR}$ for a variety of targets. Taken from \citet{Fabry2015}.} 
