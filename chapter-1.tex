@@ -69,7 +69,7 @@ quotient rule, since they are represented in logarithmic units. Equation \ref{eq
 \mathcolorbox{yellow}{Z_{dr} = 10 * \log_{10}(\frac{Z_h}{Z_v}) = Z_H - Z_V}
 \end{equation}
 \subsubsection{Interpretations of $Z_{DR}$ in Snow}
-In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
+In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. \hl{It should be noted that any riming of these particles would lead to a reduction in $Z_{DR}$, as they become more spherical}. \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{zdr_chart}
 \caption{Chart of expected ranges of $Z_{DR}$ for a variety of targets. Taken from \citet{Fabry2015}.} 
@@ -92,7 +92,7 @@ $\rho_{hv}$ in Equation \ref{eq:rhohv}, as defined by \citet{Ryzhkov2007b}. \hl{
 \end{equation}
 \subsubsection{Interpretations of $\rho_{hv}$ in Snow}
 Contamination from clutter and other non-meteorological targets can be filtered by using a $\rho_{hv}$ threshold of 0.95, as suggested by \citet{Straka2000}.
-Using this threshold can also be used to avoid Mie scatters, which becomes a bigger problem at C-Band wavelengths \citet{Fabry2015}.
+Using this threshold can also be used to avoid Mie scatterers, which becomes a bigger problem at C-Band wavelengths \citet{Fabry2015}. Furthermore, this threshold reduces wavelength induced differences between the radar datasets.
  
 
 

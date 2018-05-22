@@ -1,17 +1,17 @@
 \chapter{Chapter Four}
 \section{Discussion}
 It has been shown that the constrained $Z_{DR}$ datasets aid in determining event biases, which then allows hydrometeor type to be inferred from the unbiased
-datasets. Now, statistics are compiled, and the probable source of the bias addressed. The relative merit of the two radar systems in observing lake-effect
+datasets. Now, statistics are compiled, and the probable source of the \hl{inferred bias} addressed. The relative merit of the two radar systems in observing lake-effect
 snow is also discussed.
-\subsection{Diagnosing $Z_{DR}$ Bias}
-The source of the bias could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007a}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Modeling the beam as a Gaussian function, Equation \ref{eq:beam_pattern} gives the solid angle of the beam, as a function of beamwidth $\theta$ \citep{Probert1962}. 
+\subsection{Diagnosing Inferred $Z_{DR}$ Bias}
+The source of the \hl{inferred observational bias at CWKR} could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007a}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Modeling the beam as a Gaussian function, Equation \ref{eq:beam_pattern} gives the solid angle of the beam, as a function of beamwidth $\theta$ \citep{Probert1962}. 
 \begin{equation}\label{eq:beam_pattern}
 \Omega = \int \int f^{2}(\theta) d\omega \approx \frac{\pi \theta^{2}}{8 \ln 2}
 \end{equation}
 \begin{equation}\label{eq:beam_volume}
 V = \frac{\Omega}{4\pi} * \frac{4}{3} \pi r^{3}
 \end{equation}
- Equation \ref{eq:beam_volume} describes how the beam broadens as range ($r$) increases.  This combined with 
+ Equation \ref{eq:beam_volume} describes how the \hl{theoretical beam volume} broadens as range ($r$) increases. \hl{The theoretical beam volume is modeled as a spheroid, and is an average over a window of pulse volumes.} This combined with 
  differing $\Omega$ creates the large difference in beam volumes between radars, as shown in Figure \ref{fig:ideal_beam}.
 \begin{figure}[H]
 \centering
@@ -74,7 +74,7 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
 \subsection{$Z_{DR}$ Statistics}
 A statistical comparison of synoptic and lake-effect cases is made in Table \ref{eventcompare}. Both types of events show very similiar mean values, with both radars indicating 0.2 dB for lake-effect and 0.3 dB for synoptic. This suggests that synoptic events tend more towards pristine snow crystals, while lake-effect events contain more aggregated snow. While the mean values match between radars, it is shown that KBUF yields a larger range of $Z_{DR}$ regardless of the type of event. A wider beamwidth could aid in the detection a larger variety of hydrometeor types.
 \begin{table}[H]
-    \caption{Bias-adjusted $Z_{DR}$ Statistics, comparing synoptic and lake-effect events}\label{eventcompare}
+    \caption{\hl{Bias-adjusted $Z_{DR}$ Statistics, comparing synoptic and lake-effect events. The observational bias between radars as inferred at CWKR is italicized, while the measured hardware bias at KBUF is in bold face.}}\label{eventcompare}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|}
     \hline 
@@ -84,33 +84,33 @@ A statistical comparison of synoptic and lake-effect cases is made in Table \ref
     \multicolumn{5}{|c|}{CWKR $Z_{DR}$ (dB)} & 
     \multicolumn{5}{|c|}{KBUF $Z_{DR}$ (dB)} \\
     \hline 
-     Event & Bias & Min & Mean & Max & Range & Bias & Min & Mean & Max & Range\\
+     Event & \textit{Bias} & Min & Mean & Max & Range & \textbf{Bias} & Min & Mean & Max & Range\\
     \hline\hline
-    2014-01-18 & -0.10 & 0.2 & 0.3 & 0.5 & 0.3 & -0.40 & 0.2 & 0.4 & 0.7 & 0.5 \\
+    2014-01-18 & \textit{-0.10} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.40} & 0.1 & 0.4 & 0.6 & 0.5 \\
     \hline
-    2014-02-01 & 0.22 & 0.0 & 0.2 & 0.5 & 0.5  & -0.20 & 0.0 & 0.5 & 0.5 & 0.5 \\    
+    2014-02-01 & \textit{0.22} & 0.1 & 0.2 & 0.4 & 0.3 & \textbf{-0.20} & 0.3 & 0.4 & 0.4 & 0.1 \\    
     \hline
-    2015-01-07 & -0.04 & 0.1 & 0.3 & 0.4  & 0.3 & -0.30 & 0.0 & 0.3 & 0.6 & 0.6 \\ 
+    2015-01-07 & \textit{-0.04} & 0.1 & 0.3 & 0.4 & 0.3 & \textbf{-0.30} & 0.0 & 0.3 & 0.4 & 0.4 \\ 
     \hline
-    2015-02-06 & 0.28 & 0.0 & 0.1 & 0.3 & 0.3 & 0.00 & -0.1 & 0.1 & 0.4 & 0.5\\
+    2015-02-06 & \textit{0.28} & 0.0 & 0.1 & 0.3 & 0.3 & \textbf{0.00} & -0.1 & 0.1 & 0.3 & 0.4\\
     \hline
-    2016-12-15 & -0.47 & 0.2 & 0.3 & 0.6 & 0.4 & -0.28 &  -0.3 & 0.4 & 0.5 & 0.8  \\ 
+    2016-12-15 & \textit{-0.47} & 0.2 & 0.4 & 0.6 & 0.4 & \textbf{-0.28} & 0.2 & 0.4 & 0.6 & 0.4  \\ 
     \hline 
-    Mean  & -- & 0.1 & 0.3 & 0.5 & 0.4 & -- & 0.0 & 0.3 & 0.5 & 0.5 \\
+    Mean  & -- & 0.1 & 0.3 & 0.5 & 0.4 & -- & 0.1 & 0.3 & 0.5 & 0.4 \\
     \hline
     \multicolumn{11}{|c|}{Lake-Effect Events} \\
     \hline\hline
-    2014-01-23 & -0.06 & 0.0 & 0.1 & 0.2  & 0.2 & -0.40 & 0.0 & 0.2 & 0.3 & 0.3\\
+    2014-01-23 & \textit{-0.06} & 0.0 & 0.3 & 0.6 & 0.6 & \textbf{-0.40} & 0.0 & 0.5 & 0.6 & 0.6\\
     \hline
-    2015-01-06  & 0.00 & 0.4 & 0.5 & 0.6   & 0.2 & -0.10 & 0.4 & 0.5 & 0.7 & 0.3 \\
+    2015-01-06 & \textit{0.00} & 0.2 & 0.5 & 0.9 & 0.7 & \textbf{-0.10} & -0.1 & 0.5 & 0.9 & 1.0 \\
     \hline
-    2015-02-14 & 0.38 & -0.1 & 0.2 & 0.4  &  0.5 & -0.10 & -0.1 & 0.1 & 0.4 & 0.5 \\
+    2015-02-14 & \textit{0.38} & -0.1 & 0.1 & 0.4 & 0.5 & \textbf{-0.10} & -0.1 & 0.1 & 0.4 & 0.5 \\
     \hline
-    2015-02-18 & 0.30 & 0.1 & 0.3 & 0.5 & 0.4 & -0.10 & -0.1 & 0.3 & 0.7 & 0.8 \\ 
+    2015-02-18 & \textit{0.30} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.10} & -0.1 & 0.4 & 0.6 & 0.7 \\ 
     \hline
-    2016-02-10 & -0.04 & -0.1 & 0.0 & 0.1 & 0.2 &  0.40 & 0.0 & 0.0 & 0.1 & 0.1  \\ 
+    2016-02-10 & \textit{-0.04} & -0.1 & 0.2 & 0.5 & 0.6 & \textbf{0.40} & -0.1 & 0.1 & 0.5 & 0.6  \\ 
     \hline\hline
-    Mean & -- & 0.1 & 0.2 & 0.4 & 0.3 & -- & 0.0 & 0.2 & 0.4 & 0.4  \\
+    Mean & -- & 0.0 & 0.3 & 0.6 & 0.6 & -- & -0.1 & 0.3 & 0.6 & 0.7 \\
     \hline
     \end{tabular}
     \end{center}

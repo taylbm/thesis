@@ -35,13 +35,13 @@ $Z_{eH}$ and $Z_{DR}$ using 8 bit resolution. For $Z_{eH}$, the data intervals o
 data resolution of 0.5 dBZ.  For $Z_{DR}$, an interval of -7.94 dB to +7.94 dB yields a resolution of 0.0625 dB.
 
 \begin{table}[h]
-    \caption{Specifications of each radars system, with symbols as used in Eq. \ref{eq:radpow}. Pulse Length is specified as short pulse/long pulse}\label{radarspecs}
+    \caption{Specifications of each radars system, with symbols as used in Eq. \ref{eq:radpow}. Pulse Length is specified as short pulse/long pulse. \hl{CWRN is an acronym for Canadian Weather Radar Network.}}\label{radarspecs}
     \begin{center}
     \begin{tabular}{|l|c|c|c|}
     \hline
-     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) & New CWRN \\
+     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) & \hl{New CWRN} \\
     \hline\hline
-    Wavelength [$\lambda$](cm) & 5.6  & 10.7 & 10.6\\
+    Wavelength [$\lambda$](cm) & 5.6  & 10.7 & 10.5\\
     \hline
     Beamwidth [$\theta$] ($^\circ$)  & 0.62  & 0.92 & 0.88 \\
     \hline
@@ -96,6 +96,7 @@ outlined in black. Right panels are transformed to a common Cartesian grid, with
 \end{figure}
 
 \section{Selection of Cases}
+\hl{Five lake-effect snow events are chosen as the experimental dataset, while five synoptic snow events are chosen as a control dataset. Synoptic snowfall are a good control for this experiment, as they typically span greater vertical distances than shallow lake-effect effect events. In this way, neither radar has an advantage in sampling the low-level features characteristic of lake-effect snow bands.}
 Cases selected for this study were chosen entirely based on the pattern of motion and banding of the radar
 echoes. Radar mosaics for the study area were
 manually examined, beginning in 2014. When time intervals with echoes in the study area were observed, it was
@@ -111,9 +112,9 @@ dry snow/ice crystals were the predominant hydrometeor type.
 \begin{table}[H]
     \caption{Temperatures at two important levels from radiosonde launched closest in time to the selected lake-effect snow events, with the time interval during which radar scans were chosen.}\label{eventslake}
     \begin{center}
-    \begin{tabular}{|l|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     BUF - Radiosonde & Radar Times & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     BUF - Radiosonde & Radar Times & Scans & Echo Tops (km) & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
     2014-01-23 00Z & 0100-1000Z & -22.5 & -14.9 \\
     \hline
@@ -132,9 +133,9 @@ dry snow/ice crystals were the predominant hydrometeor type.
 \begin{table}[H]
     \caption{Temperatures at two important levels from radiosonde launched closest in time to the selected synoptic snow events, with the time interval during which radar scans were chosen.}\label{synopticevents}
     \begin{center}
-    \begin{tabular}{|l|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     KBUF - Radiosonde & Radar Times & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     KBUF - Radiosonde & Radar Times & Scans & Echo Tops (km) & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
     2014-01-18 12Z & 0600-0800Z & -11.3 & -6.5 \\
     \hline
@@ -156,7 +157,7 @@ Scan start times are compared between the radars, and if they are within four mi
 volume update frequency of ten minutes, while KBUF is variable based on the Volume Coverage Pattern (VCP) selected by the operator. The update frequency
 could be as short as every two minutes if the operator has activated Supplemental Adapative Intra-Volume Low-Level Scans (SAILS) mode.
 \subsection{Gate Filters}
-Several gate filters were use to ensure the highest data quality possible. Gates with \hl{$\rho_{hv}} < 0.95$ were excluded to filter for dry snow and crystals
+Several gate filters were use to ensure the highest data quality possible. Gates with \hl{$\rho_{hv} < 0.95$} were excluded to filter for dry snow and crystals
 only. A manual inspection of all cases was made, and the range of $Z_{DR}$ in all cases lay within $-0.5 < Z_{DR} < 1.5$ dB. Therefore, $Z_{DR}$ values
 outside this range were filtered to avoid contamination from beam blockages, etc. Finally, gates over land were filtered, to avoid ground clutter
 contamination.
@@ -200,11 +201,11 @@ vertically \citep{Markovsky2007}. Figure \ref{fig:total_least_squares} demonstra
 \caption{Demonstration of an Orthonormal Linear Regression} 
 \label{fig:total_least_squares}
 \end{figure}
-\section{$Z_{DR}$ Bias Estimation}
+\section{$Z_{DR}$ Hardware Bias Estimation}
 Although it not possible to check absolute calibration of $Z_{H}$ when comparing two radars, it is possible to verfiy $Z_{DR}$ calibration due to relative
 nature of the quantity \citep{Zrnic2006}. While radars are regularly calibrated using internal calibration procedures, an external check is useful for
-monitoring the time-varying component of calibration. The typical process for calibration of $Z_{DR}$ is pointing the antenna to zenith and performing ``bird
-bath'' scans during light rain events \citep{Hubbert2006}. The $Z_{DR}$ in light rain is expected to be 0 dB, therefore any offset from this is considered a
+monitoring the time-varying component of calibration. \hl{This time-varying component arises due to hardware issues, i.e. differences between the split pathways that the horizontal and vertical channels take through the transmit/receive chain.} The typical process for calibration of $Z_{DR}$ is pointing the antenna to zenith and performing ``bird
+bath'' scans during light rain events \citep{Hubbert2006}, \hl{so called due to the antenna resemblance to a bird-bath when performing these scans}. The $Z_{DR}$ in light rain is expected to be 0 dB, therefore any offset from this is considered a
 bias; The signal processor subtracts out this bias to achieve the final output. Due to mechanical constraints, NEXRAD radars are unable to perform this
 procedure, but CWKR is. NEXRAD radars disseminate a product which contains an estimate of $Z_{DR}$ bias using the intrinsic properties of
-dry snow \cite{Zittel2015}. The daily published offset will be used to adjust $Z_{DR}$ values obtained from KBUF to diagnose any bias at CWKR. Under normal conditions, $Z_{DR}$ can be calibrated within 0.1 dB \citep{Zrnic2006}. This error threshold is adopted in this study.
+dry snow \cite{Zittel2015}. The daily bias reported in the NEXRAD Archived Status Product will be used to adjust $Z_{DR}$ values obtained from KBUF to diagnose any bias at CWKR. Under normal conditions, $Z_{DR}$ can be calibrated within 0.1 dB \citep{Zrnic2006}. This error threshold is adopted in this study.

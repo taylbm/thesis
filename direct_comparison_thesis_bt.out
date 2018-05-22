@@ -20,7 +20,7 @@
 \BOOKMARK [1][-]{section.2.4}{Advanced Statistical Techniques}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.4.1}{Bi-Variate Kernel Density Estimation}{section.2.4}% 21
 \BOOKMARK [2][-]{subsection.2.4.2}{Orthonormal Linear Regression}{section.2.4}% 22
-\BOOKMARK [1][-]{section.2.5}{ZDR Bias Estimation}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.5}{ZDR Hardware Bias Estimation}{chapter.2}% 23
 \BOOKMARK [0][-]{chapter.3}{Chapter Three}{}% 24
 \BOOKMARK [1][-]{section.3.1}{Event Comparisons}{chapter.3}% 25
 \BOOKMARK [2][-]{subsection.3.1.1}{18 January 2014 - Synoptic}{section.3.1}% 26
@@ -34,12 +34,12 @@
 \BOOKMARK [2][-]{subsection.3.1.9}{10 February 2016 - Lake-Effect}{section.3.1}% 34
 \BOOKMARK [2][-]{subsection.3.1.10}{15 December 2016 - Synoptic}{section.3.1}% 35
 \BOOKMARK [1][-]{section.3.2}{ZeH Subset Comparisons}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.3}{KDE Constrained ZDR}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.3}{Median KDE ZDR}{chapter.3}% 37
 \BOOKMARK [2][-]{subsection.3.3.1}{Unbiased ZDR Cases}{section.3.3}% 38
 \BOOKMARK [2][-]{subsection.3.3.2}{Biased ZDR Cases}{section.3.3}% 39
 \BOOKMARK [0][-]{chapter.4}{Chapter Four}{}% 40
 \BOOKMARK [1][-]{section.4.1}{Discussion}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.1.1}{Diagnosing ZDR Bias}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.1}{Diagnosing Inferred ZDR Bias}{section.4.1}% 42
 \BOOKMARK [2][-]{subsection.4.1.2}{ZDR Statistics}{section.4.1}% 43
 \BOOKMARK [2][-]{subsection.4.1.3}{Relative Merits of C-Band vs. S-Band in Lake-Effect Snow}{section.4.1}% 44
 \BOOKMARK [0][-]{chapter.5}{Chapter Five}{}% 45

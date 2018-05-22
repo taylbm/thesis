@@ -46,12 +46,12 @@ shows that for $Z_{DR}$, artifacts are present throughout. Also, the distributio
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth}
      \includegraphics[scale=0.38]{scatter/zdr/20140118}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20140118}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted}\label{fig:scatter_zdr_20140118}
    \end{subfigure}
 \caption{Direct comparisons for 18 January 2014. Dataset includes all admitted grid cells.} \label{fig:scatter_20140118}
 \end{figure}
 
-It is still possible to extract a signal from the noise and calibration issues, by subjectively selecting a KDE threshold of 2. Points with KDE $< 2$ are discarded, then the constrained set is used to resolve the bias present in
+It is still possible to extract a signal from the noise and calibration issues, by using the median KDE as a threshold. Points below the median KDE are discarded, then the constrained set is used to resolve the bias present in
 $Z_{DR}$, as suggested by the comparisons. Figure \ref{fig:hist_20140118} gives an estimate of the
 bias at CWKR by using the known bias at KBUF as provided by the NEXRAD
 External Target Bias Estimation technique. This method yields a median of -0.095 dB for the bias at CWKR, which is within the error threshold of $\pm$0.1 dB, indicating no discernible bias.
@@ -59,7 +59,7 @@ External Target Bias Estimation technique. This method yields a median of -0.095
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140118}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20140118}
 \end{figure}
 
@@ -81,7 +81,7 @@ $Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin 
 A positively tilted longwave trough dominates the eastern third of Canada during this event, with NW
 winds at 850mb and SW winds at the surface. This light flow pattern yields a single, heavy
 band depicted in Figure \ref{fig:grid_ref_20140123}, colloquially referred to as ``tea-kettle'' lake-effect
-snow. There is also a background stream of very light lake-effect snow impinging from Lake Erie.
+snow. \hl{This colloquiallism comes from the radar echo appearance of a cells forming continually over one area, bubbling up like steam from a tea-kettle.} There is also a background stream of very light lake-effect snow impinging from Lake Erie.
 Spatial banding patterns of the lake-effect snow in the time-averaged $Z_{eH}$ fields as compared 
 between the radars are remarkably similar. The difference between the grid mean values is only
 0.13 dBZ. Comparing $Z_{DR}$ fields in Figure \ref{fig:grid_zdr_20140123}, the spatial matching is good, but a clear bias exists. Also, a speckled pattern is imparted on the $Z_{DR}$ fields
@@ -94,7 +94,7 @@ by the light snow from Lake Erie.
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20140123}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20140123}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20140123}
    \end{subfigure}
 \caption{Direct comparisons for 23 January 2014. Dataset includes all admitted grid cells.}
 \label{fig:scatter_20140123}
@@ -112,7 +112,7 @@ threshold of $\pm$0.1 dB for this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140123}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red. } 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red. } 
 \label{fig:hist_20140123}
 \end{figure}
 
@@ -145,7 +145,7 @@ histogram in Figure \ref{fig:hist_20140201} reveals that the anomalous bias betw
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20140201}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20140201}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20140201}
    \end{subfigure}
 \caption{Direct comparisons for 1 February 2014. Dataset includes all admitted grid cells.} \label{fig:scatter_20140201}
 \end{figure}
@@ -153,13 +153,13 @@ histogram in Figure \ref{fig:hist_20140201} reveals that the anomalous bias betw
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20140201}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20140201}
 \end{figure}
 
 \subsection{6 January 2015 - Lake-Effect}
 A highly zonal, NW flow aloft is present in this case, a typical pattern for lake-effect snow across the Great Lakes region. Narrow in radar appearance, a
-lake-effect band develops in the light winds near the surface; this case could be characterized as a weak ``tea-kettle'' event. Figure
+lake-effect snow band develops in the light winds near the surface; this case could be characterized as a weak ``tea-kettle'' event. Figure
 \ref{fig:grid_ref_20150106} depicts stationary banding in the time-averaged $Z_{eH}$. Of note is that CWKR observes more of the finer scale features as
 compared with KBUF, also evidenced by the +2.9 dBZ difference in $Z_{eH}$ mean. 
 This case stands out from the rest in terms of $Z_{DR}$, as the fields are
@@ -188,7 +188,7 @@ main peak around 0.5 dB and a secondary peak near 0 dB. The histogram in Figure
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20150106}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20150106}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20150106}
    \end{subfigure}
 \caption{Direct comparisons for 6 January 2015. Dataset includes all admitted grid cells.} \label{fig:scatter_20150106}
 \end{figure}
@@ -196,7 +196,7 @@ main peak around 0.5 dB and a secondary peak near 0 dB. The histogram in Figure
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150106}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20150106}
 \end{figure}
 
@@ -228,7 +228,7 @@ exists outside of the error threshold of $\pm$0.1 dB for this event.
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20150107}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20150107}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20150107}
    \end{subfigure}
 \caption{Direct comparisons for 7 January 2015. Dataset includes all admitted grid cells.} \label{fig:scatter_20150107}
 \end{figure}
@@ -236,7 +236,7 @@ exists outside of the error threshold of $\pm$0.1 dB for this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150107}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20150107}
 \end{figure}
 
@@ -266,7 +266,7 @@ Figure \ref{fig:scatter_zdr_20150206} shows a dense, symmetric kernel with an il
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20150206}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20150206}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20150206}
    \end{subfigure}
 \caption{Direct comparisons for 6 February 2015. Dataset includes all admitted grid cells.} \label{fig:scatter_20150206}
 \end{figure}
@@ -274,7 +274,7 @@ Figure \ref{fig:scatter_zdr_20150206} shows a dense, symmetric kernel with an il
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150206}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20150206}
 \end{figure}
 
@@ -301,7 +301,7 @@ As a strong lobe of the polar vortex approaches Southern Ontario, strong W to SW
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20150214}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20150214}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20150214}
    \end{subfigure}
 \caption{Direct comparisons for 14 February 2015. Dataset includes all admitted grid cells.} \label{fig:scatter_20150214}
 \end{figure}
@@ -309,12 +309,12 @@ As a strong lobe of the polar vortex approaches Southern Ontario, strong W to SW
 \begin{figure}[p]
 \includegraphics[width=0.75\textwidth]{hist/20150214}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20150214}
 \end{figure}
 
 \subsection{18 February 2015 - Lake-Effect}
-Four days later, The polar vortex has arrived in earnest for this event, with the 500 dm isoheight at 500mb nearing as far south as Windsor, ON. The cold airmass allows for the development of an intense lake-effect snow band, the strongest of all the lake-effect cases as indicated by the $Z_{eH}$ means in Figure \ref{fig:grid_ref_20150218}. Next, Figure \ref{fig:grid_zdr_20150218} shows similiar band structure as compared between radars, with a bias evident. A orthonormal fit with decent agreement between radars is shown in Figure \ref{fig:scatter_ref_20150218}, with the values biased towards CWKR all along the line. In Figure \ref{fig:scatter_zdr_20150218}, a unique bi-modal distribution of $Z_{DR}$ is shown, with two peaks equal in magnitude around 0.50 dB and 0.75 dB. The histogram in Figure \ref{fig:hist_20150218} also depicts this bi-modal distribution of $Z_{DR}$, and gives an estimate median value of 0.296 dB. The source of the bias will be discussed in the next chapter. 
+Four days later, The polar vortex has arrived in earnest for this event, with the 500 dm isoheight at 500mb nearing as far south as Windsor, ON. The cold airmass allows for the development of an intense lake-effect snow band, the strongest of all the lake-effect snow cases as indicated by the $Z_{eH}$ means in Figure \ref{fig:grid_ref_20150218}. Next, Figure \ref{fig:grid_zdr_20150218} shows similiar band structure as compared between radars, with a bias evident. A orthonormal fit with decent agreement between radars is shown in Figure \ref{fig:scatter_ref_20150218}, with the values biased towards CWKR all along the line. In Figure \ref{fig:scatter_zdr_20150218}, a unique bi-modal distribution of $Z_{DR}$ is shown, with two peaks equal in magnitude around 0.50 dB and 0.75 dB. The histogram in Figure \ref{fig:hist_20150218} also depicts this bi-modal distribution of $Z_{DR}$, and gives an estimate median value of 0.296 dB. The source of the bias will be discussed in the next chapter. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/ref/20150218}
 \caption{Gridded $Z_{eH}$ comparison for 18 February 2015. Time-average of all admitted scans.} 
@@ -335,7 +335,7 @@ Four days later, The polar vortex has arrived in earnest for this event, with th
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20150218}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20150218}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20150218}
    \end{subfigure}
 \caption{Direct comparisons for 18 February 2015. Dataset includes all admitted grid cells.} \label{fig:scatter_20150218}
 \end{figure}
@@ -343,7 +343,7 @@ Four days later, The polar vortex has arrived in earnest for this event, with th
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20150218}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20150218}
 \end{figure}
 
@@ -382,7 +382,7 @@ this event.
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20160210}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20160210}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20160210}
    \end{subfigure}
 \caption{Direct comparisons for 10 February 2016. Dataset includes all admitted grid cells.} \label{fig:scatter_20160210}
 \end{figure}
@@ -390,7 +390,7 @@ this event.
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20160210}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR (right). Bias is calculated by subtracting the gridded, bias-adjusted $Z_{DR}$ at KBUF from the
-$Z_{DR}$ at CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red.} 
+$Z_{DR}$ at CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red.} 
 \label{fig:hist_20160210}
 \end{figure}
 
@@ -417,7 +417,7 @@ post-frontal trough manages to squeeze out some passing snow-showers. As indicat
    \end{subfigure}
    \begin{subfigure}[t]{0.48\linewidth} \centering
      \includegraphics[scale=0.38]{scatter/zdr/20161215}
-     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and KDE contoured at 1 (blue) and 2 (yellow).}\label{fig:scatter_zdr_20161215}
+     \caption{$Z_{DR}$ (dB) with a variance-weighted orthonormal linear regression and percentiles plotted.}\label{fig:scatter_zdr_20161215}
    \end{subfigure}
 \caption{Direct comparisons for 15 December 2016. Dataset includes all admitted grid cells.} \label{fig:scatter_20161215}
 \end{figure}
@@ -425,15 +425,15 @@ post-frontal trough manages to squeeze out some passing snow-showers. As indicat
 \begin{figure}[H]
 \includegraphics[width=0.75\textwidth]{hist/20161215}\centering
 \caption{Histograms of $Z_{DR}$ (left), $Z_{DR}$ bias at CWKR, determined by subtracting the gridded, bias adjusted $Z_{DR}$ at KBUF from the $Z_{DR}$ at
-CWKR. Both datasets include points with KDE $\geq 2$. The modal bin is shaded red. } 
+CWKR. Both datasets use the 50th percentile as a threshold. The modal bin is shaded red. } 
 \label{fig:hist_20161215}
 \end{figure}
 
 \section{$Z_{eH}$ Subset Comparisons}
-Now that all the cases have been presented individually, two subsets are created for comparison. The first consists of the five lake-effect events, the
+Now that all the cases have been presented individually, two subsets are created for comparison. The first consists of the five lake-effect snow events, the
 subset of interest, as compared with the five synoptic events, which act as a control subset.
 A comparison of these subsets is shown in Figure \ref{fig:ref_scatter}, with a scatter-plot of KBUF $Z_{eH}$ data versus CWKR on the common grid. Figure
-\ref{fig:ref_synoptic} is the subset of synoptic events while Figure \ref{fig:ref_lake_effect} is the subset of lake-effect events. 
+\ref{fig:ref_synoptic} is the subset of synoptic events while Figure \ref{fig:ref_lake_effect} is the subset of lake-effect snow events. 
 \begin{figure}[H]
 \centering
    \begin{subfigure}{0.49\linewidth} \centering
@@ -448,11 +448,11 @@ A comparison of these subsets is shown in Figure \ref{fig:ref_scatter}, with a s
 Regression, with a black identity line.} \label{fig:ref_scatter}
 \end{figure}
 These results show that
-comparable performance between radars is achieved in lake-effect events. An interesting result is the clustering of points for the range $0 < Z_{eH} < 10$
-dBZ in lake-effect events. This is in contrast with the higher clustering of points in synoptic events, from $10 < Z_{eH} < 25$. This could indicate that KBUF is underestimating $Z_{eH}$ in shallow lake-effect events, as the slope of regression is 0.94, compared to 1.01 for synoptic events.
+comparable performance between radars is achieved in lake-effect snow events. An interesting result is the clustering of points for the range $0 < Z_{eH} < 10$
+dBZ in lake-effect snow events. This is in contrast with the higher clustering of points in synoptic events, from $10 < Z_{eH} < 25$. This could indicate that KBUF is underestimating $Z_{eH}$ in shallow lake-effect snow events, as the slope of regression is 0.94, compared to 1.01 for synoptic events.
 
-\section{KDE Constrained $Z_{DR}$}
-The next step is to demonstrate the utility of constraining the datasets with a KDE threshold. Points with KDE $< 2$ are discarded; this level is chosen
+\section{Median KDE $Z_{DR}$}
+The next step is to demonstrate the utility of constraining the datasets with a KDE threshold. Points with KDE below the 50th percentile are discarded; this level is chosen
 through subjective analysis of the scatterplots in the previous section. These constrained $Z_{DR}$ datasets represent samples where both radars indicate a
 high likelihood of representing the true bulk hydrometeor type present in any given volume, essentially creating an even playing field between events. An
 inference on the predominant hydrometeor in any given event can then be drawn, based on the range of values found in the constrained set. All cases are
@@ -526,7 +526,7 @@ KDE $\geq 2$, and is bias-adjusted using the offset calculated in the first sect
 \end{figure}
 
 \subsubsection{14 February 2015}
-With similiar mean values and patterns of $Z_{DR}$ as shown in Figure \ref{fig:grid_zdr_kde_20150214}, the bias was sucessfully removed in this case. Once again, the differences lie in the reflectivity fields. Looking back at Figure \ref{fig:grid_ref_20150214}, it is seen that CWKR samples a shallow lake-effect band which KBUF overshoots. In terms of predominant hydrometeor type, slightly oblate, dry aggregated snow dominates, with values closer to 0.2 dB than 0 dB. 
+With similiar mean values and patterns of $Z_{DR}$ as shown in Figure \ref{fig:grid_zdr_kde_20150214}, the bias was sucessfully removed in this case. Once again, the differences lie in the reflectivity fields. Looking back at Figure \ref{fig:grid_ref_20150214}, it is seen that CWKR samples a shallow lake-effect snow band which KBUF overshoots. In terms of predominant hydrometeor type, slightly oblate, dry aggregated snow dominates, with values closer to 0.2 dB than 0 dB. 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{grid/zdr_kde/20150214}
 \caption{Comparison of gridded $Z_{DR}$ with Gaussian ($\sigma=3$) smoothed contours of $Z_{eH}$ for 14 February 2015. $Z_{DR}$ is constrained by only including points with a
