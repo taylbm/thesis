@@ -110,42 +110,42 @@ events are given in Table \ref{synopticevents}. This indicates that all events w
 dry snow/ice crystals were the predominant hydrometeor type.
 
 \begin{table}[H]
-    \caption{Temperatures at two important levels from radiosonde launched closest in time to the selected lake-effect snow events, with the time interval during which radar scans were chosen.}\label{eventslake}
+    \caption{\hl{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected lake-effect snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}}\label{eventslake}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     BUF - Radiosonde & Radar Times & Scans & Echo Tops (km) & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     BUF - Radiosonde & Radar Times & \hl{Echo Tops} & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
-    2014-01-23 00Z & 0100-1000Z & -22.5 & -14.9 \\
+    2014-01-23 00Z & 0100-1000Z & 1.9 km & -21.6 & -14.9 \\
     \hline
-    2015-01-06 12Z & 1200-1700Z & -20.1 & -11.7 \\
+    2015-01-06 12Z & 1200-1700Z & 0.5 km & -15.3 & -11.7 \\
     \hline
-    2015-02-14 12Z & 1000-1400Z & -14.9 & -6.9 \\
+    2015-02-14 12Z & 1000-1400Z & 2.1 km & -21.0 & -6.9 \\
     \hline
-    2015-02-18 12Z & 2100-2359Z & -17.3 & -10.1 \\
+    2015-02-18 12Z & 2100-2359Z & 1.9 km & -21.1 & -10.1 \\
     \hline
-    2016-02-10 12Z & 1300-2359Z & -10.5 & -2.7 \\
+    2016-02-10 12Z & 1300-2359Z & 1.9 km & -14.0 & -2.7 \\
     \hline
     \end{tabular}
     \end{center}
 \end{table}
 
 \begin{table}[H]
-    \caption{Temperatures at two important levels from radiosonde launched closest in time to the selected synoptic snow events, with the time interval during which radar scans were chosen.}\label{synopticevents}
+    \caption{\hl{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected synoptic snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}}\label{synopticevents}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     KBUF - Radiosonde & Radar Times & Scans & Echo Tops (km) & 850mb T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     KBUF - Radiosonde & Radar Times & \hl{Echo Tops} & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
-    2014-01-18 12Z & 0600-0800Z & -11.3 & -6.5 \\
+    2014-01-18 12Z & 0600-0800Z & 2.4 km & -15.7 & -6.5 \\
     \hline
-    2014-02-01 12Z & 1500-1800Z & -4.7 & -3.1 \\
+    2014-02-01 12Z & 1500-1800Z & 4.3 km & -15.0 & -3.1 \\
     \hline
-    2015-01-07 12Z & 0900-1100Z & -19.5 & -10.1 \\
+    2015-01-07 12Z & 0900-1100Z & 3.2 km & -37.5 & -10.1 \\
     \hline
-    2015-02-06 12Z & 0900-1030Z & -16.3 & -10.7 \\
+    2015-02-06 12Z & 0900-1030Z & 3.9 km & -25.9 & -10.7 \\
     \hline
-    2016-12-15 12Z & 0920-1020Z & -20.3 & -12.3 \\
+    2016-12-15 12Z & 0920-1020Z & 3.5 km & -39.7 & -12.3 \\
     \hline
     \end{tabular}
     \end{center}
@@ -164,10 +164,9 @@ contamination.
 \section{Advanced Statistical Techniques}
 Scatter plots directly comparing grid cells produced by the distance-weighting scheme are used in this study. This section discusses how advanced statistical
 techniques were leveraged to derive the most information from these plots, and also reduce the error intrinsic to the variables for quantitative analysis.
-\subsection{Bi-Variate Kernel Density Estimation}
+\subsection{Bi-Variate Kernel Density Estimates}
 Both radar datasets contain a similiar amount of measurement and analysis error. Furthermore, scatter-plots containing on the order of $10^5$ points become
-overwhelming to visually analyze. To solve this problem, a bi-variate Kernel Density Estimation (KDE) technique is used. A 2-D KDE is a technique that
-estimates the joint probability density function between two random variables \citep{Silverman1986}. The two variables compared in this study are the matched
+overwhelming to visually analyze. To solve this problem, a bi-variate \hl{Kernel Density Estimate (KDE) is calculated. This calculation estimates} the joint probability density function between two random variables \citep{Silverman1986}. The two variables compared in this study are the matched
 observations made by the two radars. Equation \ref{eq:kde_full} gives a full definition of this estimate, where $\mathbf{x}$ is the matrix of matched
 observations, $\mathbf{H}$ is the 2x2 bandwidth (smoothing) matrix, and $\mathbf{K}$ is the kernel function. \citet{Scott1992} suggests a rule of thumb for
 calculating the bandwidth matrix, shown in Equation \ref{eq:scotts_rule}, where $n$ is the number of points and $\sigma$ is the standard deviation. The

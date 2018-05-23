@@ -20,9 +20,9 @@ V = \frac{\Omega}{4\pi} * \frac{4}{3} \pi r^{3}
 \label{fig:ideal_beam}
 \end{figure}
  As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense 
- precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased 
+ precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased threshold
  cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater 
- than unbiased cases. 
+ than unbiased cases. This difference is significant as it falls beyond the standard error of the two means. 
 Another result that supports this is found by comparing the range of $Z_{DR}$ values present in each case. As 
 shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger range of values than unbiased. 
 \begin{table}[H]
@@ -44,7 +44,9 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
     \hline
     2016-02-10 & 1.9 & 12 & 15 \\ 
     \hline\hline
-    Mean & 2.0 & 13 & 13\\
+    Mean & 2.0 & 13 & 13 \\
+    \hline
+    \hl{Standard Error} & 0.20 & 0.63 & 0.71 \\
     \hline
     \multicolumn{4}{|c|}{Biased Cases} \\
     \hline\hline
@@ -60,15 +62,16 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
     \hline\hline
     Mean & 3.1 & 16 & 15 \\
     \hline
+    \hl{Standard Error} & 0.22 & 0.49 & 0.53 \\
+    \hline
     \end{tabular}
     \end{center}
 \end{table}
 
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{bias_range}
-\caption{Comparison of the range of $Z_{DR}$ (max-min) values observed for each case, with biased cases depicted with yellow trianges and unbiased as green dots.} 
+\caption{Comparison of the range of $Z_{DR}$ (max-min) values observed for each case.} 
 \label{fig:bias_range}
 \end{figure}
 \subsection{$Z_{DR}$ Statistics}
