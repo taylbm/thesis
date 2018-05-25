@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  23 MAY 2018 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  25 MAY 2018 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,24 +465,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <figures/zdr_chart.png, id=655, 1031.855pt x 426.59375pt>
 File: figures/zdr_chart.png Graphic file (type png)
 <use figures/zdr_chart.png>
-Package pdftex.def Info: figures/zdr_chart.png  used on input line 74.
+Package pdftex.def Info: figures/zdr_chart.png  used on input line 73.
 (pdftex.def)             Requested size: 422.77995pt x 174.7874pt.
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 78.
+(hyperref)                removing `\rho' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 78.
+(hyperref)                removing `subscript' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 78.
+(hyperref)                removing `math shift' on input line 77.
 
 [5 <./figures/zdr_chart.png>]) [6]
 \openout2 = `chapter-2.aux'.
@@ -506,54 +506,54 @@ Overfull \hbox (14.6287pt too wide) in paragraph at lines 40--59
  [] 
  []
 
-[9]
-<figures/compare_bins_ref.png, id=775, 697.4055pt x 190.43146pt>
+[9] [10]
+<figures/compare_bins_ref.png, id=787, 697.4055pt x 190.43146pt>
 File: figures/compare_bins_ref.png Graphic file (type png)
 <use figures/compare_bins_ref.png>
 Package pdftex.def Info: figures/compare_bins_ref.png  used on input line 86.
 (pdftex.def)             Requested size: 422.77995pt x 115.4453pt.
-<figures/compare_bins_zdr.png, id=776, 697.4055pt x 190.43146pt>
+<figures/compare_bins_zdr.png, id=788, 697.4055pt x 190.43146pt>
 File: figures/compare_bins_zdr.png Graphic file (type png)
 <use figures/compare_bins_zdr.png>
 Package pdftex.def Info: figures/compare_bins_zdr.png  used on input line 90.
 (pdftex.def)             Requested size: 422.77995pt x 115.4453pt.
- [10] [11 <./figures/compare_bins_ref.png> <./figures/compare_bins_zdr.png>] [1
-2] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 168--177
+ [11 <./figures/compare_bins_ref.png> <./figures/compare_bins_zdr.png>] [12] [1
+3] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 170--181
 
  []
 
 [15]
-<figures/KDE_example.pdf, id=831, 578.16pt x 289.08pt>
+<figures/KDE_example.pdf, id=834, 578.16pt x 289.08pt>
 File: figures/KDE_example.pdf Graphic file (type pdf)
 <use figures/KDE_example.pdf>
-Package pdftex.def Info: figures/KDE_example.pdf  used on input line 187.
+Package pdftex.def Info: figures/KDE_example.pdf  used on input line 191.
 (pdftex.def)             Requested size: 422.77995pt x 211.38834pt.
-<figures/total_least_square.png, id=835, 579.16376pt x 574.145pt>
+<figures/total_least_square.png, id=838, 579.16376pt x 574.145pt>
 File: figures/total_least_square.png Graphic file (type png)
 <use figures/total_least_square.png>
-Package pdftex.def Info: figures/total_least_square.png  used on input line 199
+Package pdftex.def Info: figures/total_least_square.png  used on input line 203
 .
 (pdftex.def)             Requested size: 231.66139pt x 229.65393pt.
  [16 <./figures/KDE_example.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 203.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 203.
+(hyperref)                removing `subscript' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 203.
+(hyperref)                removing `math shift' on input line 207.
 
 ) [17 <./figures/total_least_square.png>] [18]
 \openout2 = `chapter-3.aux'.
 
  (./chapter-3.tex
 Chapter 3.
-<figures/grid/ref/20140118.png, id=921, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20140118.png, id=924, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20140118.png Graphic file (type png)
 <use figures/grid/ref/20140118.png>
 Package pdftex.def Info: figures/grid/ref/20140118.png  used on input line 21.
@@ -563,12 +563,12 @@ Package pdftex.def Info: figures/grid/ref/20140118.png  used on input line 21.
 
 
 ]
-<figures/grid/zdr/20140118.png, id=926, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20140118.png, id=930, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20140118.png Graphic file (type png)
 <use figures/grid/zdr/20140118.png>
 Package pdftex.def Info: figures/grid/zdr/20140118.png  used on input line 27.
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20140118.pdf, id=930, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20140118.pdf, id=934, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20140118.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20140118.pdf>
 Package pdftex.def Info: figures/scatter/ref/20140118.pdf  used on input line 4
@@ -579,7 +579,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-<figures/scatter/zdr/20140118.pdf, id=931, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20140118.pdf, id=935, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20140118.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20140118.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20140118.pdf  used on input line 4
@@ -597,22 +597,22 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20140118.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/hist/20140118.pdf, id=1079, 484.14626pt x 282.2865pt>
+<figures/hist/20140118.pdf, id=1082, 490.52948pt x 282.2865pt>
 File: figures/hist/20140118.pdf Graphic file (type pdf)
 <use figures/hist/20140118.pdf>
 Package pdftex.def Info: figures/hist/20140118.pdf  used on input line 60.
-(pdftex.def)             Requested size: 317.08496pt x 184.88393pt.
-<figures/grid/ref/20140123.png, id=1080, 560.0925pt x 265.9536pt>
+(pdftex.def)             Requested size: 317.08496pt x 182.48042pt.
+<figures/grid/ref/20140123.png, id=1083, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20140123.png Graphic file (type png)
 <use figures/grid/ref/20140123.png>
 Package pdftex.def Info: figures/grid/ref/20140123.png  used on input line 69.
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/grid/zdr/20140123.png, id=1081, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20140123.png, id=1084, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20140123.png Graphic file (type png)
 <use figures/grid/zdr/20140123.png>
 Package pdftex.def Info: figures/grid/zdr/20140123.png  used on input line 75.
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20140123.pdf, id=1084, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20140123.pdf, id=1087, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20140123.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20140123.pdf>
 Package pdftex.def Info: figures/scatter/ref/20140123.pdf  used on input line 9
@@ -623,7 +623,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-<figures/scatter/zdr/20140123.pdf, id=1085, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20140123.pdf, id=1088, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20140123.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20140123.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20140123.pdf  used on input line 9
@@ -636,7 +636,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 96--97
 
 [22 <./figures/hist/20140118.pdf>] [23 <./figures/grid/ref/20140123.png> <./fig
 ures/grid/zdr/20140123.png>]
-<figures/hist/20140123.pdf, id=1153, 490.52948pt x 282.2865pt>
+<figures/hist/20140123.pdf, id=1156, 490.52948pt x 282.2865pt>
 File: figures/hist/20140123.pdf Graphic file (type pdf)
 <use figures/hist/20140123.pdf>
 Package pdftex.def Info: figures/hist/20140123.pdf  used on input line 113.
@@ -647,20 +647,20 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20140123.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20140201.png, id=1296, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20140201.png, id=1299, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20140201.png Graphic file (type png)
 <use figures/grid/ref/20140201.png>
 Package pdftex.def Info: figures/grid/ref/20140201.png  used on input line 126.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/grid/zdr/20140201.png, id=1297, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20140201.png, id=1300, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20140201.png Graphic file (type png)
 <use figures/grid/zdr/20140201.png>
 Package pdftex.def Info: figures/grid/zdr/20140201.png  used on input line 131.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
  [25 <./figures/hist/20140123.pdf>]
-<figures/scatter/ref/20140201.pdf, id=1358, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20140201.pdf, id=1362, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20140201.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20140201.pdf>
 Package pdftex.def Info: figures/scatter/ref/20140201.pdf  used on input line 1
@@ -671,7 +671,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-<figures/scatter/zdr/20140201.pdf, id=1359, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20140201.pdf, id=1363, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20140201.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20140201.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20140201.pdf  used on input line 1
@@ -682,7 +682,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
-<figures/hist/20140201.pdf, id=1360, 490.52948pt x 282.2865pt>
+<figures/hist/20140201.pdf, id=1364, 490.52948pt x 282.2865pt>
 File: figures/hist/20140201.pdf Graphic file (type pdf)
 <use figures/hist/20140201.pdf>
 Package pdftex.def Info: figures/hist/20140201.pdf  used on input line 154.
@@ -693,7 +693,7 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20140201.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >] [27 <./figures/grid/ref/20140201.png> <./figures/grid/zdr/20140201.png>]
-<figures/grid/ref/20150106.png, id=1510, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20150106.png, id=1514, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20150106.png Graphic file (type png)
 <use figures/grid/ref/20150106.png>
 Package pdftex.def Info: figures/grid/ref/20150106.png  used on input line 172.
@@ -701,13 +701,13 @@ Package pdftex.def Info: figures/grid/ref/20150106.png  used on input line 172.
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
 
 [28 <./figures/hist/20140201.pdf>]
-<figures/grid/zdr/20150106.png, id=1566, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20150106.png, id=1570, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20150106.png Graphic file (type png)
 <use figures/grid/zdr/20150106.png>
 Package pdftex.def Info: figures/grid/zdr/20150106.png  used on input line 178.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20150106.pdf, id=1567, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20150106.pdf, id=1571, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20150106.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20150106.pdf>
 Package pdftex.def Info: figures/scatter/ref/20150106.pdf  used on input line 1
@@ -718,7 +718,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-<figures/scatter/zdr/20150106.pdf, id=1568, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20150106.pdf, id=1572, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20150106.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20150106.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20150106.pdf  used on input line 1
@@ -730,11 +730,11 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 190--191
  []
 
 [29 <./figures/grid/ref/20150106.png> <./figures/grid/zdr/20150106.png>]
-<figures/hist/20150106.pdf, id=1575, 484.14626pt x 282.2865pt>
+<figures/hist/20150106.pdf, id=1579, 490.52948pt x 282.2865pt>
 File: figures/hist/20150106.pdf Graphic file (type pdf)
 <use figures/hist/20150106.pdf>
 Package pdftex.def Info: figures/hist/20150106.pdf  used on input line 197.
-(pdftex.def)             Requested size: 317.08496pt x 184.88393pt.
+(pdftex.def)             Requested size: 317.08496pt x 182.48042pt.
 
 [30 <./figures/scatter/ref/20150106.pdf> <./figures/scatter/zdr/20150106.pdf
 
@@ -742,20 +742,20 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20150106.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20150107.png, id=1718, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20150107.png, id=1722, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20150107.png Graphic file (type png)
 <use figures/grid/ref/20150107.png>
 Package pdftex.def Info: figures/grid/ref/20150107.png  used on input line 213.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
  [31 <./figures/hist/20150106.pdf>]
-<figures/grid/zdr/20150107.png, id=1778, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20150107.png, id=1782, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20150107.png Graphic file (type png)
 <use figures/grid/zdr/20150107.png>
 Package pdftex.def Info: figures/grid/zdr/20150107.png  used on input line 219.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20150107.pdf, id=1779, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20150107.pdf, id=1783, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20150107.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20150107.pdf>
 Package pdftex.def Info: figures/scatter/ref/20150107.pdf  used on input line 2
@@ -766,7 +766,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
-<figures/scatter/zdr/20150107.pdf, id=1780, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20150107.pdf, id=1784, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20150107.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20150107.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20150107.pdf  used on input line 2
@@ -778,7 +778,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 230--231
  []
 
 [32 <./figures/grid/ref/20150107.png> <./figures/grid/zdr/20150107.png>]
-<figures/hist/20150107.pdf, id=1788, 490.52948pt x 282.2865pt>
+<figures/hist/20150107.pdf, id=1792, 490.52948pt x 282.2865pt>
 File: figures/hist/20150107.pdf Graphic file (type pdf)
 <use figures/hist/20150107.pdf>
 Package pdftex.def Info: figures/hist/20150107.pdf  used on input line 237.
@@ -790,20 +790,20 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20150107.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20150206.png, id=1928, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20150206.png, id=1932, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20150206.png Graphic file (type png)
 <use figures/grid/ref/20150206.png>
 Package pdftex.def Info: figures/grid/ref/20150206.png  used on input line 251.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
  [34 <./figures/hist/20150107.pdf>]
-<figures/grid/zdr/20150206.png, id=1984, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20150206.png, id=1988, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20150206.png Graphic file (type png)
 <use figures/grid/zdr/20150206.png>
 Package pdftex.def Info: figures/grid/zdr/20150206.png  used on input line 256.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20150206.pdf, id=1985, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20150206.pdf, id=1989, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20150206.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20150206.pdf>
 Package pdftex.def Info: figures/scatter/ref/20150206.pdf  used on input line 2
@@ -814,7 +814,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-<figures/scatter/zdr/20150206.pdf, id=1986, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20150206.pdf, id=1990, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20150206.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20150206.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20150206.pdf  used on input line 2
@@ -826,7 +826,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 268--269
  []
 
 [35 <./figures/grid/ref/20150206.png> <./figures/grid/zdr/20150206.png>]
-<figures/hist/20150206.pdf, id=1993, 490.52948pt x 282.2865pt>
+<figures/hist/20150206.pdf, id=1997, 490.52948pt x 282.2865pt>
 File: figures/hist/20150206.pdf Graphic file (type pdf)
 <use figures/hist/20150206.pdf>
 Package pdftex.def Info: figures/hist/20150206.pdf  used on input line 275.
@@ -838,19 +838,19 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20150206.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20150214.png, id=2134, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20150214.png, id=2138, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20150214.png Graphic file (type png)
 <use figures/grid/ref/20150214.png>
 Package pdftex.def Info: figures/grid/ref/20150214.png  used on input line 285.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/grid/zdr/20150214.png, id=2135, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20150214.png, id=2139, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20150214.png Graphic file (type png)
 <use figures/grid/zdr/20150214.png>
 Package pdftex.def Info: figures/grid/zdr/20150214.png  used on input line 291.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20150214.pdf, id=2136, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20150214.pdf, id=2140, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20150214.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20150214.pdf>
 Package pdftex.def Info: figures/scatter/ref/20150214.pdf  used on input line 2
@@ -861,7 +861,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 299--300
  [][] 
  []
 
-<figures/scatter/zdr/20150214.pdf, id=2137, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20150214.pdf, id=2141, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20150214.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20150214.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20150214.pdf  used on input line 3
@@ -872,12 +872,12 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-<figures/hist/20150214.pdf, id=2138, 490.52948pt x 282.2865pt>
+<figures/hist/20150214.pdf, id=2142, 490.52948pt x 282.2865pt>
 File: figures/hist/20150214.pdf Graphic file (type pdf)
 <use figures/hist/20150214.pdf>
 Package pdftex.def Info: figures/hist/20150214.pdf  used on input line 310.
 (pdftex.def)             Requested size: 317.08496pt x 182.48042pt.
-<figures/grid/ref/20150218.png, id=2144, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20150218.png, id=2148, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20150218.png Graphic file (type png)
 <use figures/grid/ref/20150218.png>
 Package pdftex.def Info: figures/grid/ref/20150218.png  used on input line 319.
@@ -891,13 +891,13 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20150214.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/zdr/20150218.png, id=2346, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20150218.png, id=2351, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20150218.png Graphic file (type png)
 <use figures/grid/zdr/20150218.png>
 Package pdftex.def Info: figures/grid/zdr/20150218.png  used on input line 325.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20150218.pdf, id=2347, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20150218.pdf, id=2352, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20150218.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20150218.pdf>
 Package pdftex.def Info: figures/scatter/ref/20150218.pdf  used on input line 3
@@ -908,7 +908,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
-<figures/scatter/zdr/20150218.pdf, id=2348, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20150218.pdf, id=2353, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20150218.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20150218.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20150218.pdf  used on input line 3
@@ -919,11 +919,11 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 337--338
  [][] 
  []
 
-<figures/hist/20150218.pdf, id=2349, 484.14626pt x 282.2865pt>
+<figures/hist/20150218.pdf, id=2354, 490.52948pt x 282.2865pt>
 File: figures/hist/20150218.pdf Graphic file (type pdf)
 <use figures/hist/20150218.pdf>
 Package pdftex.def Info: figures/hist/20150218.pdf  used on input line 344.
-(pdftex.def)             Requested size: 317.08496pt x 184.88393pt.
+(pdftex.def)             Requested size: 317.08496pt x 182.48042pt.
 [40 <./figures/grid/ref/20150218.png>] [41 <./figures/hist/20150214.pdf> <./fig
 ures/grid/zdr/20150218.png>] [42 <./figures/scatter/ref/20150218.pdf> <./figure
 s/scatter/zdr/20150218.pdf
@@ -932,21 +932,21 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20150218.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20160210.png, id=2554, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20160210.png, id=2558, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20160210.png Graphic file (type png)
 <use figures/grid/ref/20160210.png>
 Package pdftex.def Info: figures/grid/ref/20160210.png  used on input line 357.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
  [43 <./figures/hist/20150218.pdf>]
-<figures/grid/zdr/20160210.png, id=2615, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20160210.png, id=2618, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20160210.png Graphic file (type png)
 <use figures/grid/zdr/20160210.png>
 Package pdftex.def Info: figures/grid/zdr/20160210.png  used on input line 363.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
  [44 <./figures/grid/ref/20160210.png> <./figures/grid/zdr/20160210.png>]
-<figures/scatter/ref/20160210.pdf, id=2626, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20160210.pdf, id=2629, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20160210.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20160210.pdf>
 Package pdftex.def Info: figures/scatter/ref/20160210.pdf  used on input line 3
@@ -957,7 +957,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 380--381
  [][] 
  []
 
-<figures/scatter/zdr/20160210.pdf, id=2627, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20160210.pdf, id=2630, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20160210.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20160210.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20160210.pdf  used on input line 3
@@ -968,7 +968,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
-<figures/hist/20160210.pdf, id=2628, 490.52948pt x 282.2865pt>
+<figures/hist/20160210.pdf, id=2631, 490.52948pt x 282.2865pt>
 File: figures/hist/20160210.pdf Graphic file (type pdf)
 <use figures/hist/20160210.pdf>
 Package pdftex.def Info: figures/hist/20160210.pdf  used on input line 391.
@@ -979,19 +979,19 @@ pdfTeX warning: /home/btaylor/texlive-2017/bin/x86_64-linux/pdflatex (file ./fi
 gures/scatter/zdr/20160210.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<figures/grid/ref/20161215.png, id=2773, 560.0925pt x 265.9536pt>
+<figures/grid/ref/20161215.png, id=2776, 560.0925pt x 265.9536pt>
 File: figures/grid/ref/20161215.png Graphic file (type png)
 <use figures/grid/ref/20161215.png>
 Package pdftex.def Info: figures/grid/ref/20161215.png  used on input line 401.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/grid/zdr/20161215.png, id=2774, 560.0925pt x 265.9536pt>
+<figures/grid/zdr/20161215.png, id=2777, 560.0925pt x 265.9536pt>
 File: figures/grid/zdr/20161215.png Graphic file (type png)
 <use figures/grid/zdr/20161215.png>
 Package pdftex.def Info: figures/grid/zdr/20161215.png  used on input line 407.
 
 (pdftex.def)             Requested size: 422.77995pt x 200.75923pt.
-<figures/scatter/ref/20161215.pdf, id=2775, 556.28893pt x 553.73912pt>
+<figures/scatter/ref/20161215.pdf, id=2778, 556.28893pt x 553.73912pt>
 File: figures/scatter/ref/20161215.pdf Graphic file (type pdf)
 <use figures/scatter/ref/20161215.pdf>
 Package pdftex.def Info: figures/scatter/ref/20161215.pdf  used on input line 4
@@ -1002,7 +1002,7 @@ Overfull \hbox (8.45943pt too wide) in paragraph at lines 415--416
  [][] 
  []
 
-<figures/scatter/zdr/20161215.pdf, id=2776, 556.20206pt x 553.23326pt>
+<figures/scatter/zdr/20161215.pdf, id=2779, 556.20206pt x 553.23326pt>
 File: figures/scatter/zdr/20161215.pdf Graphic file (type pdf)
 <use figures/scatter/zdr/20161215.pdf>
 Package pdftex.def Info: figures/scatter/zdr/20161215.pdf  used on input line 4
@@ -1013,7 +1013,7 @@ Overfull \hbox (8.42642pt too wide) in paragraph at lines 419--420
  [][] 
  []
 
-<figures/hist/20161215.pdf, id=2777, 484.14626pt x 282.2865pt>
+<figures/hist/20161215.pdf, id=2780, 484.14626pt x 282.2865pt>
 File: figures/hist/20161215.pdf Graphic file (type pdf)
 <use figures/hist/20161215.pdf>
 Package pdftex.def Info: figures/hist/20161215.pdf  used on input line 426.
@@ -1038,7 +1038,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 432.
 
-<figures/ref_scatter_synoptic.pdf, id=2982, 539.04837pt x 553.23326pt>
+<figures/ref_scatter_synoptic.pdf, id=2986, 539.04837pt x 553.23326pt>
 File: figures/ref_scatter_synoptic.pdf Graphic file (type pdf)
 <use figures/ref_scatter_synoptic.pdf>
 Package pdftex.def Info: figures/ref_scatter_synoptic.pdf  used on input line 4
@@ -1049,7 +1049,7 @@ Overfull \hbox (35.40503pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
-<figures/ref_scatter_lake_effect.pdf, id=2983, 539.04837pt x 553.23326pt>
+<figures/ref_scatter_lake_effect.pdf, id=2987, 539.04837pt x 553.23326pt>
 File: figures/ref_scatter_lake_effect.pdf Graphic file (type pdf)
 <use figures/ref_scatter_lake_effect.pdf>
 Package pdftex.def Info: figures/ref_scatter_lake_effect.pdf  used on input lin
@@ -1082,96 +1082,96 @@ p included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 460.
+(hyperref)                removing `math shift' on input line 459.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 460.
+(hyperref)                removing `subscript' on input line 459.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 460.
+(hyperref)                removing `math shift' on input line 459.
 
-<figures/grid/zdr_kde/20140118.pdf, id=3186, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20140118.pdf, id=3190, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20140118.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20140118.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20140118.pdf  used on input line 
-468.
+467.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
 [51]
-<figures/grid/zdr_kde/20140123.pdf, id=3193, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20140123.pdf, id=3197, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20140123.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20140123.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20140123.pdf  used on input line 
-476.
+475.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [52 <./figures/grid/zdr_kde/20140118.pdf>]
-<figures/grid/zdr_kde/20150106.pdf, id=3277, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20150106.pdf, id=3281, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20150106.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20150106.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20150106.pdf  used on input line 
-483.
+482.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [53 <./figures/grid/zdr_kde/20140123.pdf>]
-<figures/grid/zdr_kde/20150107.pdf, id=3360, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20150107.pdf, id=3364, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20150107.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20150107.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20150107.pdf  used on input line 
-490.
+489.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [54 <./figures/grid/zdr_kde/20150106.pdf>]
-<figures/grid/zdr_kde/20160210.pdf, id=3442, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20160210.pdf, id=3446, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20160210.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20160210.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20160210.pdf  used on input line 
-498.
+497.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [55 <./figures/grid/zdr_kde/20150107.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
+(hyperref)                removing `math shift' on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 503.
+(hyperref)                removing `subscript' on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
+(hyperref)                removing `math shift' on input line 502.
 
-<figures/grid/zdr_kde/20140201.pdf, id=3523, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20140201.pdf, id=3527, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20140201.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20140201.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20140201.pdf  used on input line 
-508.
+507.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
 [56 <./figures/grid/zdr_kde/20160210.pdf>]
-<figures/grid/zdr_kde/20150206.pdf, id=3604, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20150206.pdf, id=3608, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20150206.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20150206.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20150206.pdf  used on input line 
-516.
+515.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [57 <./figures/grid/zdr_kde/20140201.pdf>]
-<figures/grid/zdr_kde/20150214.pdf, id=3689, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20150214.pdf, id=3694, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20150214.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20150214.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20150214.pdf  used on input line 
-524.
+523.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [58 <./figures/grid/zdr_kde/20150206.pdf>]
-<figures/grid/zdr_kde/20150218.pdf, id=3772, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20150218.pdf, id=3776, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20150218.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20150218.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20150218.pdf  used on input line 
-532.
+531.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
  [59 <./figures/grid/zdr_kde/20150214.pdf>]
-<figures/grid/zdr_kde/20161215.pdf, id=3855, 562.60286pt x 287.0562pt>
+<figures/grid/zdr_kde/20161215.pdf, id=3859, 562.60286pt x 287.0562pt>
 File: figures/grid/zdr_kde/20161215.pdf Graphic file (type pdf)
 <use figures/grid/zdr_kde/20161215.pdf>
 Package pdftex.def Info: figures/grid/zdr_kde/20161215.pdf  used on input line 
-540.
+539.
 (pdftex.def)             Requested size: 422.77995pt x 215.71649pt.
 ) [60 <./figures/grid/zdr_kde/20150218.pdf>] [61 <./figures/grid/zdr_kde/201612
 15.pdf>]
@@ -1191,17 +1191,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-<figures/ideal_beam.pdf, id=4025, 462.52798pt x 346.89601pt>
+<figures/ideal_beam.pdf, id=4029, 462.52798pt x 346.89601pt>
 File: figures/ideal_beam.pdf Graphic file (type pdf)
 <use figures/ideal_beam.pdf>
-Package pdftex.def Info: figures/ideal_beam.pdf  used on input line 18.
+Package pdftex.def Info: figures/ideal_beam.pdf  used on input line 17.
 (pdftex.def)             Requested size: 422.77995pt x 317.09973pt.
 [62
 
 
 
 ] [63 <./figures/ideal_beam.pdf>]
-<figures/bias_range.pdf, id=4097, 474.57927pt x 519.7336pt>
+<figures/bias_range.pdf, id=4101, 474.57927pt x 519.7336pt>
 File: figures/bias_range.pdf Graphic file (type pdf)
 <use figures/bias_range.pdf>
 Package pdftex.def Info: figures/bias_range.pdf  used on input line 73.
@@ -1238,127 +1238,127 @@ Chapter 5.
 
  (./appendix-a.tex
 Appendix A.
-<figures/500mb/20140118_06Z_GPH.png, id=4175, 803.0pt x 621.32124pt>
+<figures/500mb/20140118_06Z_GPH.png, id=4179, 803.0pt x 621.32124pt>
 File: figures/500mb/20140118_06Z_GPH.png Graphic file (type png)
 <use figures/500mb/20140118_06Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20140118_06Z_GPH.png  used on input line
  5.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20140123_06Z_GPH.png, id=4177, 803.0pt x 621.32124pt>
+<figures/500mb/20140123_06Z_GPH.png, id=4181, 803.0pt x 621.32124pt>
 File: figures/500mb/20140123_06Z_GPH.png Graphic file (type png)
 <use figures/500mb/20140123_06Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20140123_06Z_GPH.png  used on input line
  12.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20140201_18Z_GPH.png, id=4179, 803.0pt x 621.32124pt>
+<figures/500mb/20140201_18Z_GPH.png, id=4183, 803.0pt x 621.32124pt>
 File: figures/500mb/20140201_18Z_GPH.png Graphic file (type png)
 <use figures/500mb/20140201_18Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20140201_18Z_GPH.png  used on input line
  18.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20150106_15Z_GPH.png, id=4181, 803.0pt x 621.32124pt>
+<figures/500mb/20150106_15Z_GPH.png, id=4185, 803.0pt x 621.32124pt>
 File: figures/500mb/20150106_15Z_GPH.png Graphic file (type png)
 <use figures/500mb/20150106_15Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20150106_15Z_GPH.png  used on input line
  24.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20150107_09Z_GPH.png, id=4183, 803.0pt x 621.32124pt>
+<figures/500mb/20150107_09Z_GPH.png, id=4187, 803.0pt x 621.32124pt>
 File: figures/500mb/20150107_09Z_GPH.png Graphic file (type png)
 <use figures/500mb/20150107_09Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20150107_09Z_GPH.png  used on input line
  31.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20150206_09Z_GPH.png, id=4185, 803.0pt x 621.32124pt>
+<figures/500mb/20150206_09Z_GPH.png, id=4189, 803.0pt x 621.32124pt>
 File: figures/500mb/20150206_09Z_GPH.png Graphic file (type png)
 <use figures/500mb/20150206_09Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20150206_09Z_GPH.png  used on input line
  38.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20150214_12Z_GPH.png, id=4187, 803.0pt x 621.32124pt>
+<figures/500mb/20150214_12Z_GPH.png, id=4191, 803.0pt x 621.32124pt>
 File: figures/500mb/20150214_12Z_GPH.png Graphic file (type png)
 <use figures/500mb/20150214_12Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20150214_12Z_GPH.png  used on input line
  45.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20150218_21Z_GPH.png, id=4189, 803.0pt x 621.32124pt>
+<figures/500mb/20150218_21Z_GPH.png, id=4193, 803.0pt x 621.32124pt>
 File: figures/500mb/20150218_21Z_GPH.png Graphic file (type png)
 <use figures/500mb/20150218_21Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20150218_21Z_GPH.png  used on input line
  52.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20160210_18Z_GPH.png, id=4191, 803.0pt x 621.32124pt>
+<figures/500mb/20160210_18Z_GPH.png, id=4195, 803.0pt x 621.32124pt>
 File: figures/500mb/20160210_18Z_GPH.png Graphic file (type png)
 <use figures/500mb/20160210_18Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20160210_18Z_GPH.png  used on input line
  59.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/500mb/20161215_09Z_GPH.png, id=4193, 803.0pt x 621.32124pt>
+<figures/500mb/20161215_09Z_GPH.png, id=4197, 803.0pt x 621.32124pt>
 File: figures/500mb/20161215_09Z_GPH.png Graphic file (type png)
 <use figures/500mb/20161215_09Z_GPH.png>
 Package pdftex.def Info: figures/500mb/20161215_09Z_GPH.png  used on input line
  66.
 (pdftex.def)             Requested size: 422.77995pt x 302.61133pt.
-<figures/skewt/sounding_20140118_12Z.png, id=4196, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20140118_12Z.png, id=4200, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20140118_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20140118_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20140118_12Z.png  used on input
  line 74.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20140123_00Z.png, id=4197, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20140123_00Z.png, id=4201, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20140123_00Z.png Graphic file (type png)
 <use figures/skewt/sounding_20140123_00Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20140123_00Z.png  used on input
  line 80.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20140201_12Z.png, id=4198, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20140201_12Z.png, id=4202, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20140201_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20140201_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20140201_12Z.png  used on input
  line 86.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20150106_12Z.png, id=4199, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20150106_12Z.png, id=4203, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20150106_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20150106_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20150106_12Z.png  used on input
  line 92.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20150107_12Z.png, id=4200, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20150107_12Z.png, id=4204, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20150107_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20150107_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20150107_12Z.png  used on input
  line 98.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20150206_12Z.png, id=4201, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20150206_12Z.png, id=4205, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20150206_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20150206_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20150206_12Z.png  used on input
  line 104.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20150214_12Z.png, id=4202, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20150214_12Z.png, id=4206, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20150214_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20150214_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20150214_12Z.png  used on input
  line 110.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20150218_12Z.png, id=4203, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20150218_12Z.png, id=4207, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20150218_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20150218_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20150218_12Z.png  used on input
  line 116.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20160210_12Z.png, id=4204, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20160210_12Z.png, id=4208, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20160210_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20160210_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20160210_12Z.png  used on input
  line 122.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/skewt/sounding_20161215_12Z.png, id=4205, 578.16pt x 578.16pt>
+<figures/skewt/sounding_20161215_12Z.png, id=4209, 578.16pt x 578.16pt>
 File: figures/skewt/sounding_20161215_12Z.png Graphic file (type png)
 <use figures/skewt/sounding_20161215_12Z.png>
 Package pdftex.def Info: figures/skewt/sounding_20161215_12Z.png  used on input
  line 128.
 (pdftex.def)             Requested size: 422.77995pt x 422.77669pt.
-<figures/sounding_climo.png, id=4207, 894.34125pt x 821.0675pt>
+<figures/sounding_climo.png, id=4211, 894.34125pt x 821.0675pt>
 File: figures/sounding_climo.png Graphic file (type png)
 <use figures/sounding_climo.png>
 Package pdftex.def Info: figures/sounding_climo.png  used on input line 136.
@@ -1436,11 +1436,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
 Here is how much of TeX's memory you used:
  8736 strings out of 492982
  140096 string characters out of 6130652
- 259973 words of memory out of 5000000
+ 253007 words of memory out of 5000000
  11800 multiletter control sequences out of 15000+600000
  13150 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,45p,1078b,666s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,45p,1067b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/btaylor/texlive-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></home/btaylor/texlive-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6
 .pfb></home/btaylor/texlive-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
@@ -1460,10 +1460,10 @@ sfonts/cm/cmsy6.pfb></home/btaylor/texlive-2017/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></home/btaylor/texlive-2017/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb></home/btaylor/texlive-2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt12.pfb>
-Output written on direct_comparison_thesis_bt.pdf (112 pages, 20524793 bytes).
+Output written on direct_comparison_thesis_bt.pdf (112 pages, 20513227 bytes).
 PDF statistics:
- 4511 PDF objects out of 5155 (max. 8388607)
- 1827 compressed objects within 19 object streams
+ 4515 PDF objects out of 5155 (max. 8388607)
+ 1830 compressed objects within 19 object streams
  303 named destinations out of 1000 (max. 500000)
  929 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,28 +1,28 @@
 \chapter{Chapter Four}
 \section{Discussion}
 It has been shown that the constrained $Z_{DR}$ datasets aid in determining event biases, which then allows hydrometeor type to be inferred from the unbiased
-datasets. Now, statistics are compiled, and the probable source of the \hl{inferred bias} addressed. The relative merit of the two radar systems in observing lake-effect
-snow is also discussed.
+datasets. Now, statistics are compiled, and the probable source of the inferred bias addressed. The relative merit of the two radar systems in observing
+lake-effect snow is also discussed.
 \subsection{Diagnosing Inferred $Z_{DR}$ Bias}
-The source of the \hl{inferred observational bias at CWKR} could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007a}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Modeling the beam as a Gaussian function, Equation \ref{eq:beam_pattern} gives the solid angle of the beam, as a function of beamwidth $\theta$ \citep{Probert1962}. 
+The source of the inferred observational bias at CWKR could be due to large differences in beam volumes between radars, in combination with a large gradients of $Z_{DR}$ with height. A similiar result was found by \citep{Ryzhkov2007a}, in that cross-beam gradients of $Z_{DR}$ can produce significant biases. Modeling the beam as a Gaussian function, Equation \ref{eq:beam_pattern} gives the solid angle of the beam, as a function of beamwidth $\theta$ \citep{Probert1962}. 
 \begin{equation}\label{eq:beam_pattern}
 \Omega = \int \int f^{2}(\theta) d\omega \approx \frac{\pi \theta^{2}}{8 \ln 2}
 \end{equation}
 \begin{equation}\label{eq:beam_volume}
 V = \frac{\Omega}{4\pi} * \frac{4}{3} \pi r^{3}
 \end{equation}
- Equation \ref{eq:beam_volume} describes how the \hl{theoretical beam volume} broadens as range ($r$) increases. \hl{The theoretical beam volume is modeled as a spheroid, and is an average over a window of pulse volumes.} This combined with 
- differing $\Omega$ creates the large difference in beam volumes between radars, as shown in Figure \ref{fig:ideal_beam}.
+Equation \ref{eq:beam_volume} \hl{describes how the theoretical beam volume increases as the beam broadens}. \hl{This creates mismatches in beam volumes between radars}, as shown in Figure \ref{fig:ideal_beam}, \hl{and is one of the main sources of the observational bias.}
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{ideal_beam}
 \caption{Gate-by-gate idealized beam volume comparison along a straight line between radars, assuming Gaussian beam functions.} 
 \label{fig:ideal_beam}
 \end{figure}
- As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense 
- precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain precipitating structures that are on average 1.1 km deeper than unbiased threshold
- cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater 
- than unbiased cases. This difference is significant as it falls beyond the standard error of the two means. 
+As to why only certain cases are biased, it is likely due to these cases containing deeper, more intense 
+precipitation, with more opportunity for intra-cloud variations, e.g. ongoing aggregation. As shown in Table \ref{diagnosebias}, biased cases contain
+precipitating structures that are on average 1.1 km deeper than unbiased threshold
+cases. Furthermore, biased cases are shown to be more intense, with average $Z_{eH}$ values 2-3 dBZ greater 
+than unbiased cases. This difference is significant as it falls beyond the standard error of the two means. 
 Another result that supports this is found by comparing the range of $Z_{DR}$ values present in each case. As 
 shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger range of values than unbiased. 
 \begin{table}[H]
@@ -46,7 +46,7 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
     \hline\hline
     Mean & 2.0 & 13 & 13 \\
     \hline
-    \hl{Standard Error} & 0.20 & 0.63 & 0.71 \\
+    Standard Error & 0.20 & 0.63 & 0.71 \\
     \hline
     \multicolumn{4}{|c|}{Biased Cases} \\
     \hline\hline
@@ -62,7 +62,7 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
     \hline\hline
     Mean & 3.1 & 16 & 15 \\
     \hline
-    \hl{Standard Error} & 0.22 & 0.49 & 0.53 \\
+    Standard Error & 0.22 & 0.49 & 0.53 \\
     \hline
     \end{tabular}
     \end{center}
@@ -77,7 +77,7 @@ shown in Figure \ref{fig:bias_range}, the biased cases tend towards a larger ran
 \subsection{$Z_{DR}$ Statistics}
 A statistical comparison of synoptic and lake-effect cases is made in Table \ref{eventcompare}. Both types of events show very similiar mean values, with both radars indicating 0.2 dB for lake-effect and 0.3 dB for synoptic. This suggests that synoptic events tend more towards pristine snow crystals, while lake-effect events contain more aggregated snow. While the mean values match between radars, it is shown that KBUF yields a larger range of $Z_{DR}$ regardless of the type of event. A wider beamwidth could aid in the detection a larger variety of hydrometeor types.
 \begin{table}[H]
-    \caption{\hl{Bias-adjusted $Z_{DR}$ Statistics, comparing synoptic and lake-effect events. The observational bias between radars as inferred at CWKR is italicized, while the measured hardware bias at KBUF is in bold face.}}\label{eventcompare}
+    \caption{Bias-adjusted $Z_{DR}$ Statistics, comparing synoptic and lake-effect events. The observational bias between radars at CWKR, taken as the modal bin center from the bias histograms, is italicized, while the measured hardware bias at KBUF is in bold face.}\label{eventcompare}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|}
     \hline 
@@ -89,29 +89,29 @@ A statistical comparison of synoptic and lake-effect cases is made in Table \ref
     \hline 
      Event & \textit{Bias} & Min & Mean & Max & Range & \textbf{Bias} & Min & Mean & Max & Range\\
     \hline\hline
-    2014-01-18 & \textit{-0.10} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.40} & 0.1 & 0.4 & 0.6 & 0.5 \\
+    2014-01-18 & \textit{-0.09} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.40} & 0.1 & 0.4 & 0.6 & 0.5 \\
     \hline
     2014-02-01 & \textit{0.22} & 0.1 & 0.2 & 0.4 & 0.3 & \textbf{-0.20} & 0.3 & 0.4 & 0.4 & 0.1 \\    
     \hline
-    2015-01-07 & \textit{-0.04} & 0.1 & 0.3 & 0.4 & 0.3 & \textbf{-0.30} & 0.0 & 0.3 & 0.4 & 0.4 \\ 
+    2015-01-07 & \textit{-0.03} & 0.1 & 0.3 & 0.4 & 0.3 & \textbf{-0.30} & 0.0 & 0.3 & 0.4 & 0.4 \\ 
     \hline
     2015-02-06 & \textit{0.28} & 0.0 & 0.1 & 0.3 & 0.3 & \textbf{0.00} & -0.1 & 0.1 & 0.3 & 0.4\\
     \hline
-    2016-12-15 & \textit{-0.47} & 0.2 & 0.4 & 0.6 & 0.4 & \textbf{-0.28} & 0.2 & 0.4 & 0.6 & 0.4  \\ 
+    2016-12-15 & \textit{-0.22} & 0.2 & 0.4 & 0.6 & 0.4 & \textbf{-0.28} & 0.2 & 0.4 & 0.6 & 0.4  \\ 
     \hline 
     Mean  & -- & 0.1 & 0.3 & 0.5 & 0.4 & -- & 0.1 & 0.3 & 0.5 & 0.4 \\
     \hline
     \multicolumn{11}{|c|}{Lake-Effect Events} \\
     \hline\hline
-    2014-01-23 & \textit{-0.06} & 0.0 & 0.3 & 0.6 & 0.6 & \textbf{-0.40} & 0.0 & 0.5 & 0.6 & 0.6\\
+    2014-01-23 & \textit{-0.09} & 0.0 & 0.3 & 0.6 & 0.6 & \textbf{-0.40} & 0.0 & 0.5 & 0.6 & 0.6\\
     \hline
-    2015-01-06 & \textit{0.00} & 0.2 & 0.5 & 0.9 & 0.7 & \textbf{-0.10} & -0.1 & 0.5 & 0.9 & 1.0 \\
+    2015-01-06 & \textit{0.09} & 0.2 & 0.5 & 0.9 & 0.7 & \textbf{-0.10} & -0.1 & 0.5 & 0.9 & 1.0 \\
     \hline
-    2015-02-14 & \textit{0.38} & -0.1 & 0.1 & 0.4 & 0.5 & \textbf{-0.10} & -0.1 & 0.1 & 0.4 & 0.5 \\
+    2015-02-14 & \textit{0.41} & -0.1 & 0.1 & 0.4 & 0.5 & \textbf{-0.10} & -0.1 & 0.1 & 0.4 & 0.5 \\
     \hline
-    2015-02-18 & \textit{0.30} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.10} & -0.1 & 0.4 & 0.6 & 0.7 \\ 
+    2015-02-18 & \textit{0.28} & 0.1 & 0.3 & 0.6 & 0.5 & \textbf{-0.10} & -0.1 & 0.4 & 0.6 & 0.7 \\ 
     \hline
-    2016-02-10 & \textit{-0.04} & -0.1 & 0.2 & 0.5 & 0.6 & \textbf{0.40} & -0.1 & 0.1 & 0.5 & 0.6  \\ 
+    2016-02-10 & \textit{0.09} & -0.1 & 0.2 & 0.5 & 0.6 & \textbf{0.40} & -0.1 & 0.1 & 0.5 & 0.6  \\ 
     \hline\hline
     Mean & -- & 0.0 & 0.3 & 0.6 & 0.6 & -- & -0.1 & 0.3 & 0.6 & 0.7 \\
     \hline

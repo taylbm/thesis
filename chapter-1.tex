@@ -18,9 +18,9 @@ accurately compare the two
 radars, the data are objectively analyzed. Radar data objective analysis is most prominently used to
 create mosaics of multiple radars for projects such as the National Severe Storm Laboratory's Multi-Radar Multi
 Sensor in the U.S. \citep{Zhang2016}. It is also used extensively for research purposes, including studying
-snow squalls \citep{Mulholland2017}. \hl{The goal of this study is to investigate the differences in quality of radar observations between a C-Band and S
+snow squalls \citep{Mulholland2017}.  The goal of this study is to investigate the differences in quality of radar observations between a C-Band and S
 Band radar, for the purposes of
-nowcasting lake-effect snow}. Another goal is to directly compare polarimetric variables,
+nowcasting lake-effect snow  Another goal is to directly compare polarimetric variables,
 which has not been done in this manner before, and
 identify any biases. It is important to remove biases as no amount of spatial or temporal smoothing will
 remove them. With bias-adjusted values from two independent sources, a high-confidence conclusion can
@@ -61,15 +61,14 @@ Z_{eh} \approx Z_{h} = \int_0^{\infty} N(D)D^6dD \ (mm^6/m^3)
 \subsection{Differential Reflectivity ($Z_{dr}$)}
 Radars equipped with dual-pol capabilities are still an emerging technology, in terms of operational meteorological applications. These
 types of radar systems are capable of transmitting and receiving two orthogonally polarized electromagnetic waves in order to deduce more information about
-the microphysical structure of hydrometeors. One of the main variables this allows them to produce is $Z_{DR}$, defined as the ratio of the horizontal
-channel reflectivity (\hl{$Z_h$}) to the vertical channel reflectivity \hl{$Z_{v}$)}. This can be simplified to the difference between the two using the
-logarithmic
-quotient rule, since they are represented in logarithmic units. Equation \ref{eq:zdr} demonstrates this concept.
+the microphysical structure of hydrometeors. One of the main variables this allows them to produce is $Z_{DR}$, \hl{defined as the logarithmic ratio of the 
+horizontal channel reflectivity ($Z_h$) to the vertical channel reflectivity ($Z_{v}$)}. This can be simplified as the difference between the two, using the
+logarithmic quotient rule. Equation \ref{eq:zdr} demonstrates this concept.
 \begin{equation}\label{eq:zdr}
-\mathcolorbox{yellow}{Z_{dr} = 10 * \log_{10}(\frac{Z_h}{Z_v}) = Z_H - Z_V}
+\mathcolorbox{yellow}{Z_{DR}} = 10 * \log_{10}(\frac{Z_h}{Z_v}) = Z_H - Z_V
 \end{equation}
 \subsubsection{Interpretations of $Z_{DR}$ in Snow}
-In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. \hl{It should be noted that any riming of these particles would lead to a reduction in $Z_{DR}$, as they become more spherical}. \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
+In snowfall, $Z_{DR}$ can be a powerful tool for deducing the predominant crystal habit and type. Ranges of $Z_{DR}$ are typically given in the literature for characterizing hydrometeors, and vary due to their semi-empirical nature. The most widely cited synthesis paper by \citet{Straka2000} reports that dry aggregated snow at cold temperatures from $0 < Z_{DR} < 0.2$ dB, while pristine ice crystals and lightly aggregated crystals range from $0.4 < Z_{DR} < 3$ dB, both for a range of $Z_{eH}$ of $5 < Z_{eH} < 30$ dBZ. It should be noted that any riming of these particles would lead to a reduction in $Z_{DR}$, as they become more spherical \citet{Fabry2015} reports slightly different ranges in Figure \ref{zdr_chart}, and gives ranges for other targets beyond the scope of this study; hydrometeors that are sufficiently frozen are only considered in this study.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{zdr_chart}
 \caption{Chart of expected ranges of $Z_{DR}$ for a variety of targets. Taken from \citet{Fabry2015}.} 
@@ -80,7 +79,7 @@ With the advent of Simultaneous Transmit and Receive (STAR) radar systems, which
 cross-correlation between the time series data obtained from horizontal and vertical channels. This is known as the Co-polar Cross-Correlation Coefficient
 ($\rho_{hv}$) in radar meteorology, and ranges from 0 to 1. Low values indicate pulse volumes containing heterogeneities, while a value of 1 indicates
 matching, homogenous volumes. For an ensemble of scatters, Equation \ref{eq:backscatter} defines the back-scattering matrix used in the definition of
-$\rho_{hv}$ in Equation \ref{eq:rhohv}, as defined by \citet{Ryzhkov2007b}. \hl{In essence, $S_{hh}$ ($S_{vv}$) is the backscattered signal produced by the horizontally (vertically) polarized signal, as measured in the horizontal (vertical) channel.}
+$\rho_{hv}$ in Equation \ref{eq:rhohv}, as defined by \citet{Ryzhkov2007b}. In essence, $S_{hh}$ ($S_{vv}$) is the backscattered signal produced by the horizontally (vertically) polarized signal, as measured in the horizontal (vertical) channel.
 \begin{equation}\label{eq:backscatter}
 \mathbf{S} = \begin{bmatrix}
              S_{hh}       & S_{hv} \\
@@ -92,7 +91,7 @@ $\rho_{hv}$ in Equation \ref{eq:rhohv}, as defined by \citet{Ryzhkov2007b}. \hl{
 \end{equation}
 \subsubsection{Interpretations of $\rho_{hv}$ in Snow}
 Contamination from clutter and other non-meteorological targets can be filtered by using a $\rho_{hv}$ threshold of 0.95, as suggested by \citet{Straka2000}.
-Using this threshold can also be used to avoid Mie scatterers, which becomes a bigger problem at C-Band wavelengths \citet{Fabry2015}. Furthermore, this threshold reduces wavelength induced differences between the radar datasets.
+Using this threshold can also be used to avoid Mie scatterers, which becomes a bigger problem at C-Band wavelengths \citep{Fabry2015}. Furthermore, this threshold reduces wavelength induced differences between the radar datasets.
  
 
 

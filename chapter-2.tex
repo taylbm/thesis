@@ -13,17 +13,17 @@ Lake Ontario happens to be the perfect area to bound between the radars, therefo
 \ref{fig:study_area} are used. This also ensures that no ground clutter is incorporated into the analyses.
 \subsubsection{Comparing Radar Characteristics}
 
-As presented in Equation \ref{eq:weather_eq}, the weather radar equation is defined by constant parameters dependent on the radar system characteristics, and
+As presented in Equation \ref{eq:weather_eq} \hl{adapted from} \cite{Rogers1989}, the weather radar equation is defined by constant parameters dependent on the radar system characteristics, and
 varying properties related to the target. This equations determines the theoretical mean power ($\bar{P_r}$) that should be returned to the radar receiver.
 \begin{equation}\label{eq:weather_eq}
-\bar{P_r} = \frac{\pi^3c}{1024 \ln(2)} \Bigg[\frac{P_t \tau G^2 \theta^2}{\lambda^2}\Bigg]_{dBZ_0} \Bigg[\mathcolorbox{yellow} {||K_{w}||^{2}}\frac{Z_{eh}}{r^2}\Bigg]_{TARGET}
+\bar{P_r} = \frac{\pi^3c}{1024 \ln(2)} \Bigg[\frac{P_t \tau G^2 \theta^2}{\lambda^2}\Bigg]_{dBZ_0} \Bigg[|K_{w}|^{2}\frac{Z_{eh}}{r^2}\Bigg]_{TARGET}
 \end{equation}
 The target properties are dielectric constant (K), range (r) and equivalent reflectivity factor $Z_{eH}$. Conversely, the radar parameters ideally remain
 unchanged from their values upon installation of the radar system. These parameters form the radar constant, symbolically expressed as $dBZ_0$. The
 parameters that define this constant include the power transmitted ($P_t$), the pulse length ($\tau$), the antenna gain (G), the angular beamwidth
 ($\theta$), and the wavelength ($\lambda$).
 \begin{equation}\label{eq:radpow}
-\mathcolorbox{yellow}{Z_{eH}} = 10 \log{\bar{P_r}} + 20 \log r - dBZ_0
+Z_{eH} = 10 \log{\bar{P_r}} + 20 \log r - dBZ_0
 \end{equation}
 Equation \ref{eq:radpow} shows how $dBZ_0$ is subtracted out from the full calculation of $Z$. This means that values from two different systems are comparable, as the contributions to the returned power intrinsic to the radar are negated. Next, Table \ref{radarspecs} compares parameters for both
 radar systems. The biggest difference between the two is the wavelength, with CWKR operating in the C frequency band and KBUF operating in the S frequency
@@ -35,11 +35,11 @@ $Z_{eH}$ and $Z_{DR}$ using 8 bit resolution. For $Z_{eH}$, the data intervals o
 data resolution of 0.5 dBZ.  For $Z_{DR}$, an interval of -7.94 dB to +7.94 dB yields a resolution of 0.0625 dB.
 
 \begin{table}[h]
-    \caption{Specifications of each radars system, with symbols as used in Eq. \ref{eq:radpow}. Pulse Length is specified as short pulse/long pulse. \hl{CWRN is an acronym for Canadian Weather Radar Network.}}\label{radarspecs}
+    \caption{Specifications of each radars system, with symbols as used in Eq. \ref{eq:radpow}. Pulse Length is specified as short pulse/long pulse. CWRN is an acronym for Canadian Weather Radar Network.}\label{radarspecs}
     \begin{center}
     \begin{tabular}{|l|c|c|c|}
     \hline
-     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) & \hl{New CWRN} \\
+     field [symbol](unit) & King City (CWKR) & Buffalo (KBUF) & New CWRN \\
     \hline\hline
     Wavelength [$\lambda$](cm) & 5.6  & 10.7 & 10.5\\
     \hline
@@ -64,7 +64,7 @@ data resolution of 0.5 dBZ.  For $Z_{DR}$, an interval of -7.94 dB to +7.94 dB y
 The biggest challenge when comparing radar resolution volumes measured by radars that are not co-located is resolving the differences in coordinate system. A
 resolution volume is defined as volume irradiated by the idealized Gaussian beam pattern for each range gate, otherwise known as a bin. Resolution volumes
 are sampled natively in the spherical coordinate system; although there may be some overlap, the shape of the bins will vary drastically. Differences between
-KBUF and CWKR bin geometry can be ascertained from Figure \ref{fig:compare_bins}. 
+KBUF and CWKR bin geometry can be ascertained from Figure \ref{fig:compare_bins}. Also demonstrated in Figure \ref{fig:compare_bins} is how $Z_{eH}$ is a smoother field than $Z_{DR}$, with clear limitations of representing the latter with an isotropic distance-weighting function.
 These differences require the radar data to be objectively analyzed onto a common coordinate system, which can be achieved through a distance-weighting
 scheme. This method was adopted in the open source software module called the Python ARM Radar Toolkit (Py-ART) \citep{Py-ART}, which is used here. In
 accordance with the recommendations of \cite{Pauly1990}, a grid resolution ($\Delta x$, $\Delta y$) of 500 meters is chosen.A Barnes distance-weighting scheme is used for this analysis. 
@@ -96,7 +96,9 @@ outlined in black. Right panels are transformed to a common Cartesian grid, with
 \end{figure}
 
 \section{Selection of Cases}
-\hl{Five lake-effect snow events are chosen as the experimental dataset, while five synoptic snow events are chosen as a control dataset. Synoptic snowfall are a good control for this experiment, as they typically span greater vertical distances than shallow lake-effect effect events. In this way, neither radar has an advantage in sampling the low-level features characteristic of lake-effect snow bands.}
+Five lake-effect snow events are chosen as the experimental dataset, while five synoptic snow events are chosen as a control dataset. Synoptic snowfall are a
+good control for this experiment, as they typically span greater vertical distances than shallow lake-effect effect events. In this way, neither radar has an
+advantage in sampling the low-level features characteristic of lake-effect snow bands.
 Cases selected for this study were chosen entirely based on the pattern of motion and banding of the radar
 echoes. Radar mosaics for the study area were
 manually examined, beginning in 2014. When time intervals with echoes in the study area were observed, it was
@@ -110,11 +112,11 @@ events are given in Table \ref{synopticevents}. This indicates that all events w
 dry snow/ice crystals were the predominant hydrometeor type.
 
 \begin{table}[H]
-    \caption{\hl{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected lake-effect snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}}\label{eventslake}
+    \caption{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected lake-effect snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}\label{eventslake}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     BUF - Radiosonde & Radar Times & \hl{Echo Tops} & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     BUF - Radiosonde & Radar Times & Echo Tops & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
     2014-01-23 00Z & 0100-1000Z & 1.9 km & -21.6 & -14.9 \\
     \hline
@@ -131,11 +133,11 @@ dry snow/ice crystals were the predominant hydrometeor type.
 \end{table}
 
 \begin{table}[H]
-    \caption{\hl{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected synoptic snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}}\label{synopticevents}
+    \caption{Temperatures at the top of the cloud and surface from radiosonde launched closest in time to the selected synoptic snow events, with the time interval during which radar scans were chosen. Top T is the temperature at the top of the cloud determined by using the radiosonde level closest to the mean max echo top height. Mean max echo top is tabulated as Echo Tops.}\label{synopticevents}
     \begin{center}
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-     KBUF - Radiosonde & Radar Times & \hl{Echo Tops} & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
+     KBUF - Radiosonde & Radar Times & Echo Tops & Top T ($^{\circ}C$) & Sfc. T ($^{\circ}C$)\\
     \hline\hline
     2014-01-18 12Z & 0600-0800Z & 2.4 km & -15.7 & -6.5 \\
     \hline
@@ -157,7 +159,7 @@ Scan start times are compared between the radars, and if they are within four mi
 volume update frequency of ten minutes, while KBUF is variable based on the Volume Coverage Pattern (VCP) selected by the operator. The update frequency
 could be as short as every two minutes if the operator has activated Supplemental Adapative Intra-Volume Low-Level Scans (SAILS) mode.
 \subsection{Gate Filters}
-Several gate filters were use to ensure the highest data quality possible. Gates with \hl{$\rho_{hv} < 0.95$} were excluded to filter for dry snow and crystals
+Several gate filters were used to ensure the highest data quality possible. Gates with $\rho_{hv} < 0.95$ were excluded to filter for dry snow and crystals
 only. A manual inspection of all cases was made, and the range of $Z_{DR}$ in all cases lay within $-0.5 < Z_{DR} < 1.5$ dB. Therefore, $Z_{DR}$ values
 outside this range were filtered to avoid contamination from beam blockages, etc. Finally, gates over land were filtered, to avoid ground clutter
 contamination.
@@ -166,9 +168,11 @@ Scatter plots directly comparing grid cells produced by the distance-weighting s
 techniques were leveraged to derive the most information from these plots, and also reduce the error intrinsic to the variables for quantitative analysis.
 \subsection{Bi-Variate Kernel Density Estimates}
 Both radar datasets contain a similiar amount of measurement and analysis error. Furthermore, scatter-plots containing on the order of $10^5$ points become
-overwhelming to visually analyze. To solve this problem, a bi-variate \hl{Kernel Density Estimate (KDE) is calculated. This calculation estimates} the joint probability density function between two random variables \citep{Silverman1986}. The two variables compared in this study are the matched
-observations made by the two radars. Equation \ref{eq:kde_full} gives a full definition of this estimate, where $\mathbf{x}$ is the matrix of matched
-observations, $\mathbf{H}$ is the 2x2 bandwidth (smoothing) matrix, and $\mathbf{K}$ is the kernel function. \citet{Scott1992} suggests a rule of thumb for
+overwhelming to visually analyze. To solve this problem, a bi-variate Kernel Density Estimate (KDE) is calculated. \hl{This technique provides a smoother 
+joint probability density function between two random variables than other techniques} \citep{Silverman1986}. The two variables compared in this study are 
+the matched observations made by the two radars. Equation \ref{eq:kde_full} gives a full definition of this estimate, where $\mathbf{x}$ is the matrix of 
+matched observations, $\mathbf{H}$ is the 2x2 bandwidth (smoothing) matrix, and $\mathbf{K}$ is the kernel function. \citet{Scott1992} suggests a rule of 
+thumb for
 calculating the bandwidth matrix, shown in Equation \ref{eq:scotts_rule}, where $n$ is the number of points and $\sigma$ is the standard deviation. The
 kernel function is chosen as 2-D Gaussian throughout, given as Equation \ref{eq:gauss_kern}, where the terms retain their prevailing meaning. Figure
 \ref{fig:KDE_example} demonstrates the motivation and the discrete version of this method, a 2-D histogram of the data. The units of the KDE can be thought
@@ -203,8 +207,8 @@ vertically \citep{Markovsky2007}. Figure \ref{fig:total_least_squares} demonstra
 \section{$Z_{DR}$ Hardware Bias Estimation}
 Although it not possible to check absolute calibration of $Z_{H}$ when comparing two radars, it is possible to verfiy $Z_{DR}$ calibration due to relative
 nature of the quantity \citep{Zrnic2006}. While radars are regularly calibrated using internal calibration procedures, an external check is useful for
-monitoring the time-varying component of calibration. \hl{This time-varying component arises due to hardware issues, i.e. differences between the split pathways that the horizontal and vertical channels take through the transmit/receive chain.} The typical process for calibration of $Z_{DR}$ is pointing the antenna to zenith and performing ``bird
-bath'' scans during light rain events \citep{Hubbert2006}, \hl{so called due to the antenna resemblance to a bird-bath when performing these scans}. The $Z_{DR}$ in light rain is expected to be 0 dB, therefore any offset from this is considered a
+monitoring the time-varying component of calibration. This time-varying component arises due to hardware issues, i.e. differences between the split pathways that the horizontal and vertical channels take through the transmit/receive chain. The typical process for calibration of $Z_{DR}$ is pointing the antenna to zenith and performing ``bird
+bath'' scans during light rain events \citep{Hubbert2006}, so called due to the antenna resemblance to a bird-bath when performing these scans. The $Z_{DR}$ in light rain is expected to be 0 dB, therefore any offset from this is considered a
 bias; The signal processor subtracts out this bias to achieve the final output. Due to mechanical constraints, NEXRAD radars are unable to perform this
 procedure, but CWKR is. NEXRAD radars disseminate a product which contains an estimate of $Z_{DR}$ bias using the intrinsic properties of
 dry snow \cite{Zittel2015}. The daily bias reported in the NEXRAD Archived Status Product will be used to adjust $Z_{DR}$ values obtained from KBUF to diagnose any bias at CWKR. Under normal conditions, $Z_{DR}$ can be calibrated within 0.1 dB \citep{Zrnic2006}. This error threshold is adopted in this study.
